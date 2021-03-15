@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_fingerprint"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_friends"
+        android:enabled="true"
+        android:icon="@drawable/ic_star"
+        android:title="@string/friends"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_thank"
+        android:enabled="true"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/item_premium"
+        android:enabled="true"
+        android:icon="@drawable/ic_premium"
+        android:title="@string/premium"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

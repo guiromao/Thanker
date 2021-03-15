@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundLight">#FAFAFA</color>
+    <color name="backgroundDark">#EFEFEF</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#2F6E32</color>
+    <color name="colorPrimaryDarkTransparent">#E6388E3C</color>
+    <color name="colorAccent">#D81C60</color>
+    <color name="complimentaryColor">#731ec7</color>
+    <color name="receivedColor">#7cc47f</color>
+    <color name="grey">#B6B2B2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="amber">#FFC107</color>
+    <color name="blue">#1976D2</color>
+    <color name="lightGreen">#1ec71e</color>
+    <color name="darkGreen">#013220</color>
+    <color name="indigo">#673AB7</color>
+    <color name="disabled_button">#C8C8C8</color>
+    <color name="defaultTextColor">#388E3C</color>
+    <color name="defaultTextColor2">#808080</color>
+    <color name="red">#F30E0E</color>
+    <color name="black">#000000</color>
+    <color name="gold">#DAA520</color>
+    <color name="starterGreen">#99ff99</color>
+    <color name="walkerGreen">#32ff32</color>
+    <color name="explorerGreen">#00cc00</color>
+    <color name="thankerGreen">#00b200</color>
+    <color name="masterGreen">#007f00</color>
+    <color name="lightGrey">#DABCBCBC</color>
+    <color name="lightGreyLevel">#4ABCBCBC</color>
+    <color name="orange">#EF6C00</color>
+    <color name="lightYellow">#F9CB25</color>
+    <color name="marineBlue">#20c6b6</color>
+    <color name="superThanksCoin">#28a9e0</color>
+    <color name="megaThanksCoin">#1d7ba3</color>
+    <color name="powerThanksCoin">#165e7d</color>
+    <color name="ultraThanksCoin">#4B0082</color>
+    <color name="thanksWelcome">#804CAF50</color>
+    <color name="superThanksWelcome">#cc28a9e0</color>
+    <color name="megaThanksWelcome">#cc1d7ba3</color>
+    <color name="powerThanksWelcome">#cc165e7d</color>
+    <color name="ultraThanksWelcome">#cc4B0082</color>
+    <color name="thanksWelcomeCard">#334CAF50</color>
+    <color name="superThanksWelcomeCard">#3328a9e0</color>
+    <color name="megaThanksWelcomeCard">#331d7ba3</color>
+    <color name="powerThanksWelcomeCard">#33165e7d</color>
+    <color name="ultraThanksWelcomeCard">#334B0082</color>
+
+
+</resources>

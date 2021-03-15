@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextAppearance">@style/customActionBar</item>
+    </style>
+
+    <!--
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    -->
+
+
+    <style name="customActionBar" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">1sp</item>
+    </style>
+
+    <style name="ThankerActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@font/greatwishes</item>
+    </style>
+
+    <style name="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="thanksGivenTextStyle">
+        <item name="android:layout_gravity">left|bottom</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textSize">12sp</item>
+        <!--<item name="android:layout_marginBottom">2dp</item> -->
+    </style>
+
+    <style name="thanksReceivedTextStyle">
+        <item name="android:layout_gravity">end|bottom</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textSize">12sp</item>
+        <!--<item name="android:layout_marginBottom">2dp</item>-->
+    </style>
+
+    <style name="TabLayout_Theme" parent="@style/AppTheme">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+
+        <item name="android:textSize">2sp</item><!-- text size in menu-->
+
+        <!-- item size in menu-->
+        <item name="android:listPreferredItemHeightSmall">4dp</item>
+        <item name="listPreferredItemHeightSmall">4dp</item>
+
+    </style>
+
+</resources>

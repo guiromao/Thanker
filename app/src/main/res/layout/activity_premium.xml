@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_premium_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Premium"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp" /> -->
+
+            <com.jama.carouselview.CarouselView
+                android:id="@+id/carousel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:carouselOffset="center"
+                app:enableSnapping="true"
+                app:indicatorAnimationType="drop"
+                app:indicatorPadding="5"
+                app:indicatorRadius="5"
+                app:indicatorSelectedColor="@color/colorAccent"
+                app:indicatorUnselectedColor="@color/colorPrimary"
+                app:scaleOnScroll="false"
+                app:size="10"
+                app:spacing="10" />
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="24dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/for_five_euro"/> -->
+
+            <!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/premium_abilities" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/promotional_premium_100"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:drawableLeft="@drawable/premium_black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/promotional_premium_welcomes"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:drawableLeft="@drawable/premium_black"
+                android:layout_marginBottom="32dp"/>
+
+            <TextView
+                android:id="@+id/text_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/promotional_premium_description"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/button_subscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/googlepayblack"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:visibility="gone"/> -->
+
+            <RadioGroup
+                android:id="@+id/radio_subscription_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/radio_button_1_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/one_month"
+                    android:textAlignment="textStart" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_6_months"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/six_months"
+                    android:textAlignment="textStart" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_12_months"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/twelve_months"
+                    android:textAlignment="textStart" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_rounded_green"
+                android:text="@string/see_plans"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button_google"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/googlepayblack"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_payment_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:text="Payment Status" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_premium_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!--<TextView
+                android:id="@+id/text_premium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="24dp"
+                android:text="Thanker Premium"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="32sp"
+                android:visibility="gone" /> -->
+
+            <!--<TextView
+                android:id="@+id/text_you_have"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/you_have"
+                android:textAlignment="center"
+                android:textSize="24sp" /> -->
+
+            <ImageView
+                android:id="@+id/gif_premium_coins"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/text_earned_thankers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="50sp"
+                tools:text="100" />
+
+            <TextView
+                android:id="@+id/text_earned_thankers_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/thankers_collect"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button_earn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_rounded_green"
+                android:text="@string/get_thankers"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:textSize="18sp"
+                tools:text="Well done! You've collected X Thankers!" /> -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:text="@string/premium_until_label"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_subscription_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                tools:text="23 Jun 2022" />
+
+            <TextView
+                android:id="@+id/text_click_plans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/extend_subscription_plans"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/text_extension_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/extend_subscription"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/radio_subscription_type_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/radio_button_1_month_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/one_month_ren"
+                    android:textAlignment="textStart" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_6_months_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/six_months_ren"
+                    android:textAlignment="textStart" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_12_months_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/twelve_months_ren"
+                    android:textAlignment="textStart" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_check_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="54dp"
+                android:background="@drawable/button_rounded_green"
+                android:text="@string/extend_button"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button_google_yes"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/googlepayblack"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

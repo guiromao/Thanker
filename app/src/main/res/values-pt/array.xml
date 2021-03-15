@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="translatable_pages">
+        <item>@string/god</item>
+        <item>@string/people</item>
+        <item>@string/brands</item>
+        <item>@string/business</item>
+        <item>@string/nature</item>
+        <item>@string/health</item>
+        <item>@string/food</item>
+        <item>@string/associations</item>
+        <item>@string/home</item>
+        <item>@string/science</item>
+        <item>@string/religion</item>
+        <item>@string/sports</item>
+        <item>@string/lifestyle</item>
+        <item>@string/technology</item>
+        <item>@string/fashion</item>
+        <item>@string/education</item>
+        <item>@string/games</item>
+        <item>@string/travel</item>
+        <item>@string/government</item>
+        <item>@string/beauty</item>
+        <item>@string/culture</item>
+        <item>@string/finance</item>
+        <item>@string/sun</item>
+        <item>@string/music</item>
+        <item>@string/books</item>
+        <item>@string/earth</item>
+        <item>@string/universe</item>
+        <item>@string/rain</item>
+    </string-array>
+
+    <string-array name="group_cute_messages">
+        <item>@string/msg1</item>
+        <item>@string/msg2</item>
+        <item>@string/msg3</item>
+        <item>@string/msg4</item>
+        <item>@string/msg5</item>
+        <item>@string/msg6</item>
+        <item>@string/msg7</item>
+        <item>@string/msg8</item>
+        <item>@string/msg9</item>
+        <item>@string/msg10</item>
+        <item>@string/msg11</item>
+        <item>@string/msg12</item>
+        <item>@string/msg13</item>
+    </string-array>
+
+    <string-array name="welcome_messages">
+        <item>@string/who_do_you_want_to_thank_today</item>
+        <item>@string/welcome_two</item>
+        <item>@string/welcome_three</item>
+        <item>@string/welcome_four</item>
+        <item>@string/welcome_five</item>
+    </string-array>
+
+</resources>

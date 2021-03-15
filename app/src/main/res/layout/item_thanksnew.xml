@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/thanks_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        tools:text="Date"
+        android:gravity="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_rounded"
+        app:cardCornerRadius="@dimen/corner_radius">
+    <LinearLayout
+        android:id="@+id/linear_thanks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:elevation="0dp"
+            app:cardPreventCornerOverlap="false"
+            android:id="@+id/cardview_picture"
+            app:cardCornerRadius="25dp"
+            android:layout_centerHorizontal="true"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9"
+            android:gravity="center_vertical">
+            <ImageView
+                android:id="@+id/thanks_giver_profile_picture"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:src="@drawable/thankyou3"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/image_thanks_type"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/megathanks"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/thanks_item_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            tools:text="Gui thanked People"
+            android:textSize="11sp"
+            android:layout_gravity="center_vertical"/>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+        android:elevation="0dp"
+        app:cardPreventCornerOverlap="false"
+        android:id="@+id/cardview_thanks_item_receiver"
+        app:cardCornerRadius="25dp"
+        android:layout_centerHorizontal="true"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9">
+            <ImageView
+                android:id="@+id/thanks_receiver_profile_picture"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:src="@drawable/thankyou3"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/welcome"
+        android:textSize="8sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/button_rounded_accent"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <!--<androidx.cardview.widget.CardView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:elevation="0dp"
+        app:cardPreventCornerOverlap="false"
+        android:background="@android:color/transparent"
+        android:id="@+id/cardview_welcome"
+        app:cardCornerRadius="15dp"
+        android:layout_centerHorizontal="true"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9"
+        android:visibility="gone"> -->
+        <ImageView
+            android:id="@+id/image_welcome"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/check"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone">
+        </ImageView>
+    <!--</androidx.cardview.widget.CardView> -->
+
+
+</LinearLayout>

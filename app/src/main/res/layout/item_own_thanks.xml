@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/thanks_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Date" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_thanks_table"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/cardview_thanks_shape"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thanks_item_date"
+        app:layout_constraintWidth_percent="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linear_thanks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text_thanks_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="top"
+                            android:gravity="top"
+                            android:textSize="14sp"
+                            tools:text="User X Super Thanked User Y" />
+
+                        <Spinner
+                            android:id="@+id/spinner_category"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|start"
+                            android:gravity="top|start"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp">
+
+                        <TextView
+                            android:id="@+id/text_thanks_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="User X Super Thanked User Y" />
+
+                        <EditText
+                            android:id="@+id/input_thanks"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:imeOptions="flagNoExtractUi"
+                            android:inputType="textNoSuggestions"
+                            android:textSize="14sp"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--<RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/linear_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="80dp"
+                        android:layout_marginBottom="8dp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Switch
+                                android:id="@+id/switch_show_description"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:backgroundTint="@color/grey"
+                                android:checked="true"
+                                android:thumbTint="@color/colorPrimary"
+                                android:visibility="visible" />
+
+                            <ImageView
+                                android:id="@+id/image_toggle"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/toggleon" />
+
+                            <TextView
+                                android:id="@+id/text_show_description"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginBottom="2dp"
+                                android:textSize="10sp"
+                                tools:text="Yeah Baby" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/button_switch"
+                            android:layout_width="80dp"
+                            android:layout_height="24dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/button_rounded_grey"
+                            android:enabled="false"
+                            android:text="@string/save"
+                            android:textColor="@color/white"
+                            android:textSize="8sp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/welcome_wink_confirmed"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/welcomewink"
+                        android:visibility="gone" />
+
+                </RelativeLayout> -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_edit"
+                android:layout_width="54dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/image_info"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:foregroundGravity="center_horizontal"
+                    android:src="@drawable/info" />
+
+                <Button
+                    android:id="@+id/button_thank"
+                    android:layout_width="54dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/button_rounded_green"
+                    android:enabled="true"
+                    android:text="OK"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/image_thanks_type"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/megathanks"
+        app:layout_constraintBottom_toBottomOf="@+id/cardview_thanks_table"
+        app:layout_constraintStart_toEndOf="@+id/cardview_thanks_table"
+        app:layout_constraintTop_toTopOf="@+id/cardview_thanks_table"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <!--<LinearLayout
+        android:id="@+id/linear_welcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_rounded_welcome_thanks"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardview_thanks_table"
+        app:layout_constraintWidth_percent="0.75">
+
+        <TextView
+            android:id="@+id/text_welcome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:text="@string/say_welcome"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/welcome_wink"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:foregroundGravity="top"
+            android:src="@drawable/welcomewink" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_welcome"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/check"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="@id/image_thanks_type"
+        app:layout_constraintRight_toRightOf="@id/image_thanks_type"
+        app:layout_constraintTop_toBottomOf="@id/image_thanks_type"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="4sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardview_thanks_table" /> -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thanker</string>
+    <string name="god">DEUS</string>
+    <string name="people">PESSOAS</string>
+    <string name="brands">MARCAS</string>
+    <string name="business">NEGÓCIOS</string>
+    <string name="nature">NATUREZA</string>
+    <string name="health">SAÚDE</string>
+    <string name="food">COMIDA</string>
+    <string name="associations">ASSOCIAÇÕES</string>
+    <string name="home">CASA</string>
+    <string name="science">CIÊNCIA</string>
+    <string name="religion">RELIGIÃO</string>
+    <string name="sports">DESPORTO</string>
+    <string name="lifestyle">LIFESTYLE</string>
+    <string name="technology">TECNOLOGIA</string>
+    <string name="fashion">MODA</string>
+    <string name="education">EDUCAÇÃO</string>
+    <string name="games">JOGOS</string>
+    <string name="travel">VIAGENS</string>
+    <string name="government">INSTITUCIONAL</string>
+    <string name="beauty">BELEZA</string>
+    <string name="culture">CULTURA</string>
+    <string name="finance">FINANÇAS</string>
+    <string name="sun">SOL</string>
+    <string name="music">MÚSICA</string>
+    <string name="books">LIVROS</string>
+    <string name="earth">TERRA</string>
+    <string name="universe">UNIVERSO</string>
+    <string name="rain">CHUVA</string>
+    <string name="_thanks_you_gave">Thanks que deste a %s</string>
+    <string name="_thanks_you_received">Thanks que recebeste de %s</string>
+    <string name="accept">Aceitar</string>
+    <string name="add_friend">Adicionar Amigo</string>
+    <string name="already_invited">Já enviaste convite para este endereço:</string>
+    <string name="also_thank">Agradece e convida!</string>
+    <string name="ask_your_friend_to_click_thank">A outra pessoa também tem de carregar no botão \"Agradece Próximo de Ti\"!\nAproximem os telefones ;)</string>
+    <string name="body_email_invite_thanker">Olá!\nFoste %s no Thanker por %s, que quer que também faças parte!\nO Thanker é uma plataforma social onde podes agradecer a amigos, conceitos, entidades, e a quem quer que queiras demonstrar gratidão! Esse alguém não está no Thanker? Convida-o, e ganha benefícios para poderes dar agradecimentos especiais mais rapidamente!\\nAgradecer, e demonstrar gratidão aumentam a felicidade, e trabalham outras partes da vida como o fortalecimento de relacionamentos, subida da auto-estima, entre outros. Mas sabes que mais? Regista-te e vive a tua experiência!\\nFaz o download da app na App Store!\\n\\nVemo-nos no lado belo da vida!\\nA tua equipa Thanker!\\n\\nhttps://www.thanker.co</string>
+    <string name="body_message_mega_thanks">Um &lt;font color=\'#1d7ba3\'&gt;Mega Thanks&lt;/font&gt; vale &lt;font color=\'#1d7ba3\'&gt;100&lt;/font&gt; Thanks. É um sinal de grande gratidão. Estás aqui nitidamente a fazer o dia a muitos, pelo que vemos. Por favor continua! :)  Sempre teus, A tua equipa Thanker</string>
+    <string name="body_message_power_thanks">"&lt;font color='#165e7d'&gt;Power Thanks&lt;/font&gt;gt; são tão &lt;font color='#165e7d'&gt;poderosos&lt;/font&gt; quando dará para se ser! Valendo &lt;font color='#673AB7'&gt;1000&lt;/font&gt; Thanks, significa que alguém gastou uma quantia avultada dos seus Thankers para demonstrar o quanto apreciou algo que fizeste, e/ou a tua pessoa. Concerteza estarás a fazer algo de espectacularmente bem. E nós estamos aqui para o testemunhar. Continua, e sente o Poder que recebes!  O melhor de nós para ti, A tua equipa Thanker! "</string>
+    <string name="body_message_super_thanks">Um &lt;font color=\'#28a9e0\'&gt;Super Thanks&lt;/font&gt; vale &lt;font color=\'#28a9e0\'&gt;10&lt;/font&gt; Thanks. Deverás estar a fazer qualquer coisa de especial. Da nossa parte, é um prazer ver-te a ser apreciado. Lembra-te também que quando somos nós a agradecer, e a reconhecer valor, hormonas de felicidade são produzidas, e aprendemos a perceber quanto de bom temos.  Aqui para ti, A tua equipa Thanker!</string>
+    <string name="buy_with_googlepay_button_content_description">Compra com Google Pay</string>
+    <string name="cancel">Cancelar</string>
+    <string name="check">Ver</string>
+    <string name="overall">Tudo</string>
+    <string name="city_living">Cidade</string>
+    <string name="click_to_invite">Clica, agradece e convida!</string>
+    <string name="click_tomorrow">Volta amanhã e clica novamente!</string>
+    <string name="code">Código</string>
+    <string name="collect_thankers">Recolhe: &lt;font color=\'#4CAF50\'&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; Thankers!</string>
+    <string name="combined_thanks_of_you_and">Compatibilidade de Gratidão entre ti e %s</string>
+    <string name="combined_users_thanks">Compatibilidade de Agradecimentos (&#37;)</string>
+    <string name="come_back_tomorrow">Volta amanhã e Agradece novamente!</string>
+    <string name="come_back_tomorrow_for_more">Volta amanhã para ganhares mais Thankers!</string>
+    <string name="complete_info">Hora de Começar!</string>
+    <string name="complete_registration">Hora de Começar!</string>
+    <string name="contact_us">Contacta-nos</string>
+    <string name="could_not_send_email">Não foi possível enviar e-mail</string>
+    <string name="country_living">País</string>
+    <string name="create">Criar Conta</string>
+    <string name="date_of_birth">Aniversário</string>
+    <string name="decline">Recusar</string>
+    <string name="you_lower"></string>
+    <string name="you_upper">Tu</string>
+    <string name="delete">Apagar</string>
+    <string name="delete_account">Apagar conta</string>
+    <string name="deleting_account">Apagar</string>
+    <string name="earned_thanks">"Estes são os Thankers que ganhaste: "</string>
+    <string name="edit_information_label">Editar Informação</string>
+    <string name="email_sent">A tua mensagem foi enviada! Iremos analisar, e se for para tal, entraremos em contacto ;)\nObrigado!</string>
+    <string name="empty_view_feed">Assim que adicionares amigos, começarás a ver os seus Thanks mais recentes aqui!</string>
+    <string name="enable_permissions_location_question">Prentendemos saber em que países, de facto, se estão a dar os Agradecimentos. Podemos ativar a Localização?</string>
+    <string name="enable_sms_question">Aceitas que o Thanker envie SMS\'s para quem quiseres enviar convites?</string>
+    <string name="explorer_thanker">Thanker Aventureiro</string>
+    <string name="find_our_app">Encontra a nossa app na tua App Store!</string>
+    <string name="finding_nearby_users">Encontrando amigos próximos</string>
+    <string name="five_thanks_given">Thanks dados mais recentes</string>
+    <string name="five_thanks_received">Thanks recebidos mais recentes</string>
+    <string name="friend">Amigo</string>
+    <string name="friend_already_invited">Convite já enviado para o número %s</string>
+    <string name="friend_joined">%s juntou-se ao Thanker!</string>
+    <string name="friend_requests_received">Pedidos de Amizade recebidos:</string>
+    <string name="friends">Amigos</string>
+    <string name="friends_feed">Mural</string>
+    <string name="friends_list">Top Amigos</string>
+    <string name="friends_plural">Amigos:</string>
+    <string name="friends_requests">PEDIDOS</string>
+    <string name="get_thankers">Receber os Thankers</string>
+    <string name="give_reason">Podes dar uma razão pelo Thanks! :)</string>
+    <string name="given_to">Dados: %d</string>
+    <string name="given_to_friends">Dados a: %d</string>
+    <string name="hall_of_fame">Hall of Fame do Thanker</string>
+    <string name="hello">Olá!</string>
+    <string name="hi">Oi!</string>
+    <string name="hint_phone_number">Número...</string>
+    <string name="hints">Dicas</string>
+    <string name="hints_for_using_thanker">Dicas para utilizar o Thanker</string>
+    <string name="i_agree">Concordo</string>
+    <string name="introduce_valid_number">Por favor introduz um número de telefone válido</string>
+    <string name="invite_by_email">Por Email</string>
+    <string name="invite_by_sms">Por SMS</string>
+    <string name="invite_friends_label">Convidar Amigos!</string>
+    <string name="invite_subtitle_text">Ganha 50 Thankers quando cada um se registar!</string>
+    <string name="invite_title_text">Convida os teus amigos, agradecendo-lhes!</string>
+    <string name="join_now">Regista-te agora, agradece aos teus amigos, e aprecia ainda mais a Vida!\nEstamos desejosos de te ver por aqui.\n\nSempre teus, sempre gratos,\nA tua equipa Thanker</string>
+    <string name="join_now_two">Regista-te agora!\nAgradecer e demonstrar gratidão estimula a felicidade. E não é isso que todos queremos? Anda daí!</string>
+    <string name="just_send_sent">O teu convite foi enviado!</string>
+    <string name="last_chance">Última oportunidade</string>
+    <string name="location_permissions">Permissões de Localização</string>
+    <string name="master_thanker">Mestre Thanker</string>
+    <string name="mega_friend">Mega Amigo</string>
+    <string name="mega_thanks_given">Mega Thanks dados:</string>
+    <string name="mega_thanks_received">Mega Thanks recebidos:</string>
+    <string name="messages">Mensagens</string>
+    <string name="more">Mais</string>
+    <string name="name_editor">Nome</string>
+    <string name="new_friend_joined">Novo amigo registou-se!</string>
+    <string name="new_thanks_received">Novos Thanks recebidos!</string>
+    <string name="no">Não</string>
+    <string name="no_available_data">Ainda não temos dados para este pedido</string>
+    <string name="no_data_yet">Ainda não temos dados para este pedido</string>
+    <string name="no_thanks">Não, obrigado</string>
+    <string name="no_i_dont">Não, não pretendo</string>
+    <string name="notification_text_five">Uh! É hora de fazer alguns agradecimentos!</string>
+    <string name="notification_text_four">Porque a vida é melhor quando a apreciamos...</string>
+    <string name="notification_text_one">A quem queres agradecer hoje?</string>
+    <string name="notification_text_three">Mais vale trabalhares agora na tua felicidade... (agradece aí!)</string>
+    <string name="notification_text_two">Hora de valorizar o dia!</string>
+    <string name="notification_title_five">Agradece agora! :)</string>
+    <string name="notification_title_four">Hora do Thanker!</string>
+    <string name="notification_title_one">Agradece aí ;)</string>
+    <string name="notification_title_three">Tu. O Thanker. Match perfeito</string>
+    <string name="notification_title_two">Tempo de agradecer! :)</string>
+    <string name="number_mega_thanks">Mega Thanks que se tem</string>
+    <string name="oh_yes">Oh sim, se quero, baby!</string>
+    <string name="open_thanker">Abre o Thanker!</string>
+    <string name="other_options">Outras opções</string>
+    <string name="payments_show_name">Mostrar Nome</string>
+    <string name="paypal_button">Subscreve com o Paypal</string>
+    <string name="permission_sms_needed">Permissões de envio de SMS são necessárias para convidarmos pelo número telefone ;)</string>
+    <string name="phone">Contacto:</string>
+    <string name="phone_invitation_question">Recebeste um convite por SMS?\n(É importante para receberes os Thanks enviados por SMS)</string>
+    <string name="please_write_phone">Por favor, escreve primeiro o teu contacto telefónico</string>
+    <string name="power_friend">Power amigo</string>
+    <string name="power_thanks_given">Power Thanks dados:</string>
+    <string name="power_thanks_received">Power Thanks recebidos:</string>
+    <string name="preferences">Preferências</string>
+    <string name="premium_abilities">Gostarias também de poder:</string>
+    <string name="primary_category_text">Categoria Principal</string>
+    <string name="prize_1000_thankers_text">Agradecer é tornar cada momento mais especial. É perceber que de facto alguém, ou tal coisa, tem realmente um impacto importante em nós.\nE porque agradeceste um número de vezes múltiplo de 1000, vamos oferecer-te agora nós 1000 Thankers. Poderás, por exemplo, dar 1 Power Thanks! Ou 10 Mega Thanks, ou 100 Super Thanks... Já sabes como é :)\nUsa agradecimentos especiais para dares ainda mais significado às tuas interações, e quem sabe se o teu sentimento de gratidão não será também mais especial para ti. Conta-nos tudo! Agora vai e agradece às tuas pessoas e conceitos, etc, favoritos!\n\nObrigado :)\nA tua equipa Thanker :)</string>
+    <string name="prize_100_thankers_text">Por teres agradecido 100 vezes, ou num número múltiplo de 100 (200, 300 vezes, etc) estamos aqui para te dar 100 Thankers. Agora consegues dar Mega Thanks (já que o mesmo vale 100 Thankers).\nO que é para ti especial? O que te te faz mais vibrar neste mundo da Gratidão? São as perguntas que te colocamos, ao fazermos esta oferta.\nDo nosso lado fica ainda o nosso obrigado por utilizares o Thanker.\n\nSempre teus, e sempre a dar aquele incentivo a quem nos é importante,\nA tua equipa Thanker!</string>
+    <string name="prize_10_thankers_text">Porque agradeceste 10 vezes (ou em múltiplos de 10), estamos a oferecer-te 10 Thankers, o que te permite dar Super Thanks!\nUsa o Super Thanks para dares aquele toque mais especial ao Agradecimento que fazes ;)\nEsta é também a nossa forma de te agradecermos a ti, com um toque para o especial.\n\nEspecialmente juntos,\nA tua equipa Thanker!</string>
+    <string name="profile">Perfil</string>
+    <string name="thanker_thanker">Thanker Decidido</string>
+    <string name="promotional_premium_100">Ganhar 100 thanker por dia, sem esforço</string>
+    <string name="promotional_premium_description">Ganha Thankers todos os dias, que te permitirão dar Thanks especiais mais rapidamente, e ainda a habilidade de dares \"De Nada\"\'s a agradecimentos que recebes, por &lt;b&gt;5€/mês&lt;/b&gt;!</string>
+    <string name="promotional_premium_welcomes">Dar \"De Nada\"\'s a Thanks que recebes na plataforma</string>
+    <string name="rank_given">Top 10 de Perfis a que agradeceu</string>
+    <string name="really_want_delete_question">De certeza que queres apagar a tua conta Thanker?</string>
+    <string name="reason">Coloca razão de agradecimento :)</string>
+    <string name="reason_saved">Razão guardada!</string>
+    <string name="received">Deu-te</string>
+    <string name="received_by">Recebidos: %d</string>
+    <string name="received_by_friends">Recebidos por: %d</string>
+    <string name="recent_thanks">Thanks nos últimos 5 dias</string>
+    <string name="register_privacy">Ao criares uma conta aceitas a nossa <u><b>Política de Privacidade</b></u> (clica para leres)</string>
+    <string name="request_sent">Pedido enviado</string>
+    <string name="revive_options">Se escolheres \"Sim\", irás continuar a tua conta antes do momento de a teres apagado.\nOu se escolheres \"Não\", começarás uma conta totalmente nova.\nEscolhe sábia, e agradecidamente ;)</string>
+    <string name="revived_shall_be">Revitalizado, tu serás!</string>
+    <string name="right_code">Este é o código certo para o contacto introduzido!</string>
+    <string name="save">Guardar</string>
+    <string name="save_information">Guardar</string>
+    <string name="search">Pesquisar</string>
+    <string name="search_for_friend_email">Pesquisa pelo e-mail de Amiga/o</string>
+    <string name="search_hint">Pesquisa por nome ou email</string>
+    <string name="search_hint_friends">Pesquisa pelos teus amigos...</string>
+    <string name="secondary_category_text">Categoria Secundária</string>
+    <string name="see_full_thanks">Lista de Thanks</string>
+    <string name="send">Enviar</string>
+    <string name="send_sms">Enviar SMS</string>
+    <string name="send_to_email">Enviar convite a:</string>
+    <string name="sending">enviando</string>
+    <string name="sending_email">Enviando convite por email</string>
+    <string name="sent">enviado</string>
+    <string name="hints_true_thanker">Se o teu Status for Thanker Decidido, receberás 2 Thankers por cada agradecimento que faças (em vez de 1).</string>
+    <string name="hints_master_thanker">Quando o teu Status for Mestre Thanker, receberás 3 Thankers por cada agradecimento que faças.</string>
+    <string name="sent_you_mega_thanks">enviou-te um &lt;font color=\'#1d7ba3\'&gt;Mega Thanks&lt;/font&gt;!</string>
+    <string name="sent_you_power_thanks">enviou-te um &lt;font color=\'#165e7d\'&gt;Power Thanks&lt;/font&gt;!</string>
+    <string name="sent_you_super_thanks">enviou-te um &lt;font color=\'#28a9e0\'&gt;Super Thanks!&lt;/font&gt;</string>
+    <!--<string name="sms_complete2">Olá! %s no Thanker! Agradece também em: www.bit.ly/t ! Código: %s Obrigado!</string> -->
+    <string name="sms_complete">%s no Thanker! ;)\nhttps://bit.ly/apper01\nCódigo: %s</string>
+    <string name="sms_invite_sent">O teu convite foi enviado!</string>
+    <string name="sms_permissions">Permissão para enviar SMS</string>
+    <string name="sms_text">Olá! Se o teu amigo/a ainda não estiver registado/a no Thanker, podes convidá-lo/a, e agradecer-lhe desde já, por SMS!</string>
+    <string name="so_we_send_invite">para enviarmos o convite!</string>
+    <string name="start_adding_friends">Adiciona alguns amigos, ou aceita pedidos de amizade! Os Amigos estão claramente no topo daquilo que o Thanker mais agradece! ;)</string>
+    <string name="start_giving_thanks">Começa a agradecer para começares a ver esta lista a ser povoada! O que te deu sentimentos de gratidão hoje? ;)</string>
+    <string name="start_receiving_thanks">Assim que receberes Thanks, verás aqui a respetiva lista! O que faria as pessoas agradecerem-te mais? :)</string>
+    <string name="starter_thanker">Thanker Iniciante</string>
+    <string name="stats">Estatísticas</string>
+    <string name="subject">Título</string>
+    <string name="subscribe">Subscreve</string>
+    <string name="super_friend">Super Amigo</string>
+    <string name="super_thanks_given">Super Thanks dados:</string>
+    <string name="super_thanks_received">Super Thanks recebidos:</string>
+    <string name="sure_to_delete">De certeza que queres apagar a tua conta Thanker?</string>
+    <string name="telephone">Contacto:</string>
+    <string name="text_location_permission">Gostaríamos de pedir a tua Localização para sabermos onde se está a demonstrar gratidão, por favor</string>
+    <string name="thank">Thank!</string>
+    <string name="thank_message">Agradeço-te por...</string>
+    <string name="thank_you_coming_back">Obrigado por teres voltado!</string>
+    <string name="thank_you_for_joining_thanker">O Gui e o Diogo do Thanker agradecem-te por te teres juntado a nós! Esperamos que te divirtas aqui, e que te seja útil!</string>
+    <string name="thank_you_for_the_time">Agradecemos o tempo que disponibilizaste no Thanker</string>
+    <string name="thanker_messages">Mensagens Thanker</string>
+    <string name="thanker_premium_subscription">Subscrição Thanker Premium</string>
+    <string name="thanker_hint">Expressar e sentir Gratidão constitui uma das grandes bases da Felicidade, enquanto reconheces também valor nos outros.\nUsa o Thanker para experienciares ainda mais a Gratidão! ;)</string>
+    <string name="thanks_for_giving_reason">Obrigado por dares uma razão ;)</string>
+    <string name="thanks_for_thanking">Obrigado por Agradeceres hoje!</string>
+    <string name="thanks_given">Thanks dados:</string>
+    <string name="thanks_given_by">Thanks dados por</string>
+    <string name="thanks_given_to">Thanks recebidos por</string>
+    <string name="thanks_given_two">Thanks Dados:</string>
+    <string name="thanks_received">Thanks Recebidos:</string>
+    <string name="thanks_welcomed_text">O teu agradecimento foi notado e agraciado por %s. E é assim que gostamos de ver!\nA pergunta que se coloca agora é: quem irá agradecer, novamente, primeiro ao outro? E por que razão?\n\nSempre teus e aqui para ti,\nA tua equipa Thanker!</string>
+    <string name="this_is_the_contact">Este é o contacto!</string>
+    <string name="title_invite_thanker">%s %s no Thanker!</string>
+    <string name="title_location_permission">Permissão de Localização</string>
+    <string name="title_privacy">Thanker: Política de Privacidade</string>
+    <string name="to_get_your_account_back">Para teres a tua conta de volta ;) Quere-la de volta?</string>
+    <string name="to_give_mega_thanks">Precisarás de 100 Thankers para dares 1 Mega Thanks.\nUm Mega Thanks vale, também, 100 Thanks.</string>
+    <string name="to_give_power_thanks">Precisarás de 1000 Thankers para dares 1 Power Thanks.\nUm Power Thanks vale, também, 1000 Thanks.</string>
+    <string name="to_give_special_thanks">Conseguirás dar Thanks Especiais, de acordo com o nivel de Gratidão que sintas por algo. É a dar estes Thanks Especiais onde irás gastar os Thankers adquiridos por ti.&lt;br&gt;Os Thanks Especiais são: Super, Mega, e Power. E será que haverá mais algum ...?</string>
+    <string name="to_give_super_thanks">Precisarás de 10 Thankers para dar 1 Super Thanks.\nUm Super Thanks vale também 10 Thanks.</string>
+    <string name="today">Hoje</string>
+    <string name="top_10_given_thankers">Top 10 de Thanks dados a outros perfis</string>
+    <string name="top_10_thankers">Top 10 de Agradecedores deste Perfil</string>
+    <string name="top_of">Top de</string>
+    <string name="trending_thanks_categories">Categorias mais agradecidas hoje</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="update_account">Podes atualizar os teus dados!</string>
+    <string name="user">Utilizador</string>
+    <string name="user_already_exists_with_number">Já existe um utilizador registado com este número!</string>
+    <string name="user_entered_top_ten_text_five">Sabemos que para muitos utilizadores, tu és música para os seus ouvidos, e que dás uma outra alegria aos seus dia! E acreditamos que é exatamente isso em que %s pensa, pois este perfil acabou de entrar no Top 10 de pessoas que mais te estão agradecidas!\nIsto diz-nos que estás a fazer algo de incrível.\nAgora força, mostra a tua fibra, e faz também tu os teus Agradecimentos, a qualquer e todo aquele que te proporciona o sentimento de Gratidão!\nDiz que estimula a felicidade!\n\nDesejosos pelos teus agradecimentos, desejosos por esse estímulo de Felicidade,\nA tua equipa Thanker!</string>
+    <string name="user_entered_top_ten_text_four">Existem alguns bons rankings por aí, e o Top 10 de pessoas que mais te agradecem, é seguramente um deles!\nQuem partilha desta opinião é %s, que acaba de entrar no teu Top 10!\nIsto para nós são ótimas notícias ;)\nEsperamos que isto traga tão de bom para ti, quanto está a trazer para %s! Pois, se bem te lembras, ao agradecer, estimulou a sua própria felicidade!\n\nSempre olhando para o lado belo da vida, olhando para ti,\nA tua equipa Thanker!</string>
+    <string name="user_entered_top_ten_text_one">%s está agora no Top 10 de pessoas que mais te agradece no Thanker!\nDa nossa parte dizemos: continua a dar razões para seres agradecido! ;)\n\nSempre e para sempre teus,\nA tua equipa Thanker!</string>
+    <string name="user_entered_top_ten_text_three">Temos notícias relativamente ao Top 10 de pessoas que te agradecem!\nAo que parece, %s entrou agora nesse Top 10, e ao que tudo indica, irá querer subir ainda mais lugares na lista! Foi com essa sensação que ficámos.\nEstás a ficar com um Top-10 todo popular.\nE lembra-te também de Agradecer, pois é aí que de facto utilizas o Thanker a teu favor! Cientificamente falando, Agradecer produz hormonas de felicidade.\n\nVendo tudo do lado belo e mágico da vida, do lado grato dela, e a pensar em ti,\nA tua equipa Thanker!</string>
+    <string name="user_entered_top_ten_text_two">E não é que %s entrou no Top 10 de perfis que mais te agradecem?\nQuem sabe haverá aí uma corrida de pessoas a quererem estar o mais acima possível nesta tua lista...\n\nDesejando-te tudo de bom, tudo de belo.\n\nSempre naquele lado, o belo da vida! No teu.\nA tua equipa Thanker!</string>
+    <string name="user_entered_your_top_ten">%s está agora na tua lista dos 10 Top Thankers!</string>
+    <string name="username">Nome de Utilizador</string>
+    <string name="walker_thanker">Thanker Aspirante</string>
+    <string name="welcome">De Nada!</string>
+    <string name="welcome_back_again">Estamos felicíssimos que tenhas voltado à nossa companhia, %s!\nAgradecer é algo que vale realmente a pena fazer. E nós estamos gratos com a tua volta, para que possas agradecer, e tudo, e tudo, e tudo.\nO que achas que poderia ter corrido melhor, em relação à tua última experiência connosco? Contacta-nos através da opção para o efeito. Gostaríamos bastante de ter a tua opinião.\nE pelo que sentes agradecido/a hoje? Vamos aí a agradecer! ;)\n\nVendo-te mais belo(/a) que nunca, %s!\nA tua equipa Thanker!</string>
+    <string name="welcome_back_back">Benvindo/a de volta, %s!</string>
+    <string name="welcome_name">Estamos juntos, %s!</string>
+    <string name="welcome_text">Agradecer e demonstrar gratidão são das grandes bases da Felicidade. São uma oportunidade de ouro de perceber o que nos realiza mais, e o que de facto dá todo um sabor maravilhoso à Vida.\nExistem muitas mais-valias no que diz respeito ao experienciar a Gratidão: maior realização, maior auto-conhecimento e auto-estima, valorização mais abrangente do próprio, e do que o rodeia, fortalecimento de relacionamentos interpessoais, etc.\nUsa o Thanker para todos e cada um destes objetivos!\n Liga-te aos teus amigos, aos teus familiares, e a todos aqueles que ajudam a construir esse teu sentimento de Gratidão: um sentimento que tão bem nos completa! Agradece, descobre, realiza, sê, e conta connosco em toda esta jornada! Dá um reconhecimento, e sabe que isso também é bom para ti!\nEstaremos aqui sempre bem perto, a acompanhar o teu percurso.\nJuntos somos mais completos, juntos somos mais gratos! ;).\n\nDecididamente teus,\nA tua equipa Thanker!</string>
+    <string name="what_is_thanker">O Thanker é a plataforma social onde podes agradecer aos teus amigos, familiares, e a todos aqueles que te transmitem Gratidão!</string>
+    <string name="who_do_you_want_to_thank_today">A quem vais agradecer hoje?</string>
+    <string name="write_to_us">Escreve-nos</string>
+    <string name="write_your_phone">Escreve o teu número</string>
+    <string name="wrong_code">Esse é o código errado para este número</string>
+    <string name="yes">Sim</string>
+    <string name="yes_delete">Sim, apagar</string>
+    <string name="yes_exclamation">Sim!</string>
+    <string name="you_can_add_reason">Podes juntar uma razão para o agradecimento!</string>
+    <string name="you_collected_premium_today">Hoje ganhaste &lt;font color=\'#4CAF50\'&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; Thankers!</string>
+    <string name="you_collected_premium">Ganhaste &lt;font color=\'#4CAF50\'&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; Thankers!</string>
+    <string name="you_collected_premium_text">"Por seres um subscritor Premium do Thanker, ganhaste %d Thankers hoje! Usa-os para dares agradecimentos de maior valor, mais Especiais! Lembra-te também que agradecer é um processo onde quanto mais dás, mais recebes. É toda uma técnica para se estimular a própria Felicidade, ao mesmo tempo que se reconhece valor nos outros (para connosco), e nas próprias ações.\nAgradece para enriqueceres ainda mais a tua vida! Pratica!\n\nContigo nesta montanha-russa da vida, e obrigado por fazeres parte do Thanker!\nA tua equipa Thanker! "</string>
+    <string name="you_earn_1000_thankers">Ganhaste 1000 Thankers!</string>
+    <string name="you_earn_100_thankers">Ganhaste 100 Thankers!</string>
+    <string name="you_earn_10_thankers">Ganhaste 10 Thankers!</string>
+    <string name="you_entered_top_10">Entraste na lista dos 10 Top Thankers de %s!</string>
+    <string name="you_entered_top_10_text_five">Eeeeeee... estás no Top 10 de %s!\nÉ assim mesmo! Dar aquele reconhecimento, e estimular também o tal sentimento agradável interior.\nBom trabalho!\nSabemos também que por vezes os agradecimentos vêm no seguimento de esforço, foco, e bons momentos vividos - surgem por toda uma panóplia de razões, e numa série de formatos. É por isso que acreditamos que Agradecer é o culminar de toda essa bravura e empenho. Ou seja, fizeste algo por que estás agradecido/a. Agora entra nesse sentimento, e guarda-o. Reconhece-lhe valor, e o bom que é tê-lo. Agradece!\nE nós agradecemos-te por usares o Thanker neste teu percurso.\n\nAqui contigo,\nA tua equipa Thanker!</string>
+    <string name="you_entered_top_10_text_four">Ora viva!\nÓtima vista daqui, olhando para o Top 10 de %s onde, por sinal, acabaste de entrar! Muito bem!\nCostuma dizer-se que \"aquilo de que gostamos, é aquilo de que cuidamos\", e é um dizer que seguramente soa bem connosco.\nObrigado por agradeceres no Thanker, e reconhece que sabes procurar o que te faz feliz.\n\nSempre teus e aqui para ti,\nA tua equipa Thanker!</string>
+    <string name="you_entered_top_10_text_one">Entraste no Top 10 de perfis que mais agradecem a %s!\nEstá patente, portanto, que te é alguém provavelmente importante, de esta ou daquela forma. E a verdade, também, é que enquanto demonstras a tua gratidão, trazes mais valor a ti, e estimulas a tua felicidade.\nEstamos orgulhosos de ti!\n\nNaturalmente teus,\nA tua equipa Thanker!</string>
+    <string name="you_may_thank">Agradece:</string>
+    <string name="you_thanked_today">% a %s!</string>
+    <string name="you_were_welcomed">%s deu-te um \"De Nada!\"</string>
+    <string name="you_will_earn">Irás ganhar 10 Thankers quando o teu amigo/a se registar!</string>
+    <string name="your_opportunity">Tens a oportunidade, agora!</string>
+    <string name="your_thanker_team">A tua equipa Thanker!</string>
+    <string name="you_entered_top_10_text_three">Temos a certeza que %s está extremamente feliz que estejas no Top 10 de perfis que mais agradecem este perfil.\nE queremos, com esta oportunidade, também aqui agradecer o tempo e dedicação para demonstrares a tua Gratidão.\n\nA vida é bela, vamos juntos neste barco à vela,\nA tua equipa Thanker!</string>
+    <string name="you_entered_top_10_text_two">É com enorme prazer que dizemos que fazes agora parte do Top 10 de perfis que mais agradecem a %s no Thanker!\nEstamos orgulhosos de ti! Continua a fortalecer este relacionamento (sabendo que Agradecer faz maravilhas, também por relacionamentos).\nValoriza, que o valor crescerá aí, em ti!\n\nVerdadeiramente teus, verdadeiramente Gratos,\nA tua equipa Thanker!</string>
+    <string name="your_friend_joined_thanker">Olá!\nO perfil que convidaste, %s, acabou de se registar no Thanker!\nQue tens a agradecer a este perfil? E se fosses desde já dar um ar da tua graça, e produzires mais Thankers?\nE já agora, acabas de ganhar 50 Thankers pelo registo através do teu convite!\nBons agradecimentos!\n\nAqui no lado belo da vida. Ao teu lado.\nA tua equipa Thanker!</string>
+    <string name="top_of_thanks">Top Thankers de %s</string>
+    <string name="thanked_html">&lt;font color=\'#4CAF50\'&gt;agradeceu-te&lt;/font&gt;</string>
+    <string name="super_thanked_html">&lt;font color=\'#28a9e0\'&gt;super agradeceu-te&lt;/font&gt;</string>
+    <string name="mega_thanked_html">&lt;font color=\'#1d7ba3\'&gt;mega agradeceu-te&lt;/font&gt;</string>
+    <string name="power_thanked_html">&lt;font color=\'#165e7d\'&gt;power agradeceu-te&lt;/font&gt;</string>
+    <string name="thanked_colour">&lt;font color=\'#4CAF50\'&gt;agradeceste&lt;/font&gt; a</string>
+    <string name="super_thanked_colour">&lt;font color=\'#28a9e0\'&gt;super agradeceste&lt;/font&gt; a</string>
+    <string name="mega_thanked_colour">&lt;font color=\'#1d7ba3\'&gt;mega agradeceste&lt;/font&gt; a</string>
+    <string name="power_thanked_colour">&lt;font color=\'#165e7d\'&gt;power agradeceste&lt;/font&gt; a</string>
+    <string name="thanked_color">&lt;font color=\'#4CAF50\'&gt;agradeceu&lt;/font&gt; a</string>
+    <string name="thanked_string">&lt;font color=\'#4CAF50\'&gt;agradeceu&lt;/font&gt; a</string>
+    <string name="super_thanked_string">&lt;font color=\'#28a9e0\'&gt;super agradeceu&lt;/font&gt; a</string>
+    <string name="mega_thanked_string">&lt;font color=\'#1d7ba3\'&gt;mega agradeceu&lt;/font&gt; a</string>
+    <string name="power_thanked_string">&lt;font color=\'#165e7d\'&gt;power agradeceu&lt;/font&gt; a</string>
+    <string name="ultra_thanked_string">&lt;font color=\'#4B0082\'&gt;ultra agradeceu&lt;/font&gt; a</string>
+    <string name="hints_invites">Convida os teus amigos por e-mail ou SMS, e agradece-lhes ao mesmo tempo! Quando eles se registarem, receberás, por cada um, 50 Thankers (o equivalente a 5 Super Thanks).</string>
+    <string name="user_thanks">%s agradece a:</string>
+    <string name="how_user_thanks">Como %s agradece no Thanker:</string>
+    <string name="main_thanks_categories">agradece mais a:</string>
+    <string name="fame_subtitle">Utilizadores Famosos e que mais Agradecem a estas Categorias</string>
+    <string name="welcome_two">Vive a Vida que Agradeces ter! :)</string>
+    <string name="welcome_three">Hora de Agradecer! ;)</string>
+    <string name="welcome_four">Hora Thanker!</string>
+    <string name="welcome_five">Agradecer é Vida</string>
+    <string name="hints_welcomes">Este símbolo significa que o Thanks recebeu um \"De Nada\".\nSubscreve o Premium e dá, também tu, este reconhecimento ao Thanks (além de receberes Thankers diários sem esforço)!</string>
+    <string name="payment_done">Pagamento feito com sucesso!</string>
+    <string name="yesterday">Ontem</string>
+    <string name="message">Uma Mensagem Nossa :)</string>
+    <string name="feed_interaction">É aqui que vai aparecer a interação mais recente dos teus Amigos!</string>
+    <string name="add_message">Agradeço por...</string>
+    <string name="thankers_for_power">Precisas de pelo menos 1000 Thankers para dar um Power Thanks!</string>
+    <string name="thankers_for_mega">Precisas de pelo menos 100 Thankers para dar um Mega Thanks!</string>
+    <string name="thankers_for_super">Precisas de pelo menos 10 Thankers para dar Super Thanks!</string>
+    <string name="thanks_again_tomorrow">Agradece novamente amanhã!</string>
+    <string name="given_literal">Deu</string>
+    <string name="received_literal">Recebeu</string>
+    <string name="total_thanks">Total de Thanks</string>
+    <string name="recent_thanks_label">Thanks Recentes</string>
+    <string name="view_thanks">Ver Thanks de %s para %s</string>
+    <string name="you_combined">Tu e %s</string>
+    <string name="add_thanks_compatibility">%d%% da compatibilidade é em %s</string>
+    <string name="total_given">Total Dado</string>
+    <string name="thanks_you">Obrigado!</string>
+    <string name="thanks_feed_string">%s %s %s</string>
+    <string name="total_friends">Total Amigos</string>
+    <string name="thankers_collect">Thankers para Receberes!</string>
+    <string name="person">Pessoa</string>
+    <string name="brand">Marca</string>
+    <string name="association">Associação</string>
+    <string name="you_have">Tens</string>
+    <string name="thanked_past">agradeci-te</string>
+    <string name="super_thanked_past">super agradeci-te</string>
+    <string name="mega_thanked_past">mega agradeci-te</string>
+    <string name="power_thanked_past">power agradeci-te</string>
+    <string name="welcome_literal">De Nada!</string>
+
+    <string name="msg1">continua chamando-me assim: obrigado!</string>
+    <string name="msg2">é uma gratidão portuguesa, concerteza</string>
+    <string name="msg3">ó agradecimentos da minha terra</string>
+    <string name="msg4">a agradecimento dado não se olha o dente</string>
+    <string name="msg5">agradecendo se vai ao longe</string>
+    <string name="msg6">um agradecimento (ou mais!) por dia nem sabe o bem que lhe fazia</string>
+    <string name="msg7">obrigado a obrigado, enche a gratidão o papo</string>
+    <string name="msg8">cada obrigado no seu galho</string>
+    <string name="msg9">para bom entendedor, um agradecimento inteiro é de valor</string>
+    <string name="msg10">gratidão que reluz, é ouro</string>
+    <string name="msg11">Agradeço, logo existo</string>
+    <string name="msg12">vou cantar, vou dançar, vou agradecer até me cansar</string>
+    <string name="msg13">Vou levar-te um agradecimento, tomar conta de ti...</string>
+
+    <string name="you_thank_more_to">Agradeço mais a:</string>
+    <string name="little_you">ti</string>
+
+    <string name="give_welcomes">Diz \"De Nada\"!</string>
+    <string name="earn_150_thankers">Ganha 150 Thankers por Dia !</string>
+    <string name="for_five_euro">Por 5€/mês!</string>
+    <string name="earn_100_thankers_subtitle">Ganha 150 Thankers por dia, todos os dias!\nRecebe diariamente o que te permitirá dares mais Thanks Especiais, mais frequentemente!</string>
+    <string name="give_welcomes_subtitle">Diz \"De Nada\" a quem te dá Thanks!\nReconhece o agradecimento recebido, e ganha mais Destaque nas páginas de Agradecimentos dos teus amigos!</string>
+    <string name="subscribe_button">Subscrever</string>
+    <string name="what_are_thankers">O que são Thankers?</string>
+    <string name="this_is_thankers">Thankers são a moeda que te permitirá dar Thanks Especiais. De cada vez que agradeces, ganhas 1 Thanker. Existem ainda outras formas de ganhares mais Thankers, como agradecer em números de vezes múltiplos de 10, 100 e 1000 (verificado no Contador de Thanks), convidar Amigos para o Thanker, ser Premium, e ver Vídeos dos nossos patrocinadores!</string>
+    <string name="got_it">Percebi!</string>
+    <string name="what_is_count">O que é o Contador de Thanks?</string>
+    <string name="this_is_count">É o número de Thanks que já deste a outros perfis.\nQuando em agradeceres em números múltiplos de 10, 100, e 1000, ganhas bónus de Thankers nesse mesmo valor. Exemplos: Contador de Thanks a 20, ganhas 10 Thankers; Contador de Thanks a 300, ganhas 100 + 10 Thankers de bónus!</string>
+    <string name="consecutive_renewals">Renova Antecipadamente !</string>
+    <string name="consecutive_renewals_subtitle">Faz renovações a valores ainda mais convidativos, e recebe 5 Thankers extra por dia, todos os dias, por cada renovação consecutiva que fizeres do teu Premium (antes da subscrição terminar)!</string>
+    <string name="thank_literal">Agradece a </string>
+    <string name="email_invite">Thanks por E-mail</string>
+    <string name="earn_on_invite">Ganha 50 Thankers quando se registar!</string>
+    <string name="sms_invite">Thanks por SMS</string>
+    <string name="sms_invite_text">Agradece e convida!\nGanha 50 Thankers sempre que os teus amigos se registarem!</string>
+    <string name="thanks_to_be_received">Ainda por receber :)</string>
+    <string name="thanks_to_be_given">Ainda por dar :)</string>
+    <string name="what_is_level">O que é o Nível de Thanker?</string>
+    <string name="this_is_level">O teu Nível de Thanker é determinado pelo quanto agradeces na plataforma (rácio dos últimos 5 dias). Quando atinges os níveis de topo, ganhas mais Thankers por cada agradecimento que fazes a outro perfil!</string>
+    <string name="info_picture">Imagem de perfil</string>
+    <string name="this_is_picture">Carrega na imagem para escolheres uma nova fotografia de perfil!</string>
+    <string name="top_given">Top Dados por %s</string>
+    <string name="top_received">Top Recebidos de %s</string>
+    <string name="one_month">1 Mês: <b>5€</b></string>
+    <string name="six_months">6 Meses: <b>25€</b></string>
+    <string name="twelve_months">12 Meses: <b>40€</b></string>
+    <string name="see_plans">Ver Planos</string>
+    <string name="select_one_plan">Por favor, seleciona o teu plano preferencial! :)</string>
+    <string name="premium_until_label">Subscrição ativa até</string>
+    <string name="extend_subscription">Planos para Estender Premium</string>
+    <string name="one_month_ren">1 Mês: 4€</string>
+    <string name="six_months_ren">6 Meses: 20€</string>
+    <string name="twelve_months_ren">12 Meses: 30€</string>
+    <string name="extend_plans">Ver Extensões de Premium</string>
+    <string name="extend_subscription_plans">Clica para Prolongar o Teu Premium!</string>
+    <string name="title_renewal">Obrigado por Renovares!</string>
+    <string name="body_renewal">Vamos ser sinceros contigo: o Thanker (e o Premium) é um lugar melhor contigo dentro. To garantimos!\nGarante que aprecias a vida (e lhe agradeces) com a mesma intensidade com que o sentes, e aproveita para criares mais valor à tua volta.\nAgradecemos-te novamente, por seres uma parte importante do Thanker!\n\nVerdadeiramente teus,\nA tua Equipa Thanker!\n\nPS: a tua Subscrição atual está ativa até: %s</string>
+    <string name="title_activate_premium">Obrigado por seres Premium!</string>
+    <string name="body_activate_premium">Aqui para nós que ninguém nos ouve, és, e sempre serás visto, como alguém \"Premium\"! Mas convenhamos, com este tipo de Premium tens agora a capacidade de ganhares 150 Thankers por dia (ou mais, caso vás estendendo a tua subscrição), bem como de dizer "De Nada" a quem te agradece na plataforma. Tens agora mais algumas ferramentas importantes, que te ajudarão a dar Thanks especiais mais frequentemente, bem como de reconheceres aqueles que te apreciam.\nÉ toda uma viagem em prol da tua gratidão e felicidade. Em prol de um mundo mais completo e ciente do seu real valor.\n\nSempre teus, sempre gratos,\nA tua Equipa Thanker!</string>
+    <string name="happy_birthday_body">Wishing you a wonderful day! Thrilling to be by your side. Your Thanker Team ;)</string>
+    <string name="birthday2">Parabéns! E obrigado por também estares connosco neste dia especial!</string>
+    <string name="birthday3">Hoje é dia de festa, cantam as nossas almas! Muitos parabéns!</string>
+    <string name="birthday4">Isto é que é vida. Agradecer, valorizar, ser feliz, e ser parabenizado! Imensos parabéns!</string>
+    <string name="birthday5">É o te-t-teu-teu An-aniv-aniversário! Dá-lhe, DJ!</string>
+    <string name="fup_title_1">Como é estás a experienciar a Gratidão? :)?</string>
+    <string name="fup_subtitles_1">Como é que Agradecer te faz sentir? Sentes o realizar do real benefício, algo mais completo, que dada situação, ou pessoa, te traz?\nDiz-nos pelo formulário de contacto, disponível no menu de Opções.\n\nSempre ao teu lado,\nA tua Equipa Thanker!</string>
+    <string name="fup_title_2">Conta-nos a tua Experiência!</string>
+    <string name="fup_subtitles_2">Queremos acompanhar a tua Viagem de Gratidão!\nComo já saberás, Agradecer é uma experiência que estimula a felicidade. Ajuda-nos a apreciar as coisas boas da vida (e que nos são úteis de tantas formas), enquanto expressamos o nosso reconhecimento por algo de valor. É a chamada situação \"win-win\"!\nGostavas de partilhar connosco a tua experiência? Nós certamente que gostaríamos de ouvir. Estamos contactáveis pelo formulário para o efeito, no menu de Opções!\n\nAté breve, a tua Equipa Thanker!</string>
+    <string name="fup_title_3">Partilha connosco! ;)</string>
+    <string name="fup_subtitles_3">Maravilhar-nos-ia saber mais de ti!\nPartilha connosco a tua experiência com o Thanker!\nComo te sentes ao Agradecer? Tens sido alterações na tua perspetiva geral, sobre as coisas? Sentes que se abrem mais possibilidades em teu redor? Queremos saber!\nConta-nos tudo, através do formulário de Contacto no menu de Opções!\n\nEsperando pelas tuas sábias palavras,\n\nA tua Equipa Thanker!</string>
+    <string name="start_giving_thanks_other">Algo nos diz que %s está prestes a tornar-se numa referência do Agradecer. Sintoniza-te nesta lista de Thanks ;)</string>
+    <string name="search_all">Procurar Todos os Resultados...</string>
+    <string name="and_i_feel_like_thanking">E apetecia-me agradecer algo...</string>
+    <string name="special_thanks">Thanks Especiais</string>
+    <string name="tell_us_everything">Conta-nos tudo!</string>
+    <string name="contact_us_text">Como estás a experienciar os Agradecimentos?\n\nE porque é importante para nós, queremos ainda saber as tuas sugestões e opiniões.\n\nObrigado desde já pela tua mensagem!</string>
+    <string name="sent_and_thank">Enviado. Obrigado!</string>
+    <string name="collected">Recebido!</string>
+    <string name="our_current_thankers">Tens atualmente %d Thankers disponíveis!\nDepois deste Thanks ficarás com %d!</string>
+    <string name="bonus_thankers_string">&lt;b&gt;#bónusContadorDeThanks&lt;/b&gt;</string>
+    <string name="name">Nome</string>
+    <string name="birthday">Aniversário</string>
+    <string name="my_premium">O Meu Premium</string>
+    <string name="email_invites">Convites por Email</string>
+    <string name="sms_invites_title">Convite SMS</string>
+    <string name="verificate">Verificar</string>
+    <string name="valid_number">Podes convidar este Contacto ;)</string>
+    <string name="you_made_changes">Fizeste alterações!</string>
+    <string name="are_you_sure">De certeza que queres sair deste ecrã sem as Guardar?</string>
+
+    <string name="thanker_hint_title">Thanker: pratica a Gratidão, e reconhece valor! ;)</string>
+    <string name="how_to_earn_title">Como ganhar Thankers?</string>
+    <string name="to_give_special_thanks_title">Dar Thanks Especiais</string>
+    <string name="to_give_super_thanks_title">Como dar Super Thanks</string>
+    <string name="to_give_mega_thanks_title">Como dar Mega Thanks</string>
+    <string name="to_give_power_thanks_title">Como dar Power Thanks</string>
+    <string name="hints_invites_title">Convida toda a gente, e ganha Thankers!</string>
+    <string name="hints_true_thanker_title">O Thanker Decidido</string>
+    <string name="hints_master_thanker_title">O Mestre Thanker!</string>
+    <string name="hints_welcomes_title">Diz \"De Nada\"\!</string>
+    <string name="thank_nearby">Agradece Próximo de ti</string>
+    <string name="search_and_thank">Procura e agradece</string>
+    <string name="thank_friends">Agradece a amigos</string>
+    <string name="thanks_count">Contador de Thanks</string>
+    <string name="edit">Editar</string>
+    <string name="edit_reason">Edita a razão do Thanks...</string>
+    <string name="upped_level">Subiste de nível!</string>
+    <string name="upped_to_walker">Parabéns!\nÉs agora um Thanker Aspirante!\nAspiras, inspiras e expiras mais confiança, e seguramente é disso que gostamos de ver!\nContinua assim :)\nAprecia, elogia, reconhece valor, e traz esse mesmo valor para ti, pois ao Agradeceres, experiencias o sentimento que se produz. Aspiras a caminhar a vida dos Grandes?\n\nCaminhando contigo,\nA Tua Equipa Thanker!</string>
+    <string name="upped_to_explorer">Sim! O teu nível é agora Thanker Explorador!\nIsto significa que estás a explorar as maravilhas da Gratidão, percebendo que tens toda uma vivência realmente mais preenchida que o que pensavas. Por isso te incentivamos: explora, vive e aprecia agora!\nO que está a parecer esta tua caminhada mais consciente na Gratidão? E como estão as pessoas a responder ao teu reconhecimento mais frequente? Melhor ainda, como te faz sentir a ti, expressares cada vez mais a Gratidão?\n(Usa a opção de nos Contactar, se quiseres, no Menu. Iremos procurar responder logo que possível!).\nContinua a Explorar. Agradece ao Mundo, agradece aos teus Desafios, agradece aos teus Sucessos, agradece ao que te faz aprender, e agradece-te a Ti!\n\nAgradecendo a ti e contigo, e juntos nesta descoberta,\nA Tua Equipa Thanker!</string>
+    <string name="upped_to_true">Parabéns!\nTornaste-te num Thanker Decidido(/a). Decidiste viver uma vida Grata. E tão bom que é, certo?\nAgradecer, e tornar disso um hábito, fortalece vários da campos da tua vida, começando logo pela forma como reconheces valor na tua vida. O real valor. Aquele que nos traz uma felicidade mais duradoura, e mais verdadeira.\nParece-nos estás alguém cada vez mais persistente, mais capaz de perceber o que celebrar na Vida, que aposta na sua aprendizagem e desenvolvimento. Acreditamos que a Gratidão nos traz cada vez mais para perto de quem somos verdadeiramente, e assim, também das nossas habilidades e paixões. Já experimentaste uma vida apaixonada? Se sim, sabes do que estamos a falar. Se não, talvez esteja mais próxima, esse sentimento arrebatador, e ainda assim, tão refrescante.\nEncontra na Gratidão o caminho para a realização (o que achas se disséssemos até, \"o caminho para ti mesmo/a\"?).\nPermite que Agradecer seja um guia.\nE, porque há ainda mais uma boa notícia, por cada Thanks que deres, irás neste nível ganhar 2 Thankers (ao invés de 1). É assim ;)\n\nVerdadeiramente teus, e conquistados pela tua presença,\nA Tua Equipa Thanker!</string>
+    <string name="upped_to_master">Melhor que ninguém, já saberás o que a Gratidão te faz sentir, e os dons cuja presença traz bem mais ao de cima. De tudo o que está à tua volta. De tudo o que também faz parte de ti.\nE agora, por cada Thanks que deres, irás ganhar 3 Thankers.\nNós, no Thanker, acreditamos que quando mais se dá, mais se recebe.\nSemeia a tua mestria no mundo, em ti, nas tuas habilidades, no teu propósito, e nas tuas ações. Utiliza a Gratidão para criares uma experiência cada vez mais rica na tua Vida!\n\nGratos por estar ao teu lado,\nA Tua Equipa Thanker!</string>
+    <string name="say_welcome">Diz \"De Nada\"</string>
+    <string name="compatibilities">Compatibilidades de Gratidão</string>
+
+    <string name="january">Janeiro</string>
+    <string name="february">Fevereiro</string>
+    <string name="march">Março</string>
+    <string name="april">Abril</string>
+    <string name="may">Maio</string>
+    <string name="june">Junho</string>
+    <string name="july">Julho</string>
+    <string name="august">Agosto</string>
+    <string name="september">Setembro</string>
+    <string name="october">Outubro</string>
+    <string name="november">Novembro</string>
+    <string name="december">Dezembro</string>
+
+    <string name="how_to_earn">&lt;b&gt;Agradece&lt;/b&gt;: por cada agradecimento que deres, ganharás 1 Thanker\n&lt;b&gt;&lt;br&gt;Agradece em múltiplos&lt;/b&gt;: sempre que o teu Contador de Thanks for um múltiplo de 10, 100 ou 1000, irás ganhar o valor desse múltiplo em &lt;u&gt;bónus&lt;/u&gt; de Thankers\n&lt;br&gt;&lt;b&gt;Convida Amigos&lt;/b&gt;: por cada Amigo registado, ganharás 50 Thankers!&lt;br&gt;&lt;b&gt;Vê um Rewarded Video&lt;/b&gt;: e ganharás 10 Thankers, por cada visionamento!\n&lt;b&gt;&lt;br&gt;Subscreve o Premium&lt;/b&gt;: ganharás 150 Thankers por dia, todos os dias!</string>
+    <string name="viewing_stats">Estatísticas de</string>
+    <string name="th">º</string>
+    <string name="st">º</string>
+    <string name="nd">º</string>
+    <string name="rd">º</string>
+    <string name="of">de</string>
+    <string name="at_literal">no</string>
+    <string name="thank_and_invite">Agradecer e Convidar</string>
+    <string name="edit_thanks_reason">Editar Razão do Thanks</string>
+    <string name="how_to_edit_reason">Podes clicar no Thanks acima para editares a razão do teu Agradecimento ;)</string>
+    <string name="i_read">Lido</string>
+    <string name="contact_info">Escolher Contactos</string>
+    <string name="choose_the_contacts">Poderás escolher da tua lista de Contactos, clicando no ícone do lado esquerdo!</string>
+    <string name="reward_string">Parabéns! Ganhaste %d Thankers!\nTens agora um total de %d.\nObrigado! ;)</string>
+    <string name="earn_thankers">Ganhar Thankers Extra!</string>
+    <string name="loading_reward_video">Carregando um vídeo dos nossos patrocinadores, para ganhares 10 Thankers extra!</string>
+    <string name="counting_thanks">Quando Agradeces a alguém, agradeces com o valor do teu Thanks (ie, se dás um Mega Thanks, contará 100 Thanks).\nJá no que toca a Thanks a Categorias, contará duas vezes esse valor para a Categoria Principal de quem agradeces, e uma vez o valor para a Categoria Secundária. Estes dados estão mais visíveis, por exemplo, no Hall of Fame, ou nas Estatísticas Diárias.</string>
+    <string name="counting_thanks_title">Contabilizar Thanks</string>
+    <string name="thanked_email">agradeceu-te</string>
+    <string name="super_thanked_email">super agradeceu-te</string>
+    <string name="mega_thanked_email">mega agradeceu-te</string>
+    <string name="power_thanked_email">power agradeceu-te</string>
+
+    <string name="emailinvite">
+        &lt;div id=\"awesomewrap\"&gt;&lt;center&gt;
+&lt;table id=\"bodyTable\" style=\"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height: 100%; margin: 0; padding: 0; width: 100%; background-color: #fafafa;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td id=\"bodyCell\" style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height: 100%; margin: 0; padding: 10px; width: 100%; border-top: 0;\" align=\"center\" valign=\"top\"&gt;&lt;!-- BEGIN TEMPLATE // --&gt; &lt;!-- [if (gte mso 9)|(IE)]&gt;
+                        &lt;table align=\"center\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"600\" style=\"width:600px;\"&gt;
+                        &lt;tr&gt;
+                        &lt;td align=\"center\" valign=\"top\" width=\"600\" style=\"width:600px;\"&gt;
+                        &lt;![endif]--&gt;
+&lt;table class=\"templateContainer\" style=\"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border: 0; max-width: 600px !important;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td id=\"templatePreheader\" style=\"background: #FAFAFA none no-repeat center/cover; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #fafafa; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 9px;\" valign=\"top\"&gt;
+&lt;table class=\"mcnTextBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnTextBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnTextBlockInner\" style=\"padding-top: 9px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;&lt;!-- [if mso]&gt;
+				&lt;table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100%;\"&gt;
+				&lt;tr&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;td valign=\"top\" width=\"600\" style=\"width:600px;\"&gt;
+				&lt;![endif]--&gt;
+
+
+
+
+&lt;!-- [if mso]&gt;
+				&lt;/td&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;![endif]--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td id=\"templateHeader\" style=\"background: #FFFFFF none no-repeat center/cover; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #ffffff; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 0;\" valign=\"top\"&gt;
+&lt;table class=\"mcnTextBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnTextBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnTextBlockInner\" style=\"padding-top: 9px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;&lt;!-- [if mso]&gt;
+				&lt;table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100%;\"&gt;
+				&lt;tr&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;td valign=\"top\" width=\"600\" style=\"width:600px;\"&gt;
+				&lt;![endif]--&gt;
+
+&lt;!-- [if mso]&gt;
+				&lt;/td&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;![endif]--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnImageBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnImageBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageBlockInner\" style=\"padding: 0px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;
+&lt;table class=\"mcnImageContentContainer\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageContent\" style=\"text-align: center; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 0px 0 0px;\" valign=\"top\"&gt;&lt;img class=\"mcnRetinaImage\" style=\"max-width: 1000px; padding-bottom: 0; display: inline !important; vertical-align: bottom; border: 0; height: auto; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;\" src=\"https://i.ibb.co/92L3dzS/thankmangif.gif\" alt=\"Thank You\" width=\"500\" align=\"center\" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td id=\"templateBody\" style=\"background: #ffffff none no-repeat center/cover; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #ffffff; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 2px solid #EAEAEA; padding-top: 0; padding-bottom: 9px;\" valign=\"top\"&gt;
+&lt;table class=\"mcnTextBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnTextBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnTextBlockInner\" style=\"padding-top: 9px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;&lt;!-- [if mso]&gt;
+				&lt;table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100%;\"&gt;
+				&lt;tr&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;td valign=\"top\" width=\"600\" style=\"width:600px;\"&gt;
+				&lt;![endif]--&gt;
+&lt;table class=\"mcnTextContentContainer\" style=\"max-width: 100%; min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnTextContent\" style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; word-break: break-word; color: #202020; font-family: \'Roboto\', \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; text-align: left; padding: 0 18px 9px 18px;\" valign=\"top\"&gt;
+&lt;h2 class=\"null\" style=\"text-align: center; display: block; margin: 0; padding: 0; color: #202020; font-family: Helvetica; font-size: 22px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal;\"&gt;&lt;span style=\"font-family: roboto,helvetica neue,helvetica,arial,sans-serif;\"&gt;&lt;span style=\"font-size: 14px;\"&gt;&lt;br&gt;&lt;br&gt;Agradecer é uma coisa bonita!&lt;br&gt; A Gratidão é também uma das grandes bases da Felicidade. Logo, quanto mais agradeces, mais estimulas o estares feliz.&lt;br&gt; É aí que entra o Thanker. Instala a nossa plataforma no teu telefone, e encontra as pessoas e conceitos que mais queres agradecer! Diverte-te, e usa esta ferramenta!&lt;br&gt;&lt;br&gt; Até breve, e agradecendo desde já a tua visita!&lt;/span&gt;&lt;/h2&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- [if mso]&gt;
+				&lt;/td&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;![endif]--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnDividerBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; table-layout: fixed !important;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnDividerBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnDividerBlockInner\" style=\"min-width: 100%; padding: 18px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;
+&lt;table class=\"mcnDividerContent\" style=\"min-width: 100%; border-top-width: 2px; border-top-style: none; border-top-color: #EAEAEA; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+                &lt;td class=\"mcnDividerBlockInner\" style=\"padding: 18px;\"&gt;
+                &lt;hr class=\"mcnDividerContent\" style=\"border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;\" /&gt;
+--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnButtonBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnButtonBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnButtonBlockInner\" style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 18px 18px 18px;\" align=\"center\" valign=\"top\"&gt;
+&lt;table class=\"mcnButtonContentContainer\" style=\"border-collapse: separate !important; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: #4baf50; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnButtonContent\" style=\"font-family: Roboto, \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 16px; padding: 18px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" align=\"center\" valign=\"middle\"&gt;&lt;a class=\"mcnButton \" style=\"font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; display: block;\" title=\"Download Thanker\" target=\"_blank\" rel=\"noopener\" href=\"https://bit.ly/thanker\"&gt;Download Thanker&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td id=\"templateFooter\" style=\"background: #FAFAFA none no-repeat center/cover; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #fafafa; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 9px;\" valign=\"top\"&gt;
+&lt;table class=\"mcnDividerBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; table-layout: fixed !important;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnDividerBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnDividerBlockInner\" style=\"min-width: 100%; padding: 18px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;
+&lt;table class=\"mcnDividerContent\" style=\"min-width: 100%; border-top-width: 2px; border-top-style: none; border-top-color: #EAEAEA; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+                &lt;td class=\"mcnDividerBlockInner\" style=\"padding: 18px;\"&gt;
+                &lt;hr class=\"mcnDividerContent\" style=\"border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;\" /&gt;
+--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnImageBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnImageBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageBlockInner\" style=\"padding: 9px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;
+&lt;table class=\"mcnImageContentContainer\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageContent\" style=\"text-align: center; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 9px 0 9px;\" valign=\"top\"&gt;&lt;img class=\"mcnRetinaImage\" style=\"max-width: 400px; padding-bottom: 0; display: inline !important; vertical-align: bottom; border: 0; height: auto; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;\" src=\"https://mcusercontent.com/dd474212ff69c8cc06948bd01/images/12c42fa8-f363-4232-8b57-183fcbeb7dc3.gif\" alt=\"\" width=\"200\" align=\"center\" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnImageBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnImageBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageBlockInner\" style=\"padding: 0px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;
+&lt;table class=\"mcnImageContentContainer\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageContent\" style=\"text-align: center; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 0px 0 0px;\" valign=\"top\"&gt;&lt;a href=\"https://bit.ly/thanker\"&gt;&lt;img class=\"mcnRetinaImage\" style=\"max-width: 800px; padding-bottom: 0; display: inline !important; vertical-align: bottom; border: 0; height: auto; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;\" src=\"https://mcusercontent.com/dd474212ff69c8cc06948bd01/images/6d58d283-4e17-4c15-856d-7fe14aadbb8e.gif\" alt=\"\" width=\"400\" align=\"center\" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnDividerBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; table-layout: fixed !important;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnDividerBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnDividerBlockInner\" style=\"min-width: 100%; padding: 10px 18px 25px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;
+&lt;table class=\"mcnDividerContent\" style=\"min-width: 100%; border-top-width: 2px; border-top-style: solid; border-top-color: #EEEEEE; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+                &lt;td class=\"mcnDividerBlockInner\" style=\"padding: 18px;\"&gt;
+                &lt;hr class=\"mcnDividerContent\" style=\"border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;\" /&gt;
+--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- [if (gte mso 9)|(IE)]&gt;
+                        &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;![endif]--&gt; &lt;!-- // END TEMPLATE --&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;&lt;/div&gt;
+    </string>
+
+    <string name="info_recent">Thanks Recentes</string>
+    <string name="this_is_recent">Clica em cada coluna para veres as listas de Thanks!</string>
+    <string name="info_top">Listas de Top</string>
+    <string name="this_is_top">Clica em cada coluna, para veres os Tops (a quem mais dás, e de quem mais recebes) !</string>
+    <string name="givento">Dados por: %s</string>
+    <string name="receivedby">Recebidos por: %s</string>
+    <string name="what_are_sec_category">Categoria Secundária</string>
+    <string name="this_is_sec_category">Se és uma conta de Pessoa, a tua Categoria Secundária poderá ser, por exemplo, relacionada com a tua Profissão! ;)</string>
+    <string name="status_of">Agradecimentos de %s</string>
+    <string name="info_stats">Estatísticas de Thanks</string>
+    <string name="this_is_stats">Clica em qualquer um dos itens abaixo, para poderes ver a lista completa de Estatísticas dos teus Thanks! :)</string>
+    <string name="current_thankers">Tens: &lt;b&gt;%d&lt;/b&gt;</string>
+    <string name="future_thankers">Ficarás com: &lt;b&gt;%d&lt;/b&gt;</string>
+    <string name="tutorial_title_1">Agradece Com O Thanker!</string>
+    <string name="tutorial_title_2">Dá Thanks Especiais!</string>
+    <string name="tutorial_title_3">Descobre Interações Recentes, Tops, Compatibilidades, etc!</string>
+    <string name="tutorial_title_4">Vê Estatísticas Diárias!</string>
+    <string name="tutorial_title_5">Ganha Ainda Mais Thankers!</string>
+    <string name="tutorial_title_6">Explora a App, e Diz-nos o Que Achas! ;)</string>
+    <string name="tutorial_subtitle_1">You have the opportunity to Live the Life You\'re Grateful For!\nHave in Thanker the possibility to thank and appreciate more, while knowing that Gratitude is one very important foundation of one\'s happinness!\nAlso, every time you Thank, you\'ll be earning Thankers! These will be really useful to give even more special Thanks!</string>
+    <string name="tutorial_subtitle_2">Having Thankers will enable you to give more special Thanks. Every time you thank, you earn 1 Thanker.\nIn order to give a special Thanks like Super Thanks, you\'ll need to collect 10 Thankers. To give 1 Mega Thanks, you\'ll need 100 Thankers, and so on :)</string>
+    <string name="tutorial_subtitle_3">In your profile, and in your friends\', you\'ll be able to see recent Thanks given and received, the top people and profiles that thank more each other, thanking compatibilities, etc.\nBy interacting more in Thanker, we\'ll let others know what we appreciate more, also letting people get to know us a little bit better, while we can do the same with them.\nUse Thanker to enhance the Gratitude and Relationship features of your life!</string>
+    <string name="tutorial_subtitle_4">In the Menu (that mini picture of you that you\'ll see on the upper right corner), you\'ll find an option with Stats, that will enable you to check what people are thanking more in Thanker, by Country and Dates!</string>
+    <string name="tutorial_subtitle_5">You earn Thankers every time you Thank. And there\'s a few more ways to earn more Thankers:\n1) Invite Friends, while Thanking them. You\'ll find this option in the menu, and you can invite by e-mail or SMS. When they register, you\'ll earn 50 Thankers!\n2) Watch Rewarded Videos: there\'s also an option in the Menu that will enable you to earn 10 Thankers for every time you watch a video from our sponsors!\n3) Be a Premium User: by subscribing Premium, not only will you earn 150 Daily Thankers effortlessly, but you\'ll aos have the ability of saying \"You\'re Welcome\" to the Thanks received!</string>
+    <string name="tutorial_subtitle_6">Feel free to, and please explore the app! The more you get to know it, the more benefit you\'ll gain from it!\nAlso, your feedback will be more than welcome! There\'s an option in the Menu so that you can send us your messages!\nLooking forward to hearing from you!</string>
+    <string name="tutorial_1">Usa o Thanker para Agradeceres!\nAgradecer estimula a tua felicidade, ajuda a fortalecer relacionamentos, e aumenta a auto-estima!\nVisita as páginas dos teus amigos, e de quem quiseres, e agradece-lhes lá!\n\n(1/5)</string>
+    <string name="tutorial_2">Através do Menu terás a possibilidade de convidar Amigos (terás recompensas por isso), ver Estatísticas, ganhar Thankers extra, etc! ;)\n\n(2/5)</string>
+    <string name="tutorial_3">Pesquisa pelos teus amigos, através dos seus nomes ou e-mails. E quando os encontrares, garante que lhes dás aquele Agradecimento merecido, e adiciona-os ainda à tua lista de Amigos!\n\n(3/5)</string>
+    <string name="tutorial_4">Vê o Hall of Fame, para encontrares quem Agradece mais em cada categoria. Melhor ainda, torna-te tu um Hall of Famer!\nEsperando aqui por te ver nos Tops! ;)\n\n(4/6)</string>
+    <string name="tutorial_5">Torna-te um utilizador Premium, e ganha 150 Thankers todos os dias, e também a habilidade de dares \"De Nada\"\'s aos Agradecimentos que receberes!\n\n(4/5)</string>
+    <string name="options">Opções</string>
+    <string name="explore_thanker">Explora o Thanker!</string>
+    <string name="tutorial_6">Aproveita ao máximo o Thanker!\nE diz-nos o que achas, o que sugeres, etc! Conseguirás fazê-lo através da respetiva opção, no menu em cima à direita!\nAté já! ;)\n\n(5/5)</string>
+    <string name="sent_you_ultra_thanks">deu-te um &lt;font color=\'#4B0082\'&gt;Ultra Thanks&lt;/font&gt;!</string>
+    <string name="body_message_ultra_thanks">Foi-te dado o muito raro&lt;font color=\'#4B0082\'&gt;Ultra Thanks&lt;/font&gt;gt;!\n\nisto significa que algo que fizeste, ou fazes, ou o que és e representas para alguém, é de facto muito, e relevantemente importante!\n\nEsperamos que seja esta uma honra para ti, que te inspire também de alguma forma, e também que te seja motor de viveres a Vida Que Realmente Agradeces Ter.\n\n\n\nParabéns, e Ultra felizes por ti,\n\n\A Tua Equipa Thanker!</string>
+    <string name="ultra_thanked_colour">&lt;font color=\'#4B0082\'&gt;ultra agradeceste&lt;/font&gt; a</string>
+    <string name="ultra_friend">Ultra Amigo</string>
+    <string name="email_invites_title">Convite por E-Mail</string>
+    <string name="payment_not_possible">Não nos foi possível processar o teu pagamento. Por favor, tenta de novo!</string>
+    <string name="payment_canceled">O pagamento foi cancelado</string>
+    <string name="you_re_welcome">De Nada!</string>
+    <string name="thank_send_sms">Agradecer e convidar por SMS</string>
+    <string name="user_says_welcome">%s diz \"Ora essa\"!</string>
+    <string name="hello_again">Olá! ;)</string>
+    <string name="congrats_premium">Parabéns!\nAgora és Thanker Premium!\nObrigado, e esperamos que o Premium torne a tua experiência no Thanker ainda mais completa!\nVai-nos dizendo coisas: o que achas do Thanker, como estás a experienciar desta forma a Gratidão, etc, pela secção de \"Contactos\", nas Opções!\nAté breve ;)</string>
+    <string name="quote_1">Oh, Deus que me dás vida, dá-me um coração repleto de Gratidão</string>
+    <string name="quote_author_1">- William Shakespeare</string>
+    <string name="quote_2">A Gratidão é a virtude das almas nobres</string>
+    <string name="quote_author_2">- Esopo</string>
+    <string name="quote_3">As pessoas felizes lembram o passado com gratidão, alegram-se com o presente, e encaram o futuro sem medo</string>
+    <string name="quote_author_3">- Epicuro</string>
+    <string name="quote_4">Não há no mundo exagero mais belo que a gratidão</string>
+    <string name="quote_author_4">- Jean de la Bruyère</string>
+    <string name="quote_5">O quão feliz é uma pessoa depende da profundidade da sua gratidão</string>
+    <string name="quote_author_5">- John Miller</string>
+    <string name="quote_6">Expresse Gratidão com palavras e atitudes. A sua vida mudará muito, de modo positivo</string>
+    <string name="quote_author_6">- Masaharu Taniguchi</string>
+    <string name="quote_7">A Gratidão é a memória do coração</string>
+    <string name="quote_author_7">- Antístenes</string>
+    <string name="quote_author_8">- Fernando Pessoa</string>
+    <string name="quote_8">Ser feliz é encontrar força no perdão, esperanças nas batalhas, segurança no palco do medo, amor nos desencontros. É agradecer a Deus a cada minuto pelo milagre da vida</string>
+    <string name="quote_9">A Gratidão é o próprio paraíso</string>
+    <string name="quote_author_9">- William Blake</string>
+    <string name="quote_author_job_9">Writer</string>
+    <string name="quote_author_job_1">Writer</string>
+    <string name="quote_author_job_2">Writer</string>
+    <string name="quote_author_job_3">Philosopher</string>
+    <string name="quote_author_job_4">Philosopher</string>
+    <string name="quote_author_10">Desconhecido</string>
+    <string name="quote_10">Ao expressarmos Gratidão pelo que temos, teremos ainda mais pelo que nos sentir Gratos</string>
+    <string name="quote_author_11">- Marcel Proust</string>
+    <string name="quote_11">Sejamos gratos pelas pessoas que nos fazem felizes: elas são as charmosas jardineiras que fazem as nossas almas desabrochar</string>
+    <string name="quote_author_12">- John F. Kennedy</string>
+    <string name="quote_12">Temos de encontrar tempo para parar e agradecer às pessoas que fazem a diferença nas nossas vidas</string>
+    <string name="quote_author_13">- Charles Dickens</string>
+    <string name="quote_13">Reflete sobre as tuas atuais bençãos, pois toda a gente tem bastantes; e não nos teus azares passados, que toda a gente já teve alguns</string>
+    <string name="quote_author_14">- Willie Nelson</string>
+    <string name="quote_14">Quando comecei a contar as minhas bençãos, toda a minha vida mudou (para melhor)</string>
+    <string name="quote_author_15">- Thornton Wilder</string>
+    <string name="quote_15">Só nos podemos considerar vivos naqueles momentos em que os nossos corações estão conscientes dos nossos tesouros</string>
+    <string name="quote_author_16">- Jefferson Bethke</string>
+    <string name="quote_16">A Gratidão é o caminho mais rápido para a alegria</string>
+    <string name="quote_author_17">- Margaret Cousins</string>
+    <string name="quote_17">A Gratidão pode fazer o dia, até mudar toda uma vida! A tua vontade em a traduzir para palavras é tudo o que é necessário</string>
+    <string name="quote_author_18">- Jim Rohn</string>
+    <string name="quote_18">Aprende a ser Grato pelo que já tens, enquanto procuras aquilo que queres</string>
+    <string name="quote_author_19">- William Arthur Ward</string>
+    <string name="quote_19">Sentir Gratidão e não o expressar, é como embrulhar um presente e não o oferecer</string>
+    <string name="quote_author_20">- Dalai Lama</string>
+    <string name="quote_20">As raízes de tudo o que é bom estão no solo da Apreciação por tudo o que é bom</string>
+    <string name="quote_author_21">- Albert Einstein</string>
+    <string name="quote_21">Há duas formas de viveres a vida. Uma, é observando que nada é um milagre. E a outra, é observando que tudo é um milagre</string>
+
+
+    <string name="given_literal_me">Dei</string>
+    <string name="received_literal_me">Recebi</string>
+    <string name="pick_your_plan">Escolhe o teu Plano ;)</string>
+    <string name="plan">Plano</string>
+    <string name="month">mês</string>
+    <string name="five_eur_month">(5€ / mês)</string>
+    <string name="months">meses</string>
+    <string name="four_eur_month">(4,17€ / mês)</string>
+    <string name="three_eur_month">(3,33€ / mês)</string>
+    <string name="save_334">Poupa 33,4% !</string>
+    <string name="two_eur_month">(2,5€ / mês)</string>
+    <string name="save_500">Poupa 50% !!!</string>
+    <string name="pick_your_plan_extension">Escolhe a tua extensão do Premium</string>
+    <string name="premium_until_new_label">Extensão estará ativa até</string>
+    <string name="four_eur_month_renew">(4€ / mês)</string>
+    <string name="save_200">Poupa 20% !</string>
+    <string name="save_580">Poupa 58% !!!</string>
+    <string name="two_eur_month_renew">(2,08€ / mês)</string>
+    <string name="on">no</string>
+    <string name="thank_you_renewing">Obrigado por renovares!\nDesejamos-te uma excelente e gratificante experiência com o Thanker!</string>
+    <string name="activate_location">Ativar Localização</string>
+    <string name="location_permission_already_granted">A funcionalidade de Localização está ativa!</string>
+
+    <string name="gdpr">
+
+        &lt;b&gt;Política de Privacidade&lt;/b&gt;&lt;br&gt;&lt;/br&gt;&lt;br&gt;
+                      Guilherme Amoroso Romão e Diogo Figueira desenvolveram a plataforma Thanker na dinâmica de "Freemium". ESTE serviço é providenciado por Guilherme Amoroso Romão e Diogo Figueiras sem custos e é intenção que seja utilizado como tal (salvo aquisições de benefícios extra, como o serviço "PREMIUM").&lt;br&gt;&lt;br&gt;
+                      Esta página serve para informar os utilizadores acerca das nossas políticas de obtenção e uso de Informação Pessoal, no caso de alguém querer usufruir do nosso Serviço.&lt;br&gt;&lt;br&gt;
+
+                      Ao escolher utilizar o nosso Serviço, concorda com a obtenção e utilização de informação em relação a esta política. A Informação Pessoal que guardamos é apenas para utilização e melhoria do Serviço. Não utilizaremos, ou patilharemos as suas informações, com ninguém, excepto como indicado na Política de Privacidade.&lt;br&gt;&lt;br&gt;
+
+                      Os termos utilizados nesta Política de Privacidade têm os mesmos significados que nos Termos e Condições, acessíveis no Thanker, a não ser
+        que esteja definido de outra forma nesta Política de Privacidade.
+                    &lt;b&gt;&lt;br&gt;&lt;br&gt;Obtenção de Informação e sua Utilização&lt;/b&gt;&lt;br&gt;
+                      Para uma melhor experiência, ao utilizar o nosso Serviço, poderemos requerer que o utilizador nos providencie alguma informação pessoal identificável,
+        incluindo mas não limitando a Nome, Data de Nascimento, País de Residência, Número de Telefone (para quando o utilizador recebeu convites para entrar na plataforma, por SMS).
+        A informação que requeremos será mantida no seu dispositivo, bem como na base de dados do Thanker.&lt;br&gt;&lt;br&gt;
+
+                        A plataforma utiliza serviços de partes terceiras que poderão ter informações utilizadas para identificar o utilizador.&lt;br&gt;&lt;br&gt;
+
+                        Link para políticas de privacidade de prestadores de serviços utilizados pela plataforma Thanker:
+                      &lt;a href="https://www.google.com/policies/privacy/" target="_blank"&gt;&lt;br&gt;Google Play Services&lt;/a&gt;&lt;br&gt;&lt;a href="https://firebase.google.com/support/privacy/" target="_blank"&gt;Firebase Crashlytics&lt;/a&gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;Log Data&lt;/b&gt;&lt;br&gt;
+                      Queremos informá-lo que sempre que utilizar o nosso Serviço, em caso de erro na plataforma, guardamos dados e informações (através de produtos terceiros) no seu telefone, chamados de "log Data".
+        Este "Log Data" poderá incluir informações tais como a morada de Internet Protocol (\"IP\") do seu dispositivo, nome do dispositivo, versão de sistema operativo,
+        configurações da plataforma ao utilizar o nosso Serviço, hora e data da utilização do Serviço, e outras estatísticas.&lt;br&gt;&lt;br&gt;
+                    &lt;b&gt;Cookies&lt;/b&gt;&lt;br&gt;
+                    Os Cookies são ficheiros com uma pequena porção de dados que são normalmente utilizados como identificadores únicos anónimos. Estes são enviados para o seu navegador de internet, através de páginas de internet
+        que visite e que são mantidas na memória interna do seu dispositivo..&lt;br&gt;&lt;br&gt;
+
+                        Este Serviço não utiliza \"cookies\" explicitamente. Contudo, a plataforma poderá utilizar código de prestadores terceiros, e bibliotecas que utilizam \"cookies\" para guardar informações
+        e melhorar os seus serviços. Terá a opção de aceitar ou recusar estes cookies e saber quando um cookie está a ser enviado para o seu dispositivo. Se escolher recusar os nossos cookies, poderá
+        não conseguir utilizar partes do nosso Serviço.&lt;br&gt;&lt;br&gt;
+                     &lt;b&gt;Prestadores de Serviços&lt;/b&gt;&lt;br&gt;
+        Poderemos contratar empresas ou indivíduos terceiros pelas seguintes razões::&lt;br&gt;
+                    Para facilitar o nosso Serviço;&lt;br&gt;Para prestarem o Serviço em nosso nome&lt;br&gt;Para prestarem serviços relacionados com o nosso Serviço; ou&lt;br&gt;Para nos ajudar a analisar como o nosso Serviço é utilizado.&lt;br&gt;&lt;br&gt;
+                    Queremos informar os utilizadores deste Serviço que estas terceiras partes têm acesso à vossa Informação Pessoal. A razão é para se levar a cabo as tarefas que lhes são atribuídas em nosso nome.
+        Contudo, as terceiras partes são obrigadas a não partilhar de qualquer forma, ou utilizar esta informação, para qualquer que seja o fim.
+
+                    &lt;br&gt;&lt;br&gt;&lt;b&gt;Segurança&lt;/b&gt;&lt;br&gt;
+                        Valorizamos a sua confiança em nos providenciar a sua Informação Pessoal, e por isso fazemos por utilizar meios comercialmente aceitáveis de a proteger. Mas lembre-se que não nenhum método de transmissão
+        de informação pela Internet, ou meio de armazenamento eletrónico que seja 100% seguro e infalível, e não podemos garantir a sua segurança absoluta.&lt;br&gt;&lt;br&gt;
+                    &lt;b&gt;Links para Outros Sites&lt;/b&gt;&lt;br&gt;
+                    Este Serviço poderá conter links para outros sites. Se carregar num link terceiro, será redirecionado para a respetiva página de Internet.
+                    Note que estas páginas externas não são operadas por nós. Assim, recomendamos veementemente que leia a Política de Privacidade dessas páginas. Não temos controlo, e não assumimos
+        qualquer responsabilidade pelo conteúdo, políticas de privacidade, ou práticas por parte de qualquer página terceira, ou respetivos serviços.&lt;br&gt;&lt;br&gt;
+
+                    &lt;b&gt;Alterações a Esta Política de Privacidade&lt;/b&gt;&lt;br&gt;
+                    Poderemos atualizar a nossa Política de Privacidade de tempos a tempos.
+                Assim, o utilizador é aconselhado a revisitar esta página periodicamente para efeitos de alterações.
+                Irei notificá-lo de quaisquer alterações colocando-as na nova Política de Privacidade, nesta página.&lt;br&gt;&lt;br&gt;
+                    Esta política está efetiva desde a data de 2020-08-08&lt;br&gt;&lt;br&gt;&lt;b&gt;Contacte-nos&lt;/b&gt;&lt;br&gt;
+                      Se tiver questões ou sugestões acerca da nossa Política de Privacidade, não hesite em nos contactar para
+                        &lt;a href=\"mailto:thankyou@thanker.co\"&gt;thankyou@thanker.co&lt;/a&gt; .&lt;br&gt;&lt;br&gt;
+
+                      Esta página de Política de Privacidade foi criada com a ajuda de:
+                      &lt;a href=\"https://privacypolicytemplate.net\" target=\"_blank\"&gt;privacypolicytemplate.net&lt;/a&gt;
+                      e modificada/gerada por
+                      &lt;a href=\"https://app-privacy-policy-generator.firebaseapp.com/\" target=\"_blank\"&gt;App Privacy Policy Generator&lt;/a&gt;&lt;br&gt;
+
+    </string>
+
+    <string name="check_policy">Política de Privacidade</string>
+    <string name="what_are_top_stats">Categorias Agradecidas</string>
+    <string name="this_is_top_stats">Este é o top 3 de Categorias que o teu Amigo/a mais agradece!</string>
+    <string name="invite_by_whatsapp">Por WhatsApp</string>
+    <string name="for_reason"> por:</string>
+    <string name="no_ad_available">Sem Video Rewards disponíveis, de momento.\nPor favor tenta novamente mais tarde!\nObrigado ;)</string>
+    <string name="get_started">Vamos a isto!</string>
+    <string name="get_thanking">Toca a Agradecer ;)</string>
+    <string name="empty_view_requests_string">Mais pedidos de Amizade estarão aí a chegar, a qualquer momento...</string>
+    <string name="added_new_friend">Maravilha! Adicionaste %s à tua lista de Amigos!</string>
+    <string name="show_thanks_description">Mostrar Descrição do Thanks</string>
+    <string name="see_thanks_description">Permites que outras pessoas vejam a Descrição dos Thanks que dás?</string>
+    <string name="from_you_to_user">&lt;font color=\'#4CAF50\'&gt;%s&lt;/font&gt; para&lt;br&gt;&lt;font color=\'#7cc47f\'&gt;%s&lt;/font&gt;</string>
+    <string name="from_user_to_you">&lt;font color=\'#4CAF50\'&gt;%s&lt;/font&gt; para&lt;br&gt;&lt;font color=\'#7cc47f\'&gt;%s&lt;/font&gt;</string>
+    <string name="description_public">Descrição do Thanks visível a Todos</string>
+    <string name="description_private">Descrição do Thanks visível apenas a %s</string>
+    <string name="saved">Guardado</string>
+    <string name="no_top_found">No país %s vão adorar agradecer a %s!</string>
+    <string name="no_top_found_overall">As pessoas de %s vão adorar Agradecer!</string>
+    <string name="no_friends_found">Sem resultados para a pesquisa: %s</string>
+
+    <string name="time1">Hoje</string>
+    <string name="time2">Ontem</string>
+    <string name="time3">Últimos 7 Dias</string>
+    <string name="time4">Último Mês (Premium)</string>
+    <string name="time5">Último Ano (Premium)</string>
+
+    <string name="no_stats">Vamos esperar e ver que grandes Agradecimentos virão do país %s!</string>
+
+    <string name="more_stats">Vê mais Informação!</string>
+    <string name="more_stats_subtitle">Ganha a habilidade de veres estatísticas mais completas, na respetiva opção do menu!</string>
+    <string name="must_be_premium_to_see_these_stats">Tens de ser um utilizador Premium para veres estas Estatísticas!</string>
+    <string name="thanks_for_inviting">Obrigado por convidares a tua ligação %s !</string>
+    <string name="check_stats">Ver Estatísticas</string>
+    <string name="visible_all">Descrição visível a Todos</string>
+    <string name="visible_only_receiver">Descrição visível apenas a destinatário</string>
+
+    <string name="thanked_adapter">&lt;font color=\'#4CAF50\'&gt;Agradeceste&lt;/font&gt; a</string>
+    <string name="super_thanked_adapter">&lt;font color=\'#28a9e0\'&gt;Super Agradeceste&lt;/font&gt; a</string>
+    <string name="mega_thanked_adapter">&lt;font color=\'#1d7ba3\'&gt;Mega Agradeceste&lt;/font&gt; a</string>
+    <string name="power_thanked_adapter">&lt;font color=\'#165e7d\'&gt;Power Agradeceste&lt;/font&gt; a</string>
+    <string name="ultra_thanked_adapter">&lt;font color=\'#4B0082\'&gt;Ultra Agradeceste&lt;/font&gt; a</string>
+
+    <string name="thanked_adapter_2">&lt;font color=\'#4CAF50\'&gt;Agradeceste&lt;/font&gt;</string>
+    <string name="super_thanked_adapter_2">&lt;font color=\'#28a9e0\'&gt;Super Agradeceste&lt;/font&gt;</string>
+    <string name="mega_thanked_adapter_2">&lt;font color=\'#1d7ba3\'&gt;Mega Agradeceste&lt;/font&gt;</string>
+    <string name="power_thanked_adapter_2">&lt;font color=\'#165e7d\'&gt;Power Agradeceste&lt;/font&gt;</string>
+    <string name="ultra_thanked_adapter_2">&lt;font color=\'#4B0082\'&gt;Ultra Agradeceste&lt;/font&gt;</string>
+
+    <string name="thanked_adapter_received">&lt;font color=\'#4CAF50\'&gt;agradeceu&lt;/font&gt;-te</string>
+    <string name="super_thanked_adapter_received">&lt;font color=\'#28a9e0\'&gt;super agradeceu&lt;/font&gt;-te</string>
+    <string name="mega_thanked_adapter_received">&lt;font color=\'#1d7ba3\'&gt;mega agradeceu&lt;/font&gt;-te</string>
+    <string name="power_thanked_adapter_received">&lt;font color=\'#165e7d\'&gt;power agradeceu&lt;/font&gt;-te</string>
+    <string name="ultra_thanked_adapter_received">&lt;font color=\'#4B0082\'&gt;ultra agradeceu&lt;/font&gt;-te</string>
+
+    <string name="friends_ranking">Ranking de Amigos</string>
+    <string name="what_is_ranking">Ranking de Amigos</string>
+    <string name="this_is_ranking">Os critérios que determinam a ordem em que os teus Amigos aparecem são:\n\n1) O quanto lhes Agradeces;\n2) O quanto eles te Agradecem a ti (este vale metade do primeiro critério)!</string>
+    <string name="invite_by_contacts">Por Contactos do Telefone</string>
+    <string name="import_contacts">Carregar Contactos</string>
+    <string name="no_contacts_found">Não foram encontrados contactos de e-mail no teu telefone, para agradecer e convidar...</string>
+    <string name="contacts">Contactos</string>
+    <string name="users_exist_or_invited">Já convidaste estes Utilizadores antes, ou então eles já têm conta no Thanker!</string>
+    <string name="friends_invited">Amigos agradecidos e convidados!</string>
+    <string name="pending_your_approval">Pedido de amizade para tua aprovação</string>
+    <string name="select_contacts">Seleciona os contactos para Agradeceres e convidares!</string>
+    <string name="diary_thanks">Thanks de Diário</string>
+    <string name="what_is_diary">Diário de Thanks</string>
+    <string name="this_is_diary">Este é o número de Thanks que escreves no teu Diário de Thanks.\nÉ desta forma que conseguirás registar as coisas pelas quais simplesmente sentes Gratidão (sem que esse Thanks esteja associado a outro perfil, portanto).\nAinda que os Thanks de Diário não se apliquem para ganhares Thankers, estes contarão para as Estatísticas (tuas, e globais), bem como para o teu Nível de Thanker!</string>
+    <string name="thank_place">Um espaço para registares os Teus próprios Thanks</string>
+    <string name="thank_diary">O teu diário de Thanks</string>
+    <string name="in_the_category_of">na categoria de %s:</string>
+    <string name="in_the_category_of_no_cat">na categoria de:</string>
+    <string name="i_feel_grateful">Sinto Gratidão por...</string>
+    <string name="thanker_level">Nível de Thanker</string>
+    <string name="editing">Editando</string>
+    <string name="soon">Brevemente! ;)</string>
+    <string name="hint_diary_title">Diário de Thanks</string>
+    <string name="hint_diary">Tens um Diário de Thanks, onde pode registar as coisas pelas quais sentes Gratidão.\nEstes Thanks não irão contar para ganhares Thankers (como os Thanks a outros perfis), mas serão considerados para as Estatísticas (tuas, e do país), bem como te irão possibilitar progredires no teu Nível de Thanker.</string>
+    <string name="what_is_edit">Editar Thanks</string>
+    <string name="this_is_edit">Clica no Thanks, para o editares!\nApenas conseguirás editar os Thanks de hoje.</string>
+    <string name="invite_friends">Agradece e convida os teus Contactos!</string>
+    <string name="see_my_top">Vê o Top de perfis que te está a Agradecer!</string>
+    <string name="see_top">Ver Top</string>
+    <string name="see_other_top">Vê o Top daqueles que também estão a Agradecer a este perfil!</string>
+    <string name="see_premium">Queres ganhar Thankers todos os dias, para poderes dar mais Thanks Especiais, e com maior frequência?\nE se pudesses dizer \"De Nada\" a quem te Agradece?</string>
+    <string name="check_premium">Ver Premium!</string>
+    <string name="select_all">Selecionar Todos</string>
+    <string name="deselect_all">Selecionar Nenhum</string>
+
+</resources>

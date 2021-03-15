@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jama.carouselview.CarouselView
+        android:id="@+id/carousel_tutorial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        app:carouselOffset="center"
+        app:enableSnapping="false"
+        app:indicatorAnimationType="slide"
+        app:indicatorPadding="5"
+        app:indicatorRadius="5"
+        app:indicatorSelectedColor="@color/colorAccent"
+        app:indicatorUnselectedColor="@color/colorPrimary"
+        app:setAutoPlay="false"
+        app:setAutoPlayDelay="1000000000"
+        app:spacing="10"
+        tools:context=".TutorialActivity">
+    </com.jama.carouselview.CarouselView>
+
+</RelativeLayout>

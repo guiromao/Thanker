@@ -1,0 +1,3277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:scrollbarStyle="outsideOverlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <FrameLayout
+                            android:layout_width="205dp"
+                            android:layout_height="205dp">
+
+                            <co.thanker.utils.MultiColorCircle
+                                android:id="@+id/status_circle"
+                                android:layout_width="205dp"
+                                android:layout_height="205dp"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center" />
+
+                            <ImageView
+                                android:id="@+id/image_outer_circle"
+                                android:layout_width="180dp"
+                                android:layout_height="180dp"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center"
+                                android:background="@drawable/circle" />
+
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_profile"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center"
+                                android:background="@drawable/circle"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="75dp"
+                                app:cardPreventCornerOverlap="false"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <ImageView
+                                    android:id="@+id/profile_picture"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:gravity="center_vertical"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView>
+
+                            <ProgressBar
+                                android:id="@+id/progress_bar"
+                                style="?android:attr/progressBarStyle"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center" />
+
+                        </FrameLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_info_image"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="24dp"
+                        android:layout_toRightOf="@+id/relative_image">
+
+                        <ImageView
+                            android:id="@+id/image_info_picture"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/info" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/text_thanker_level"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/thanker_level"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Level Thanker" />
+
+                    <ImageView
+                        android:id="@+id/image_info_level"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="32dp"
+                        android:layout_toRightOf="@id/text_thanker_level"
+                        android:src="@drawable/info" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/text_categories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="11sp"
+                    tools:text="Category 1 | Category 2" />
+
+                <TextView
+                    android:id="@+id/text_profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:textAlignment="center"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    tools:text="Profile Name" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text_number_friends"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/ultraThanksCoin"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:text="100" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/total_friends"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/grey"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_thankers"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_number_thankers"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_marginRight="4dp"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:text="200" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/total_thankers"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/grey"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/image_info_number_thankers"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/info" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_count"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_thanks_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/gold"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:text="150" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/thanks_count"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/grey"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/image_info_thanks_count"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/info" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_daily"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/linear_diary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_daily_thanks"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:text="150" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/diary_thanks"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/grey"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/image_info_daily_thanks"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/info" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/linear_recent_thanks_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/custom_border"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/text_number_new_thanks"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/round_shape"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:text="7" />
+
+            <TextView
+                android:id="@+id/text_new_thanks_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/new_thanks_received" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_thanks_given_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="2"
+                    android:gravity="start|bottom"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:text="number" />
+
+                <FrameLayout
+                    android:id="@+id/frame_recent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:foregroundGravity="bottom">
+
+                    <ImageView
+                        android:id="@+id/image_info_recent"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:src="@drawable/info" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/text_thanks_received_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="end|bottom"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:text="Number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="start|top"
+                    android:text="@string/given_literal_me"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center|bottom"
+                    android:text="@string/recent_thanks_label"
+                    android:textAllCaps="true"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="end|top"
+                    android:text="@string/received_literal_me"
+                    android:textAllCaps="true"
+                    android:textColor="@color/receivedColor"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+
+            <LinearLayout
+                android:id="@+id/linear_layout_recent_thanks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:paddingTop="0dp">
+
+                <LinearLayout
+                    android:id="@+id/linear_recent_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_given_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:id="@+id/text_given_1"
+                            style="@style/thanksGivenTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|bottom"
+                            android:layout_weight="6"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            tools:text="Gui thanked yeah" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_1"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/thanks" />
+
+                        <ImageView
+                            android:id="@+id/image_welcome_1"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_received_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:id="@+id/image_welcome_received_1"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_received_1"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginRight="2dp"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:id="@+id/text_received_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|bottom"
+                            android:layout_weight="6"
+                            android:gravity="end"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="gone"
+                            tools:text="Gui thanked yeah" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_recent_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_given_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:id="@+id/text_given_2"
+                            style="@style/thanksGivenTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|bottom"
+                            android:layout_weight="6"
+                            android:textStyle="bold"
+                            tools:text="Gui thanked yeah" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_2"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp" />
+
+                        <ImageView
+                            android:id="@+id/image_welcome_2"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_received_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:id="@+id/image_welcome_received_2"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_received_2"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginRight="2dp" />
+
+                        <TextView
+                            android:id="@+id/text_received_2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|bottom"
+                            android:layout_weight="6"
+                            android:gravity="end"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="gone"
+                            tools:text="Gui thanked yeah" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_recent_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_given_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:id="@+id/text_given_3"
+                            style="@style/thanksGivenTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|bottom"
+                            android:layout_weight="6"
+                            android:textStyle="bold"
+                            tools:text="Gui thanked yeah" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_3"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp" />
+
+                        <ImageView
+                            android:id="@+id/image_welcome_3"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_received_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:id="@+id/image_welcome_received_3"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_received_3"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginRight="2dp" />
+
+                        <TextView
+                            android:id="@+id/text_received_3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|bottom"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="6"
+                            android:gravity="end"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="gone"
+                            tools:text="Gui thanked yeah" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_recent_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_given_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:id="@+id/text_given_4"
+                            style="@style/thanksGivenTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|bottom"
+                            android:layout_weight="6"
+                            android:textStyle="bold"
+                            tools:text="Gui thanked yeah" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_4"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp" />
+
+                        <ImageView
+                            android:id="@+id/image_welcome_4"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_received_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:id="@+id/image_welcome_received_4"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_received_4"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginRight="2dp" />
+
+                        <TextView
+                            android:id="@+id/text_received_4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|bottom"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="6"
+                            android:gravity="end"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="gone"
+                            tools:text="Gui thanked yeah" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_recent_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_given_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:id="@+id/text_given_5"
+                            style="@style/thanksGivenTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|bottom"
+                            android:layout_weight="6"
+                            android:textStyle="bold"
+                            tools:text="Gui thanked yeah" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_5"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp" />
+
+                        <ImageView
+                            android:id="@+id/image_welcome_5"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_received_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:id="@+id/image_welcome_received_5"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/welcomewink"
+                            android:visibility="invisible" />
+
+                        <ImageView
+                            android:id="@+id/image_thanks_type_received_5"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginRight="2dp" />
+
+                        <TextView
+                            android:id="@+id/text_received_5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|bottom"
+                            android:layout_weight="6"
+                            android:gravity="end"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="gone"
+                            tools:text="Gui thanked yeah" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="0dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/special_thanks"
+                    android:textAllCaps="true"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/superthanks" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_super_thanks_given"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                tools:text="4" />
+
+                            <TextView
+                                android:id="@+id/text_super_thanks_received"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="16dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                tools:text="4" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/megathanks" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_mega_thanks_given"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                tools:text="4" />
+
+                            <TextView
+                                android:id="@+id/text_mega_thanks_received"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="16dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                tools:text="4" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/powerthanks" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_power_thanks_given"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                tools:text="4" />
+
+                            <TextView
+                                android:id="@+id/text_power_thanks_received"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="16dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                tools:text="4" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_ultra_thanks"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ultrathanks" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_ultra_thanks_given"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                tools:text="4" />
+
+                            <TextView
+                                android:id="@+id/text_ultra_thanks_received"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="16dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                tools:text="4" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="@string/given_literal"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/special_thanks"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grey"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/received_literal"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/text_super_thanks_given"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_weight="1"
+                            android:gravity="end|bottom"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="4" />
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/superthanks" />
+
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/text_super_thanks_received"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_weight="1"
+                            android:gravity="start|bottom"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="4" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/text_mega_thanks_given"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_weight="1"
+                            android:gravity="end|bottom"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="4" />
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/megathanks" />
+
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/text_mega_thanks_received"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_weight="1"
+                            android:gravity="start|bottom"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="4" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/text_power_thanks_given"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_weight="1"
+                            android:gravity="end|bottom"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="4" />
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/powerthanks" />
+
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/text_power_thanks_received"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_weight="1"
+                            android:gravity="start|bottom"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="4" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_ultra_thanks"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/text_ultra_thanks_given"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:gravity="end|center_vertical"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="4" />
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ultrathanks" />
+
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/text_ultra_thanks_received"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="1"
+                            android:gravity="start|center_vertical"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:text="4" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView> -->
+
+
+        <LinearLayout
+            android:id="@+id/linear_categories_thanked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/linear_stats_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_thanks_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/you_thank_more_to"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_info_stats"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/info" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_category_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/image_category_1"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_category_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="start"
+                        tools:text="Category 1" />
+
+                    <LinearLayout
+                        android:id="@+id/rectangle_category_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/text_category_value_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:gravity="center_vertical|left"
+                        tools:text="Value 1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_category_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/image_category_2"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_category_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="start"
+                        tools:text="Category 1" />
+
+                    <LinearLayout
+                        android:id="@+id/rectangle_category_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/text_category_value_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:gravity="center_vertical|left"
+                        tools:text="Value 1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_category_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/image_category_3"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_category_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="start"
+                        tools:text="Category 1" />
+
+                    <LinearLayout
+                        android:id="@+id/rectangle_category_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/text_category_value_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:gravity="center_vertical|left"
+                        tools:text="Value 1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_category_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/image_category_4"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_category_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="start"
+                        tools:text="Category 1" />
+
+                    <LinearLayout
+                        android:id="@+id/rectangle_category_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/text_category_value_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:gravity="center_vertical|left"
+                        tools:text="Value 1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_category_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/image_category_5"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_category_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="start"
+                        tools:text="Category 1" />
+
+                    <LinearLayout
+                        android:id="@+id/rectangle_category_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/text_category_value_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:gravity="center_vertical|left"
+                        tools:text="Value 1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frame_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:foregroundGravity="bottom">
+
+                    <ImageView
+                        android:id="@+id/image_info_top"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:src="@drawable/info" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/top_given_label"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|start"
+                        android:paddingBottom="8dp"
+                        android:text="@string/given_literal_me"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="8dp"
+                        android:text="@string/top_thankers"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grey"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/top_received_label"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|end"
+                        android:paddingBottom="8dp"
+                        android:text="@string/received_literal_me"
+                        android:textAllCaps="true"
+                        android:textColor="@color/receivedColor"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_top_given"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/rank_given_label"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="1"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_1"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:layout_marginLeft="4dp"
+                                tools:text="@string/thanks"
+                                android:gravity="start|center_vertical" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="2"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_2"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="3"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_3"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="4"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_4"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_4"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_4"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="5"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_5"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="6"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_6"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_6"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_6"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="7"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_7"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_7"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:text="@string/username"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_7"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="8"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_8"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_8"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_8"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="9"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_9"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_9"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_9"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_given_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:breakStrategy="simple"
+                                android:gravity="start|center_vertical"
+                                android:text="10"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_given_10"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_given_10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+                            <TextView
+                                android:id="@+id/username_given_10"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <!--<TextView
+                                android:id="@+id/thanks_given_10"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!--
+                    <View
+                        android:id="@+id/view_line"
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/colorAccent" />
+                        -->
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_top_thankers"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingBottom="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="end|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="top|end"
+                                android:text="1"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_1"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="right|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="top|end"
+                                android:text="2"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_2"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="right|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="top|end"
+                                android:text="3"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_3"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!-- <TextView
+                                 android:id="@+id/thanks_3"
+                                 android:layout_width="0dp"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="2"
+                                 tools:text="@string/thanks"
+                                 android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_4"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="right|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="top|end"
+                                android:text="4"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_4"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_4"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="right|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="top|end"
+                                android:text="5"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_5"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_6"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="right|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="top|end"
+                                android:text="6"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_6"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_6"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_7"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="right|center_vertical"
+                                android:text="@string/username"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="top|end"
+                                android:text="7"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_7"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_7"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|start"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_8"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="right|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="top|end"
+                                android:text="8"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_8"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_8"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_9"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="end|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:breakStrategy="simple"
+                                android:gravity="top|end"
+                                android:text="9"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_9"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_9"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear_top_spot_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/username_10"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="9"
+                                android:gravity="right|center_vertical"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="@string/username" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:breakStrategy="simple"
+                                android:gravity="top|end"
+                                android:text="10"
+                                android:textColor="@color/receivedColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardview_top_10"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="4dp"
+                                android:elevation="0dp"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:thicknessRatio="1.9"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="false">
+
+                                <ImageView
+                                    android:id="@+id/picture_top_10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/thankyou3"></ImageView>
+                            </androidx.cardview.widget.CardView> -->
+
+
+                            <!--<TextView
+                                android:id="@+id/thanks_10"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                tools:text="@string/thanks"
+                                android:gravity="center_horizontal" /> -->
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text_cute_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="cute message" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/whitesignature" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

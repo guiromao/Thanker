@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HintsActivity"
+    android:scrollbarStyle="outsideOverlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:text="@string/hints_for_using_thanker"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"/> -->
+
+        <com.jama.carouselview.CarouselView
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:enableSnapping="true"
+            app:scaleOnScroll="true"
+            app:setAutoPlay="false"
+            app:setAutoPlayDelay="1000000000"
+            app:carouselOffset="center"
+            app:indicatorAnimationType="slide"
+            app:indicatorRadius="5"
+            app:indicatorPadding="5"
+            app:indicatorSelectedColor="@color/colorAccent"
+            app:indicatorUnselectedColor="@color/colorPrimary"
+            app:size="10"
+            app:spacing="10" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    tools:context=".fragments.StatsFragment">
+
+
+    -
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- <TextViewandroid:layout_width="wrap_content"android:layout_height="wrap_content"android:text="Search Fragment"android:textSize="36sp"app:layout_constraintBottom_toBottomOf="parent"app:layout_constraintLeft_toLeftOf="parent"app:layout_constraintRight_toRightOf="parent"app:layout_constraintTop_toTopOf="parent"/> -->
+
+        <ImageView
+            android:id="@+id/image_person"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/personinvite"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/relative_search"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_person"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/search_view"
+                android:layout_width="264dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:defaultFocusHighlightEnabled="true"
+                android:iconifiedByDefault="false"
+                android:hint="@string/search_hint"
+                app:backgroundTint="@color/grey"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:id="@+id/image_erase"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/ic_clean"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar_search"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignTop="@+id/relative_search"
+            android:layout_toRightOf="@+id/relative_search"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_search_black"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/relative_search"
+            android:layout_alignBottom="@id/relative_search"
+            android:layout_alignTop="@+id/relative_search"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/search_recycler_view"
+            android:layout_width="264dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/relative_search"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/text_trending_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search_recycler_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/trending_thanks_categories"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/gridview_trending_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_trending_categories"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/search_recycler_view"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logot"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gridview_trending_categories"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="32dp"
+            android:gravity="center_horizontal"
+            android:text="@string/invite_title_text"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/text_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/invite_subtitle_text"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</ScrollView>

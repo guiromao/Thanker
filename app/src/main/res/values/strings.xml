@@ -1,0 +1,1119 @@
+<resources>
+    <string name="app_name">Thanker</string>
+
+    <string name="profile">Profile</string>
+    <string name="stats">Stats</string>
+    <string name="thank">Thank!</string>
+    <string name="search">Search</string>
+    <string name="premium">Premium</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="logout">Log Out</string>
+    <string name="complete_registration">Please complete your registration!</string>
+    <string name="name_editor">Name</string>
+    <string name="date_of_birth">Birthday</string>
+    <string name="country_living">Country</string>
+    <string name="city_living">City</string>
+    <string name="edit_information_label">Edit Information</string>
+    <string name="save_information">Save</string>
+    <string name="primary_category_text">Primary Category</string>
+    <string name="secondary_category_text">Secondary Category</string>
+    <string name="preferences">Preferences</string>
+    <string name="complete_info">Complete Information</string>
+    <string name="search_hint">Search for name or email!</string>
+    <string name="at">\@</string>
+    <string name="click_to_invite">Click, thank and invite!</string>
+    <string name="send_to_email">Send invitation to:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="you_thanked">You\'ve thanked</string>
+    <string name="come_back_tomorrow">Come back tomorrow and thank again!</string>
+    <string name="thanks_given">Thanks Given:</string>
+    <string name="thanks_received">Thanks Received:</string>
+    <string name="thanks_given_two">Thanks Given:</string>
+    <string name="invite_friends_label">Invite Friends!</string>
+    <string name="invite_title_text">Invite your friends by thanking them!</string>
+    <string name="invite_subtitle_text">Earn 50 Thankers when they register</string>
+    <string name="search_for_friend_email">Search for friend\'s email</string>
+    <string name="number_super_thanks">SuperThanks got:</string>
+    <string name="number_mega_thanks">MegaThanks got:</string>
+    <string name="number_power_thanks">PowerThanks got:</string>
+    <string name="save">Save</string>
+    <string name="reason">Insert reason for thanks</string>
+    <string name="give_reason">Please give a reason for thanking! :)</string>
+    <string name="thanks_for_giving_reason">Thank you for giving a reason!</string>
+    <string name="thanks_for_thanking">Thank you for thanking today!</string>
+    <string name="super_thanks_given">Super Thanks given:</string>
+    <string name="mega_thanks_given">Mega Thanks given:</string>
+    <string name="power_thanks_given">Power Thanks given:</string>
+    <string name="super_thanks_received">Super Thanks received:</string>
+    <string name="mega_thanks_received">Mega Thanks received:</string>
+    <string name="power_thanks_received">Power Thanks received:</string>
+    <string name="see_full_thanks">List of Thanks!</string>
+    <string name="five_thanks_given">Five most recent thanks given:</string>
+    <string name="five_thanks_received">Five most recent thanks received:</string>
+    <string name="main_thanks_of">Main Thanks of:</string>
+    <string name="main_thanks_categories">has mostly thanked:</string>
+    <string name="combined_users_thanks">Combined users\' thanks</string>
+    <string name="user_must_thank">User is yet to thank!</string>
+    <string name="no_common_thanks_yet">You have no common thanks yet</string>
+    <string name="no_data_yet">No data yet</string>
+    <string name="check">Check</string>
+    <string name="hints">Hints</string>
+    <string name="friends_list">Top Friends</string>
+    <string name="rank">Rank</string>
+    <string name="username">Username</string>
+    <string name="thanks">Thanks</string>
+    <string name="top_10_thankers">Top 10 Thankers of This Page</string>
+    <string name="title_location_permission">Location Permission</string>
+    <string name="text_location_permission">We\'d like to request your location, in order to make sure we collect the correct places from the Thanks generated! :)</string>
+    <string name="ok">Ok</string>
+    <string name="rank_given">Top 10 of Profiles Thanked</string>
+    <string name="top_10_given_thankers">Top 10 of Thanks Given to Other Profiles</string>
+    <string name="friends">Friends</string>
+    <string name="given">You gave</string>
+    <string name="received">Gave you</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+    <string name="friend">Friend</string>
+    <string name="super_friend">Super Friend</string>
+    <string name="mega_friend">Mega Friend</string>
+    <string name="power_friend">Power Friend</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="friends_feed">Feed</string>
+    <string name="friends_requests">REQUESTS</string>
+    <string name="request_sent">Request sent</string>
+    <string name="friend_requests_received">Friend Requests Received:</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="decline">Decline</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="combined_thanks_of_you_and">Thanks Compatibility of you and %s</string>
+    <string name="friends_plural">Friends:</string>
+    <string name="thanks_given_by">Thanks Given By</string>
+    <string name="thanks_given_to">Thanks Given To</string>
+    <string name="messages">Messages</string>
+    <string name="so_we_send_invite">so we send the invite!</string>
+    <string name="already_invited">You\'ve already invited:</string>
+    <string name="thanks_currency">Thankers</string>
+    <string name="you_will_earn">You will earn 10 Thankers when your friend registers!</string>
+    <string name="reason_saved">Reason saved!</string>
+    <string name="you_can_add_reason">You may add a reason for your Thanks!</string>
+    <string name="has_joined_so">has joined so you earn 10 Thankers!</string>
+    <string name="new_friend_joined">New friend joined!</string>
+    <string name="you_earn_10_thankers">You earned 10 Thankers!</string>
+    <string name="prize_10_thankers_text">Because you\'ve thanked people more than10 times (or multiples of 10 times), we have awarded you 10 Thankers.\nUse these Thankers to give more special Thanks to your friends and favourite profiles!\n\nGladly,\nYour Thanker team!</string>
+    <string name="you_earn_100_thankers">You have earned 100 Thankers!</string>
+    <string name="prize_100_thankers_text">As you\'ve thanked 100 times (or in a multiple number of 100), we\'ve awarded you 100 Thankers.\nThis is worth, for example, a Mega Thanks!\nUse these special Thanks to specially thank your friends and favourite pages!\n\nSpecially thankful to you, as well,\nYour Thanker team!</string>
+    <string name="you_earn_1000_thankers">You\'ve earned 1000 Thankers!</string>
+    <string name="prize_1000_thankers_text">To thank is to make every moment more special. It is to appreciate it, more fully.\nAnd because you\'ve thanked 1000 times or more (in a multiple of 1000), we\'ve also awarded you 1000 Thankers!\nYou can Power Thank, give more Mega Thanks, or just as you like to Thank!\nUse Special Thanks to apply more meaning in what you\'re thanking for.\nGo thank your friends and favourites profiles!\n\nHere thanking you,\nYour Thanker team!</string>
+    <string name="thanker_messages">Thanker Messages</string>
+    <string name="user">User</string>
+    <string name="sent_you_super_thanks">sent you a &lt;font color=\'#28a9e0\'&gt;Super Thanks!&lt;/font&gt;</string>
+    <string name="body_message_super_thanks">A &lt;font color=\'#28a9e0\'&gt;Super Thanks&lt;/font&gt; is worth &lt;font color=\'#FFC107\'&gt;10&lt;/font&gt; Thanks.\nYou must be, or must have done something special here.\nGlad to see you\'re being appreciated!\n\nAppreciating you,\nYour Thanker team!</string>
+    <string name="sent_you_mega_thanks">sent you a &lt;font color=\'#1d7ba3\'&gt;Mega Thanks&lt;/font&gt;!</string>
+    <string name="body_message_mega_thanks">A &lt;font color=\'#1d7ba3\'&gt;Mega Thanks&lt;/font&gt; is worth &lt;font color=\'#1976D2\'&gt;100&lt;/font&gt; Thanks.\nIt\'s a sign of really high appreciation. You\'re spreading your magic, we see. It is highly advised that keep on just doing that!\n\nYours truly,\nYour Thanker team!</string>
+    <string name="sent_you_power_thanks">sent you a &lt;font color=\'#165e7d\'&gt;Power Thanks&lt;/font&gt;!</string>
+    <string name="body_message_power_thanks">&lt;font color=\'#165e7d\'&gt;Power Thanks&lt;/font&gt;gt; are as &lt;font color=\'#673AB7\'&gt;power&lt;/font&gt;ful as it gets! Being worth &lt;font color=\'#673AB7\'&gt;1000&lt;/font&gt; Thanks, it means someone just spent some valuable Thankers amount to show how much you\'re appreciated! You must be doing something really well! Don\'t be surprised if we come to you someday, asking for some advice.\nPlease keep being powerfully that way, and embrace that same Power you\'re receiving!\nLet it be some boost for your own Thanking activity, as well ;)n\nOur best to you, and our best to your actions,\nYour Thanker team!</string>
+    <string name="sent_you_ultra_thanks">sent you a &lt;font color=\'#4B0082\'&gt;Ultra Thanks&lt;/font&gt;!</string>
+    <string name="body_message_ultra_thanks">You have been gifted the very rare&lt;font color=\'#4B0082\'&gt;Ultra Thanks&lt;/font&gt;gt;!\nSome people don\'t even know that Ultra Thanks exist. But here you are, making living proof of it!\nThis means that something that you did, or do, or a portrait of what you are and represent, is truly and significantly important to who Ultra Thanked you.\nMay These Ultra vibes also inspire you to look for the Thankful moments in your everyday. We know you\'re making it easier to find in others\' lives.\n\nUltra happy for you,\n\n\Your Thanker Team!</string>
+    <string name="joined_thanker">joined Thanker!</string>
+    <string name="thanked_in_thanker">thanked you in Thanker!</string>
+    <string name="you_have_received_thanks">You have been thanked in Thanker!\nThanker is where people show their appreciation for everything, and get happier and happier!\nIn this case, you have been thanked by</string>
+    <string name="join_now">" Join now, thank your friends, and start appreciating life even more! Looking forward to seeing you in!  Yours truly, Your Thanker team!"</string>
+    <string name="thanked_html">&lt;font color=\'#4CAF50\'&gt;thanked you&lt;/font&gt;</string>
+    <string name="thanked_past">thanked</string>
+    <string name="super_thanked_past">super thanked you</string>
+    <string name="mega_thanked_past">mega thanked you</string>
+    <string name="power_thanked_past">power thanked you</string>
+    <string name="thanked">thanked</string>
+    <string name="thanked_color">&lt;font color=\'#4CAF50\'&gt;thanked&lt;/font&gt;</string>
+    <string name="thanked_string">&lt;font color=\'#4CAF50\'&gt;thanked&lt;/font&gt;</string>
+    <string name="super_thanked_string">&lt;font color=\'#28a9e0\'&gt;super thanked&lt;/font&gt;</string>
+    <string name="mega_thanked_string">&lt;font color=\'#1d7ba3\'&gt;mega thanked&lt;/font&gt;</string>
+    <string name="power_thanked_string">&lt;font color=\'#165e7d\'&gt;power thanked&lt;/font&gt;</string>
+    <string name="ultra_thanked_string">&lt;font color=\'#4B0082\'&gt;ultra thanked&lt;/font&gt;</string>
+    <string name="thanked_adapter">You &lt;font color=\'#4CAF50\'&gt;thanked&lt;/font&gt;</string>
+    <string name="super_thanked_adapter">You &lt;font color=\'#28a9e0\'&gt;super thanked&lt;/font&gt;</string>
+    <string name="mega_thanked_adapter">You &lt;font color=\'#1d7ba3\'&gt;mega thanked&lt;/font&gt;</string>
+    <string name="power_thanked_adapter">You &lt;font color=\'#165e7d\'&gt;power thanked&lt;/font&gt;</string>
+    <string name="ultra_thanked_adapter">You &lt;font color=\'#4B0082\'&gt;ultra thanked&lt;/font&gt;</string>
+    <string name="thanked_adapter_2">You &lt;font color=\'#4CAF50\'&gt;thanked&lt;/font&gt;</string>
+    <string name="super_thanked_adapter_2">You &lt;font color=\'#28a9e0\'&gt;super thanked&lt;/font&gt;</string>
+    <string name="mega_thanked_adapter_2">You &lt;font color=\'#1d7ba3\'&gt;mega thanked&lt;/font&gt;</string>
+    <string name="power_thanked_adapter_2">You &lt;font color=\'#165e7d\'&gt;power thanked&lt;/font&gt;</string>
+    <string name="ultra_thanked_adapter_2">You &lt;font color=\'#4B0082\'&gt;ultra thanked&lt;/font&gt;</string>
+    <string name="thanked_adapter_received">&lt;font color=\'#4CAF50\'&gt;thanked&lt;/font&gt; you</string>
+    <string name="super_thanked_adapter_received">&lt;font color=\'#28a9e0\'&gt;super thanked&lt;/font&gt; you</string>
+    <string name="mega_thanked_adapter_received">&lt;font color=\'#1d7ba3\'&gt;mega thanked&lt;/font&gt; you</string>
+    <string name="power_thanked_adapter_received">&lt;font color=\'#165e7d\'&gt;power thanked&lt;/font&gt; you</string>
+    <string name="ultra_thanked_adapter_received">&lt;font color=\'#4B0082\'&gt;ultra thanked&lt;/font&gt; you</string>
+    <string name="thanked_colour">&lt;font color=\'#4CAF50\'&gt;thanked&lt;/font&gt;</string>
+    <string name="super_thanked_colour">&lt;font color=\'#28a9e0\'&gt;super thanked&lt;/font&gt;</string>
+    <string name="mega_thanked_colour">&lt;font color=\'#1d7ba3\'&gt;mega thanked&lt;/font&gt;</string>
+    <string name="power_thanked_colour">&lt;font color=\'#165e7d\'&gt;power thanked&lt;/font&gt;</string>
+    <string name="ultra_thanked_colour">&lt;font color=\'#4B0082\'&gt;ultra thanked&lt;/font&gt;</string>
+    <string name="super_thanked_html">&lt;font color=\'#28a9e0\'&gt;super thanked&lt;/font&gt;</string>
+    <string name="super_thanked">super thanked</string>
+    <string name="mega_thanked_html">&lt;font color=\'#1d7ba3\'&gt;mega thanked&lt;/font&gt;</string>
+    <string name="mega_thanked">mega thanked</string>
+    <string name="power_thanked_html">&lt;font color=\'#165e7d\'&gt;power thanked&lt;/font&gt;</string>
+    <string name="power_thanked">power thanked</string>
+    <string name="on_thanker">on Thanker</string>
+    <string name="you_have_been_thanked_and_invited">You have been</string>
+    <string name="you_have_been">You have been</string>
+    <string name="and_invited">and invited by</string>
+    <string name="what_is_thanker">Thanker is a platform where you can thank your friends, and favourite pages!</string>
+    <string name="join_now_two">Join now and know that by appreciating things more, you\'ll also get even happier!</string>
+    <string name="find_our_app">Find our app in your App Store!</string>
+    <string name="seeing_you">Seeing you on the brighter side,</string>
+    <string name="your_thanker_team">Your Thanker team!</string>
+    <string name="site">https://www.thanker.co</string>
+    <string name="hello">Hello!</string>
+    <string name="to_be_a_part">to be a part of it!</string>
+    <string name="you">you</string>
+    <string name="sending_email">Sending invitation email</string>
+    <string name="sending">sending</string>
+    <string name="sent">sent</string>
+    <string name="welcome_name">Welcome, %s!</string>
+    <string name="welcome_text">Gratitude is one of the most important foundations of Happinness. And we want you to use Thanker in order to experience it more!\nAccording to the studies we\'ve analyzed, expressing Gratitude to the person who enabled it, makes the Happy stimulus even stronger. And hence creating Thanker!\nAnd who doesn\'t like to Thank, where thanking is due? :)\nGet your Gratitude on! Create a positive impact around you! Create a great experience for you!\nAlso, feel free to reach out to us through the \"Contact Us\" option in the Menu.\nHope you have an amazing experience with Thanker!\n\nThanking alongside, and thanking you!\nYour Thanker Team!</string>
+    <string name="html_example"><html>
+        <body>
+
+        <h1>My First Heading</h1>
+        <p>My first paragraph.</p>
+
+        </body>
+        </html>
+    </string>
+    <string name="could_not_send_email">could not send email</string>
+    <string name="user_entered_your_top_ten">%s is on your 10 Top Thankers list!</string>
+
+    <string name="user_entered_top_ten_text_one">%s is now on the Top 10 of users who mostly appreciate you!\nJust keep on giving reasons to be thanked for!\n\nYours truly,\nYour Thanker team!</string>
+    <string name="user_entered_top_ten_text_two">User %s has entered the Top 10 of profiles who thank you the most!\nMaybe there\'s even a race for people to enter these rankings of yours! ;)\nWishing you always the very best.\n\nAlways on the bright side, by your side,\nYour Thanker Team!</string>
+    <string name="user_entered_top_ten_text_three">You have news regarding your Top 10 of Thankers!\n%s has just entered it, and for the looks of it, this profile will just keep on wanting to climb it!\nDon\'t forget to thank what you appreciate, as well. Remember, thanking stimulates your happiness!\n\nSeeing you on the happy side, seeing you on the grateful side\nYour Thanker Team!</string>
+    <string name="user_entered_top_ten_text_four">There are some good rankings out there, and your Top 10 of Thankers is surely one of them! Who shares this opinion is %s, who\'s just entered your Top 10!\nThis is great news!\nHope this brings as much goodness to you, as it is bringing to %s!\n\nLooking towards the bright side, the thankful one,\nYour Thanker Team!</string>
+    <string name="user_entered_top_ten_text_five">We\'re sure that to many users, you\'re a song that really sounds great to the ear, and brightens up days! We believe that this is what %s thinks, as this profile has just entered the Top 10 of people who thank you the most!\nThis tells us that you\'re doing something great, for sure.\nNow go and give your appreciations, too. It will only make you even happier!\n\nLooking forward to your thanking,\nYour Thanker Team!</string>
+
+    <string name="you_entered_top_10">You\'ve made the 10 Top Thankers list of %s!</string>
+
+    <string name="you_entered_top_10_text_one">You have entered the Top 10 of %s\'s list of Thankers!\nNeedless to say, you make this world round and round. You\'re appreciating %s and bringing more happiness to you, by practicing your Gratitude! Well done!\n\nYours truly, appreciating that Top,\nYour Thanker team!</string>
+    <string name="you_entered_top_10_text_two">It is with pleasure that we say you are now on the Top 10 of %s\'s Thankers.\nOh, we are proud!\nKeep on strengthtening those bonds. Keep on Thanking what you appreciate, and bringing in that valuable feeling!\n\nYours truly, and feeling good,\nYour Thanker Team!</string>
+    <string name="you_entered_top_10_text_three">We\'re sure %s is greatly happy for that you are now on the Top 10 of this profile\'s Thankers!\nWe Thank you also, for the time you take for thanking.\nThanking does make good to oneself.\n\nSeeing you always on the bright side, and one with you and all this experience,\nYour Thanker Team!</string>
+    <string name="you_entered_top_10_text_four">Well, hello!\nGreat seeing you now on %s\'s Top 10 Thankers!\nIt is commonly said that we take care of what we appreciate, and that does surely sounds good to us.\nThank you for thanking, and thank yourself for appreciating what makes you happy, what brings gratefulness to your life.\n\nYours always, and thanking the thanking, of course,\nYour Thanker Team!</string>
+    <string name="you_entered_top_10_text_five">Aaaaand.. you\'re in %s\'s Top 10! And we do appreciate your appreciation!\nThanking often comes after effort and commitment, from the lightest to the heaviest ways (in the best sense of these). We believe that experiencing Gratitude from our efforts is what allows us to feel it more fully, in a more complete and fulfilling way!\n\nSeeing you here, thaking your efforts and presence,\nYour Thanker Team!</string>
+
+    <string name="fame">Hall Of Fame</string>
+    <string name="thank_you_for_joining_thanker">Gui and Diogo from Thanker thank you for joining us! We hope you have a blast, and that this is useful for you!</string>
+    <string name="hints_for_using_thanker">Hints for using Thanker</string>
+    <string name="how_to_earn">&lt;b&gt;Thank People&lt;/b&gt;: for each Thanks, you\'ll earn 1 Thanker&lt;br&gt;&lt;b&gt;Thank in multiples&lt;/b&gt;: everytime your thanks count reaches a multiple 10, 100 or 1000, you\'ll earn that same multiple in &lt;u&gt;bonus&lt;/u&gt;&lt;br&gt;&lt;b&gt;Watch a Rewarded Video&lt;/b&gt;: watch a Reward Video on the Options, and earn 10 Thankers each time!&lt;br&gt;&lt;b&gt;Subscribe to Premium&lt;/b&gt;: it will give you 150 Thankers each day, everyday!</string>
+    <string name="to_give_special_thanks">You will be able to give more Special Thanks, according to how much gratitude you feel about something. You\'ll need to spend the Thankers you\'ve earned, in order to give these Special Thanks.&lt;br&gt;The Special Thanks are: Super, Mega, and Power. And might there be any another one...?</string>
+    <string name="to_give_super_thanks">You need to have 10 Thankers to give 1 Super Thanks.\nOne Super Thanks is also worth 10 Thanks.</string>
+    <string name="to_give_mega_thanks">You need to have 100 Thankers to give 1 Mega Thanks.\nOne Mega Thanks is also worth 100 Thanks.</string>
+    <string name="to_give_power_thanks">You need to have 1000 Thankers to give 1 Power Thanks.\nOne Power Thanks is also worth 1000 Thanks.</string>
+    <string name="thanker_hint">To express and feel Gratitude are one of the most foundations of Happinness, while you\'re also reckoning value in others.\nUse Thanker to experience Gratitude more! ;)</string>
+    <string name="recent_thanks">Thanks in the last Five days</string>
+    <string name="status_string">Your Thanker Dynamic Status</string>
+    <string name="starter_thanker">Starter Thanker</string>
+    <string name="walker_thanker">Walker Thanker</string>
+    <string name="explorer_thanker">Explorer Thanker</string>
+    <string name="thanker_thanker">Thanker</string>
+    <string name="true_thanker">True Thanker</string>
+    <string name="master_thanker">Master Thanker</string>
+    <string name="_thanks_you_gave">Thanks you gave to %s</string>
+    <string name="_thanks_you_received">Thanks you received from %s</string>
+    <string name="thanks_count">Thanks count</string>
+    <string name="search_hint_friends">Search for your friends...</string>
+    <string name="hall_of_fame">Thanker Hall of Fame</string>
+    <string name="top_of">Top of</string>
+    <string name="finding_nearby_users">Finding nearby friends</string>
+    <string name="ask_your_friend_to_click_thank">The other person has to click the Thank button, too! :)\nGet your phones closer ;)</string>
+    <string name="promotional_premium_string">Want to earn 100 Thankers a day? Subscribe now our Premium, and gain the ability of giving more Special Thanks!</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="earned_thanks">These are the Thankers you\'ve earned:</string>
+    <string name="get_thankers">Get the thankers</string>
+    <string name="googlepay_status_unavailable">Google Pay unavailable</string>
+    <string name="trending_thanks_categories">Trending Thanks Categories Today</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="enable_permissions_location_question">We\'d like to know where, exactly, the Thanksa re being given. Can we activate the Location feature?</string>
+    <string name="ok_exclamation">Ok!</string>
+    <string name="welcome">You\'re welcome!</string>
+    <string name="no_available_data">No available data yet</string>
+    <string name="you_thanked_today">You\'ve %s %s!</string>
+    <string name="today">Today</string>
+    <string name="thanked_today">%s</string>
+    <string name="you_lower">you</string>
+    <string name="you_upper">You</string>
+    <string name="you_were_welcomed">%s welcomed you!</string>
+    <string name="thanks_welcomed_text">Your appreciation has been noticed and welcomed by %s.\nVery good ;)\nWe do say, keep it up with the Thanking!\nExperience more what\'s genuinely good for you!\n\nSinceerely,\nYour Thanker Team!</string>
+    <string name="new_thanks_received">New Thanks received</string>
+    <string name="contact_us">Contact us</string>
+    <string name="subject">Subject</string>
+    <string name="write_to_us">Write to us</string>
+    <string name="send">Send</string>
+    <string name="email_sent">Your feedback was sent!\nLooking forward to giving you some feedback whenever suitable ;)\nThank you!</string>
+    <string name="payments_show_name">Show Name</string>
+    <string name="who_do_you_want_to_thank_today">Who do you want to Thank today?</string>
+
+    <string name="god">GOD</string>
+    <string name="people">PEOPLE</string>
+    <string name="brands">BRANDS</string>
+    <string name="business">BUSINESS</string>
+    <string name="nature">NATURE</string>
+    <string name="health">HEALTH</string>
+    <string name="food">FOOD</string>
+    <string name="associations">ASSOCIATIONS</string>
+    <string name="home">HOME</string>
+    <string name="science">SCIENCE</string>
+    <string name="religion">RELIGION</string>
+    <string name="sports">SPORTS</string>
+    <string name="lifestyle">LIFESTYLE</string>
+    <string name="technology">TECHNOLOGY</string>
+    <string name="fashion">FASHION</string>
+    <string name="education">EDUCATION</string>
+    <string name="games">GAMES</string>
+    <string name="travel">TRAVEL</string>
+    <string name="government">INSTITUTIONAL</string>
+    <string name="beauty">BEAUTY</string>
+    <string name="culture">CULTURE</string>
+    <string name="finance">FINANCE</string>
+    <string name="sun">SUN</string>
+    <string name="music">MUSIC</string>
+    <string name="books">BOOKS</string>
+    <string name="earth">EARTH</string>
+    <string name="universe">UNIVERSE</string>
+    <string name="rain">RAIN</string>
+
+    <string name="notification_channel_thanking">notification-channel-thanking</string>
+    <string name="open_thanker">Open Thanker!</string>
+
+    <string name="notification_title_one">Get thanking! ;)</string>
+    <string name="notification_title_two">Time for Thanking! ;)</string>
+    <string name="notification_title_three">You. Thanker. Perfect match!</string>
+    <string name="notification_title_four">Thanker Time!</string>
+    <string name="notification_title_five">Thank now! :)</string>
+
+    <string name="notification_text_one">Who do you want to thank today?</string>
+    <string name="notification_text_two">Time to appreciate your day!</string>
+    <string name="notification_text_three">You might as well work on your happiness, now!</string>
+    <string name="notification_text_four">Because life is better when we appreciate it...</string>
+    <string name="notification_text_five">Uh! Time to get me some thanking!</string>
+    <string name="invite_by_email">By Email</string>
+    <string name="invite_by_sms">By SMS</string>
+    <string name="permission_sms_needed">SMS sending permission is needed to to SMS invites! :)</string>
+    <string name="sms_permissions">Send SMS Permission</string>
+    <string name="enable_sms_question">Do you allow Thanker to send SMS invites to the friends you choose to?</string>
+    <string name="yes_exclamation">Yes!</string>
+    <string name="sms_text">Hi! If your friend isn\'t yet registered on Thanker, you can thank him/her and do the invite via SMS!</string>
+    <string name="phone">Phone:</string>
+    <string name="hint_phone_number">Number...</string>
+    <string name="this_is_the_contact">This is the contact!</string>
+    <string name="also_thank">Thank and invite your friend!</string>
+    <string name="just_send">Just send invite!</string>
+    <string name="welcome_sms_just_send">Hi! How are you?\nI\'m inviting you to be a part of Thanker.\nBe thanked by me when downloading via www.thanker.co\nSee you soon! ;)\nYour Code: %s</string>
+    <string name="introduce_valid_number">Please introduce a valid phone number</string>
+    <string name="just_send_sent">Your invitation was sent!</string>
+    <string name="hi">Hi</string>
+    <string name="friend_already_invited">Invitation already sent to number %s!</string>
+    <string name="you_may_thank">You may thank:</string>
+    <string name="thank_message">I thank you for...</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="sms_complete">I\'ve %s you on Thanker!\nhttps://bit.ly/apper01\nCode: %s</string>
+    <string name="sms_invite_sent">Your invite was sent!</string>
+    <string name="phone_invitation_question">Did you get a phone invitiation?\n(Important so you receive Thanks sent by SMS)</string>
+    <string name="code">Code:</string>
+    <string name="telephone">Phone:</string>
+    <string name="wrong_code">That\'s the wrong code for this number!</string>
+    <string name="right_code">That\'s the right code for this number!</string>
+    <string name="please_write_phone">Please, first write your phone number</string>
+    <string name="user_already_exists_with_number">A user with this number is already registered!</string>
+    <string name="write_your_phone">Write your number</string>
+    <string name="phone_format">9xxxxxxxx</string>
+    <string name="your_friend_joined_thanker">Hi!\n%s has joined Thanker!\nHow about you go to your friend\'s profile and do some Thanking?!\n\nAlways on that bright side of yours, having you on our bright side,\nYour Thanker team!</string>
+    <string name="friend_joined">%s has joined Thanker!</string>
+    <string name="friends_top">Appreciated Friends</string>
+    <string name="more">More</string>
+    <string name="given_to">Given: %d</string>
+    <string name="received_by">Received: %d</string>
+
+    <string name="given_to_friends">Given to: %d</string>
+    <string name="received_by_friends">Received by: %d</string>
+    <string name="start_giving_thanks">Start thanking so you see your thanking list here! What do you feel grateful for, today? ;)</string>
+    <string name="start_receiving_thanks">As soon as you receive thanks, you\'ll see the list here! What would make people thank you more? :)</string>
+    <string name="start_adding_friends">Add some friends, or accept requests! Friends make it to the top of what Thanker feels mostly grateful for! ;)</string>
+    <string name="empty_view_feed">As soon as you\'ve added friends, you\'ll start seeing their most recent thanking here!</string>
+
+    <string name="gdpr">
+
+        &lt;b&gt;Privacy Policy&lt;/b&gt;&lt;br&gt;&lt;/br&gt;&lt;br&gt;
+                      Guilherme Amoroso Romão built the Thanker app as
+                      a Freemium app. This SERVICE is provided by
+                      Guilherme Amoroso Romão at no cost and is intended for use as
+                      is.&lt;br&gt;&lt;br&gt;
+                      This page is used to inform visitors regarding my
+                      policies with the collection, use, and disclosure of Personal
+                      Information if anyone decided to use my Service.&lt;br&gt;&lt;br&gt;
+
+                      If you choose to use my Service, then you agree to
+                      the collection and use of information in relation to this
+                      policy. The Personal Information that I collect is
+                      used for providing and improving the Service. I will not use or share your information with
+                      anyone except as described in this Privacy Policy.&lt;br&gt;&lt;br&gt;
+
+                      The terms used in this Privacy Policy have the same meanings
+                      as in our Terms and Conditions, which is accessible at
+                      Thanker unless otherwise defined in this Privacy Policy.
+                    &lt;b&gt;&lt;br&gt;&lt;br&gt;Information Collection and Use&lt;/b&gt;&lt;br&gt;
+                      For a better experience, while using our Service, I
+                      may require you to provide us with certain personally
+                      identifiable information, including but not limited to Name, Birthday, Living country, Phone number (for when the user is invited via SMS). The information that
+                      I request will be retained on your device and is not collected by me in any way.&lt;br&gt;&lt;br&gt;
+
+                        The app does use third party services that may collect
+                        information used to identify you.&lt;br&gt;&lt;br&gt;
+
+                        Link to privacy policy of third party service providers used
+                        by the app
+                      &lt;a href="https://www.google.com/policies/privacy/" target="_blank"&gt;&lt;br&gt;Google Play Services&lt;/a&gt;&lt;br&gt;&lt;a href="https://firebase.google.com/support/privacy/" target="_blank"&gt;Firebase Crashlytics&lt;/a&gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;Log Data&lt;/b&gt;&lt;br&gt;
+                      I want to inform you that whenever you
+                      use my Service, in a case of an error in the app
+                      I collect data and information (through third party
+                      products) on your phone called Log Data. This Log Data may
+                      include information such as your device Internet Protocol
+                      (\"IP\") address, device name, operating system version, the
+                      configuration of the app when utilizing my Service,
+                      the time and date of your use of the Service, and other
+                      statistics.&lt;br&gt;&lt;br&gt;
+                    &lt;b&gt;Cookies&lt;/b&gt;&lt;br&gt;
+                      Cookies are files with a small amount of data that are
+                      commonly used as anonymous unique identifiers. These are sent
+                      to your browser from the websites that you visit and are
+                      stored on your device\'s internal memory.&lt;br&gt;&lt;br&gt;
+
+                      This Service does not use these \"cookies\" explicitly. However,
+                      the app may use third party code and libraries that use
+                      \"cookies\" to collect information and improve their services.
+                      You have the option to either accept or refuse these cookies
+                      and know when a cookie is being sent to your device. If you
+                      choose to refuse our cookies, you may not be able to use some
+                      portions of this Service.&lt;br&gt;&lt;br&gt;
+                     &lt;b&gt;Service Providers&lt;/b&gt;&lt;br&gt;
+                      I may employ third-party companies and
+                      individuals due to the following reasons:&lt;br&gt;
+                    To facilitate our Service;&lt;br&gt;To provide the Service on our behalf;&lt;br&gt;To perform Service-related services; or&lt;br&gt;To assist us in analyzing how our Service is used.&lt;br&gt;&lt;br&gt;
+                      I want to inform users of this Service
+                      that these third parties have access to your Personal
+                      Information. The reason is to perform the tasks assigned to
+                      them on our behalf. However, they are obligated not to
+                      disclose or use the information for any other purpose.
+                    &lt;br&gt;&lt;br&gt;&lt;b&gt;Security&lt;/b&gt;&lt;br&gt;
+                      I value your trust in providing us your
+                      Personal Information, thus we are striving to use commercially
+                      acceptable means of protecting it. But remember that no method
+                      of transmission over the internet, or method of electronic
+                      storage is 100% secure and reliable, and I cannot
+                      guarantee its absolute security.&lt;br&gt;&lt;br&gt;
+                    &lt;b&gt;Links to Other Sites&lt;/b&gt;&lt;br&gt;
+                      This Service may contain links to other sites. If you click on
+                      a third-party link, you will be directed to that site. Note
+                      that these external sites are not operated by me.
+                      Therefore, I strongly advise you to review the
+                      Privacy Policy of these websites. I have
+                      no control over and assume no responsibility for the content,
+                      privacy policies, or practices of any third-party sites or
+                      services.&lt;br&gt;&lt;br&gt;
+
+                    &lt;b&gt;Changes to This Privacy Policy&lt;/b&gt;&lt;br&gt;
+                      I may update our Privacy Policy from
+                      time to time. Thus, you are advised to review this page
+                      periodically for any changes. I will
+                      notify you of any changes by posting the new Privacy Policy on
+                      this page.&lt;br&gt;&lt;br&gt;
+                    This policy is effective as of 2020-04-30&lt;br&gt;&lt;br&gt;&lt;b&gt;Contact Us&lt;/b&gt;&lt;br&gt;
+                      If you have any questions or suggestions about my
+                      Privacy Policy, do not hesitate to contact me at themakersplatforms@gmail.com.&lt;br&gt;&lt;br&gt;
+
+                      This privacy policy page was created at
+                      &lt;a href="https://privacypolicytemplate.net" target="_blank"&gt;privacypolicytemplate.net&lt;/a&gt;
+                      and modified/generated by
+                      &lt;a href="https://app-privacy-policy-generator.firebaseapp.com/" target="_blank"&gt;App Privacy Policy Generator&lt;/a&gt;&lt;br&gt;
+
+    </string>
+    <string name="register_privacy">By creating an account you accept our <u><b>Privacy Policy</b></u> (click to read)</string>
+    <string name="update_account">You may update your account details!</string>
+    <string name="i_agree">I agree</string>
+    <string name="create">Create</string>
+    <string name="title_privacy">Thanker: Privacy Policy</string>
+    <string name="other_options">Other Options</string>
+    <string name="delete_account">Delete account</string>
+    <string name="sure_to_delete">Are you sure you want to delete your Thanker Account?</string>
+    <string name="deleting_account">To delete</string>
+    <string name="last_chance">Last chance</string>
+    <string name="really_want_delete_question">Do you really want to delete your Thanker Account?</string>
+    <string name="no_i_dont">No, I don\'t</string>
+    <string name="delete">Delete</string>
+    <string name="yes_delete">Yes, delete</string>
+    <string name="thank_you_for_the_time">We thank you for the time you spent using Thanker!</string>
+    <string name="your_opportunity">You have the opportunity Now!</string>
+    <string name="to_get_your_account_back">To get your account back ;)\nDo you want it back?</string>
+    <string name="oh_yes">Oh, yes I do, baby!</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="thank_you_coming_back">Thank you for coming back!</string>
+    <string name="revived_shall_be">Revived, you shall be!</string>
+    <string name="welcome_back_back">Welcome back, %s!</string>
+    <string name="welcome_back_again">We\'re thrilled to have you back, %s!\nThanking surely is something worth doing. And we do appreciate having you with us again, for the thanking purposes and everything you can achieve here.\nWhat do you feel it could get better from your last experience? Message us through the app, in the \"Contact us\" option! Hoping this time you do have a great experience.\nAnd what do you feel grateful for today?\nGet your thanking on!\n\nSee you brighter than ever, %s!\nYour Thanker Team</string>
+    <string name="collect_thankers">Collect: &lt;font color=\'#4CAF50\'&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; Thankers!</string>
+    <string name="come_back_tomorrow_for_more">Come back tomorrow to collect more Thankers!!!</string>
+    <string name="you_collected_premium">You\'ve collected &lt;font color=\'#4CAF50\'&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; Thankers!</string>
+    <string name="you_collected_premium_text">Due to being a Premium member of Thanker, you have collected %d Thankers today!\nUse them to give higher value Thanks to everyone you like!\nKeep in mind that Thanking is a process where the more you give, the more you get. Do it to experience Gratitude more (which is the feeling that smilingly values what we have), and to do some reckongnition, of course! See it for yourself!\n\nSeeing you on the bright side, and may the thankful side always be with us,!\nYour Thanker team :)</string>
+    <string name="click_tomorrow">Come click again tomorrow!</string>
+    <string name="revive_options">If you choose \"Yes\", you\'ll pick up your account from where it was.\nOr if you choose \"No\", you\'ll start a new account.\nChoose wisely, and also thankfully ;)</string>
+    <string name="unknown">Unknown</string>
+    <string name="x_thanks">%d Thanks</string>
+    <string name="premium_abilities">Would you also like to have the abilities of:</string>
+    <string name="promotional_premium_100">Earning 100 Thankers per Day, effortlessly</string>
+    <string name="promotional_premium_welcomes">Giving \"You\'re welcome\"s to the Thanks you receive</string>
+    <string name="promotional_premium_description">Earn Thankers everyday, that will allow you to give more special Thanks quicker, and also have the ability of appreciating the Thanks you receive, for &lt;b&gt;5€/month&lt;/b&gt;!</string>
+    <string name="title_invite_thanker">%s %s you on Thanker!</string>
+    <string name="body_email_invite_thanker">Hello! You have been %s on Thanker by %s, who wants you to be a part of it! Thanker is a platform where you can Thank your friends and pretty much whoever you mostly appreciate. Thanking is known for increasing happinness, and developing several parts of our lives, positively. Download the app on the App Store, and see it for yourself! ;) We\'ll be seeing you on the brighter side! Best, Your Thanker Team! https://www.thanker.co</string>
+    <string name="thanker_premium_subscription">Thanker Premium Subscription</string>
+    <string name="paypal_button">Subscribe with Paypal</string>
+    <string name="top_of_thanks">Top of %s Thankers</string>
+    <string name="overall">Overall</string>
+    <string name="hints_invites">You can invite your friends via e-mail or SMS, and thank that at the same time. When they register, you\'ll receive 50 Thankers (the equivalent to 5 Super Thanks) for each.</string>
+    <string name="user_thanks">%s thanks:</string>
+    <string name="how_user_thanks">How %s thanks in Thanker:</string>
+    <string name="payments_approved">Your payment was approved! You are now a Premium subscriber of Thanker! Happy thanking ;)</string>
+    <string name="hints_true_thanker">When your Thanker status is True Thanker, you\'ll receive two (2) Thankers for every time you Thank (instead of 1).</string>
+    <string name="hints_master_thanker">When your Thanker status is Master Thanker, you\'ll receive three (3) Thankers for every time you Thank</string>
+    <string name="fame_subtitle">Famous Users That Thank to these Categories!</string>
+    <string name="welcome_two">Live the Life You\'re Grateful For</string>
+    <string name="welcome_three">Time For Thanking</string>
+    <string name="welcome_four">Thanker Time!</string>
+    <string name="welcome_five">Thanking is Life</string>
+    <string name="hints_welcomes">This sign means that the Thanks was welcomed!\nYou can say \"You\'re Welcome\" by subscribing Premium (which will also provide you with daily effortless Thankers)!</string>
+    <string name="payment_done">Payment successfully done!</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="message">A Messa from Us :)</string>
+    <string name="feed_interaction">This is where your friends\' most recent interaction will appear!</string>
+    <string name="add_message">Add a message to your Thanks!</string>
+    <string name="thankers_for_power">You need to have at least 1000 Thankers to give a Power Thanks!</string>
+    <string name="thankers_for_mega">You need at least 100 Thankers to give one Mega Thanks!</string>
+    <string name="thankers_for_super">You need at least 10 Thankers to give one Super Thanks!</string>
+    <string name="thanks_again_tomorrow">Thank again tomorrow!</string>
+    <string name="super_thanks">Super Thanks</string>
+    <string name="mega_thanks">Mega Thanks</string>
+    <string name="power_thanks">Power Thanks</string>
+    <string name="given_literal">Given</string>
+    <string name="received_literal">Received</string>
+    <string name="total_thanks">Total Thanks</string>
+    <string name="recent_thanks_label">Recent Thanks</string>
+    <string name="view_thanks">View Thanks from %s to %s</string>
+    <string name="you_combined">You and %s</string>
+    <string name="add_thanks_compatibility">%d%% compatibility is %s</string>
+    <string name="total_given">Total Given</string>
+    <string name="top">Top</string>
+    <string name="thanks_you">Thank you!</string>
+    <string name="thanks_to_be_received">Yet to be received :)</string>
+    <string name="thanks_to_be_given">Yet to be given :)</string>
+    <string name="thanks_feed_string">%s %s %s</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="total_thankers">Total Thankers</string>
+    <string name="thankers_collect">Thankers to Collect!</string>
+    <string name="person">Person</string>
+    <string name="brand">Brand</string>
+    <string name="association">Association</string>
+    <string name="you_have">You have</string>
+    <string name="welcome_literal">Welcome!</string>
+
+    <string name="msg1">Thanks is where the heart is</string>
+    <string name="msg2">Everyday, I\'m thankfully...</string>
+    <string name="msg3">Let it thank</string>
+    <string name="msg4">think you should thank</string>
+    <string name="msg5">one thanking a day... well, it\'s cool for you</string>
+    <string name="msg6">thanking my breath away</string>
+    <string name="msg7">it\'s your thank day</string>
+    <string name="msg8">when i say thanks, you say welcome</string>
+    <string name="msg9">i can\'t stop thanking you</string>
+    <string name="msg10">it\'s a thanks made in heaven</string>
+    <string name="msg11">It\'s been a thanking day\'s night</string>
+    <string name="msg12">Ooh, gratitude is a place on Earth</string>
+    <string name="msg13">Sweet Thanks of mine</string>
+
+    <string name="you_thank_more_to">I thank more to:</string>
+    <string name="little_you">you</string>
+    <string name="give_welcomes">Say \"You\'re Welcome\"!</string>
+    <string name="earn_150_thankers">Earn 150 Thankers a day !</string>
+    <string name="for_five_euro">For 5€/month!</string>
+    <string name="earn_100_thankers_subtitle">Earn 150 Thankers per day, everyday!\nBe able to give Special Thanks more often!</string>
+    <string name="give_welcomes_subtitle">Have the ability of saying \"You\'re Welcome\" to those who thank you!\nPlus, have more highlight in your friends\' Thanks pages!</string>
+    <string name="subscribe_button">Subscribe                                                                        </string>
+    <string name="how_thankers_work">How do Thankers work?</string>
+    <string name="what_are_thankers">What are Thankers?</string>
+    <string name="this_is_thankers">Thankers are the currency that will let enable you to give Special Thanks. Every time you thank, you earn 1 Thanker! There are other ways of earning more Thankers, such as reaching multiples of 10, 100 and 1000 in the Thanks Count, inviting Friends, being Premium, and watching Videos form our sponsors!</string>
+    <string name="got_it">Got it!</string>
+    <string name="what_is_count">What is the Thanks Count?</string>
+    <string name="this_is_count">Thanks Count lets you keep track of how many Thanks you\'re giving to other profiles. Also, everytime you have thanked, in a multiple number of 10, 100, or 1000 thanks, you\'ll receive that same amount in Thankers (as a bonus). For example, when you reach a Thanks Count of 10, you\'ll receive 1 Thanker plus 10. When you reach a Thanks Count of 20, you\'ll receive 1 Thanker plus 10. When you reach 100 of Thanks Count, you\'ll receive 1 Thanker, plus 10, plus 100!</string>
+    <string name="consecutive_renewals">Renew your Subscription!</string>
+    <string name="consecutive_renewals_subtitle">Have even better prices upon (timely) renewals!\nAnd receive 5 extra Thankers per day, everyday, for every consecutive renewal of your subscription!</string>
+    <string name="thank_and_invite">Thank and Invite</string>
+    <string name="thank_literal">Thank</string>
+    <string name="email_invite">Email Invite</string>
+    <string name="earn_on_invite">Earn 50 Thankers when your friend registers!</string>
+    <string name="sms_invite">Thanks by SMS</string>
+    <string name="sms_invite_text">Thank and Invite!\nEarn 50 Thankers when friends register!</string>
+    <string name="what_is_level">What is the Thanker Level?</string>
+    <string name="this_is_level">Your Thanker Level is determined by how much you thank in Thanker (last 5 days ratio). When you reach the Top Levels, you earn more Thankers for every time you thank another profile!</string>
+    <string name="ultra_thanks">Ultra Thanks!!!</string>
+    <string name="info_picture">Profile picture</string>
+    <string name="this_is_picture">Click the picture to load a new profile picture!</string>
+    <string name="top_given">Top Given by %s</string>
+    <string name="top_received">Top Received by %s</string>
+    <string name="one_month">1 Month: <b>5€</b></string>
+    <string name="six_months">6 Months: <b>25€</b></string>
+    <string name="twelve_months">12 Months: <b>40€</b></string>
+    <string name="see_plans">Check Plans</string>
+    <string name="select_one_plan">Select at least one plan to buy! :)</string>
+    <string name="premium_until_label">Subscription live until</string>
+    <string name="extend_button">Extend premium</string>
+    <string name="extend_subscription">Extension Plans</string>
+    <string name="one_month_ren">1 Month: 4€</string>
+    <string name="six_months_ren">6 Months: 20€</string>
+    <string name="twelve_months_ren">12 Months: 30€</string>
+    <string name="extend_plans">See extension plans</string>
+    <string name="extend_subscription_plans">Extend Your Premium Subscription!</string>
+    <string name="title_renewal">Thank you for Renewing!</string>
+    <string name="body_renewal">We\'re going to be opened with you: Premium is a better place with you in it. We totally guarantee it.\nMake sure you appreciate with the same intensity as you feel it, and do use it to create more value around you.\nWe thank you again, for being a warmer part of Thanker!\n\nTruly yours,\nYour Thanker Team!\n\nPS: Your current subscription is live until %s</string>
+    <string name="title_activate_premium">Thank you for being Premium!</string>
+    <string name="body_activate_premium">To us you\'re always Premium, no matter what.\nThe difference, now, is that you\'ve actually unlocked some more special benefits in Thanker: talk about 150 Thankers a day, effortlessly, and being able to say \"You\'re Welcome\" to the people who thank you.\nYou now have more useful tools to give special Thanks more frequently, and doing the effort to acknowledge those who appreciate you.\nLet\'s invest on our gratefulness. Let\'s be all we can be!\n\nYours forever, and with you at all times,\nYour Thanker Team!</string>
+    <string name="connect_internet">Connect to the internet, and connected you shall be!</string>
+    <string name="happy_birthday">Happy Birthday!</string>
+    <string name="happy_birthday_body">Wishing you a wonderful day! Thrilling to be by your side. Your Thanker Team ;)</string>
+    <string name="notification_channel_birthday">notification-channel-birthday</string>
+    <string name="birthday2">Happy birthday! Thank you for spending some time with us in this special day!</string>
+    <string name="birthday3">It\'s my birthday, and I thank if I want to!</string>
+    <string name="birthday4">Good times, baby! Enjoy this day! Happy birthday!</string>
+    <string name="birthday5">It\'s your Bi-birth-b-birthday! Hit it, DJ!</string>
+
+    <string name="emailinvite">
+        &lt;div id=\"awesomewrap\"&gt;&lt;center&gt;
+&lt;table id=\"bodyTable\" style=\"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height: 100%; margin: 0; padding: 0; width: 100%; background-color: #fafafa;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td id=\"bodyCell\" style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height: 100%; margin: 0; padding: 10px; width: 100%; border-top: 0;\" align=\"center\" valign=\"top\"&gt;&lt;!-- BEGIN TEMPLATE // --&gt; &lt;!-- [if (gte mso 9)|(IE)]&gt;
+                        &lt;table align=\"center\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"600\" style=\"width:600px;\"&gt;
+                        &lt;tr&gt;
+                        &lt;td align=\"center\" valign=\"top\" width=\"600\" style=\"width:600px;\"&gt;
+                        &lt;![endif]--&gt;
+&lt;table class=\"templateContainer\" style=\"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border: 0; max-width: 600px !important;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td id=\"templatePreheader\" style=\"background: #FAFAFA none no-repeat center/cover; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #fafafa; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 9px;\" valign=\"top\"&gt;
+&lt;table class=\"mcnTextBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnTextBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnTextBlockInner\" style=\"padding-top: 9px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;&lt;!-- [if mso]&gt;
+				&lt;table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100%;\"&gt;
+				&lt;tr&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;td valign=\"top\" width=\"600\" style=\"width:600px;\"&gt;
+				&lt;![endif]--&gt;
+
+
+
+
+&lt;!-- [if mso]&gt;
+				&lt;/td&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;![endif]--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td id=\"templateHeader\" style=\"background: #FFFFFF none no-repeat center/cover; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #ffffff; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 0;\" valign=\"top\"&gt;
+&lt;table class=\"mcnTextBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnTextBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnTextBlockInner\" style=\"padding-top: 9px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;&lt;!-- [if mso]&gt;
+				&lt;table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100%;\"&gt;
+				&lt;tr&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;td valign=\"top\" width=\"600\" style=\"width:600px;\"&gt;
+				&lt;![endif]--&gt;
+
+&lt;!-- [if mso]&gt;
+				&lt;/td&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;![endif]--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnImageBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnImageBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageBlockInner\" style=\"padding: 0px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;
+&lt;table class=\"mcnImageContentContainer\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageContent\" style=\"text-align: center; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 0px 0 0px;\" valign=\"top\"&gt;&lt;img class=\"mcnRetinaImage\" style=\"max-width: 1000px; padding-bottom: 0; display: inline !important; vertical-align: bottom; border: 0; height: auto; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;\" src=\"https://i.ibb.co/92L3dzS/thankmangif.gif\" alt=\"Thank You\" width=\"500\" align=\"center\" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td id=\"templateBody\" style=\"background: #ffffff none no-repeat center/cover; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #ffffff; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 2px solid #EAEAEA; padding-top: 0; padding-bottom: 9px;\" valign=\"top\"&gt;
+&lt;table class=\"mcnTextBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnTextBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnTextBlockInner\" style=\"padding-top: 9px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;&lt;!-- [if mso]&gt;
+				&lt;table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100%;\"&gt;
+				&lt;tr&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;td valign=\"top\" width=\"600\" style=\"width:600px;\"&gt;
+				&lt;![endif]--&gt;
+&lt;table class=\"mcnTextContentContainer\" style=\"max-width: 100%; min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnTextContent\" style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; word-break: break-word; color: #202020; font-family: \'Roboto\', \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; text-align: left; padding: 0 18px 9px 18px;\" valign=\"top\"&gt;
+&lt;h2 class=\"null\" style=\"text-align: center; display: block; margin: 0; padding: 0; color: #202020; font-family: Helvetica; font-size: 22px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal;\"&gt;&lt;span style=\"font-family: roboto,helvetica neue,helvetica,arial,sans-serif;\"&gt;&lt;span style=\"font-size: 14px;\"&gt;&lt;br&gt;&lt;br&gt;Thanking is a beautiful thing!&lt;/br&gt;And with that, Gratitude is one of the main foundations of one\'s happiness.&lt;/br&gt;That\'s where Thanker comes in. We enable people to thank each other more, building up on the stimulus that will enhance their happinness&lt;/br&gt;So download the app and join us! Thank those who you to the most!&lt;/br&gt;Appreciating your visit! We\'ll see you soon!/span&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- [if mso]&gt;
+				&lt;/td&gt;
+				&lt;![endif]--&gt; &lt;!-- [if mso]&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;![endif]--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnDividerBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; table-layout: fixed !important;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnDividerBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnDividerBlockInner\" style=\"min-width: 100%; padding: 18px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;
+&lt;table class=\"mcnDividerContent\" style=\"min-width: 100%; border-top-width: 2px; border-top-style: none; border-top-color: #EAEAEA; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+                &lt;td class=\"mcnDividerBlockInner\" style=\"padding: 18px;\"&gt;
+                &lt;hr class=\"mcnDividerContent\" style=\"border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;\" /&gt;
+--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnButtonBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnButtonBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnButtonBlockInner\" style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 18px 18px 18px;\" align=\"center\" valign=\"top\"&gt;
+&lt;table class=\"mcnButtonContentContainer\" style=\"border-collapse: separate !important; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: #4baf50; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnButtonContent\" style=\"font-family: Roboto, \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 16px; padding: 18px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" align=\"center\" valign=\"middle\"&gt;&lt;a class=\"mcnButton \" style=\"font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; display: block;\" title=\"Download Thanker\" target=\"_blank\" rel=\"noopener\" href=\"https//google.com\"&gt;Download Thanker&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td id=\"templateFooter\" style=\"background: #FAFAFA none no-repeat center/cover; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #fafafa; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 9px;\" valign=\"top\"&gt;
+&lt;table class=\"mcnDividerBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; table-layout: fixed !important;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnDividerBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnDividerBlockInner\" style=\"min-width: 100%; padding: 18px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;
+&lt;table class=\"mcnDividerContent\" style=\"min-width: 100%; border-top-width: 2px; border-top-style: none; border-top-color: #EAEAEA; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+                &lt;td class=\"mcnDividerBlockInner\" style=\"padding: 18px;\"&gt;
+                &lt;hr class=\"mcnDividerContent\" style=\"border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;\" /&gt;
+--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnImageBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnImageBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageBlockInner\" style=\"padding: 9px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;
+&lt;table class=\"mcnImageContentContainer\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageContent\" style=\"text-align: center; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 9px 0 9px;\" valign=\"top\"&gt;&lt;img class=\"mcnRetinaImage\" style=\"max-width: 400px; padding-bottom: 0; display: inline !important; vertical-align: bottom; border: 0; height: auto; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;\" src=\"https://mcusercontent.com/dd474212ff69c8cc06948bd01/images/12c42fa8-f363-4232-8b57-183fcbeb7dc3.gif\" alt=\"\" width=\"200\" align=\"center\" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnImageBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnImageBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageBlockInner\" style=\"padding: 0px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"&gt;
+&lt;table class=\"mcnImageContentContainer\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnImageContent\" style=\"text-align: center; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 0px 0 0px;\" valign=\"top\"&gt;&lt;a href=\"https://bit.ly/thanker"&gt;&lt;img class=\"mcnRetinaImage\" style=\"max-width: 800px; padding-bottom: 0; display: inline !important; vertical-align: bottom; border: 0; height: auto; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;\" src=\"https://mcusercontent.com/dd474212ff69c8cc06948bd01/images/6d58d283-4e17-4c15-856d-7fe14aadbb8e.gif\" alt=\"\" width=\"400\" align=\"center\" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=\"mcnDividerBlock\" style=\"min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; table-layout: fixed !important;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody class=\"mcnDividerBlockOuter\"&gt;
+&lt;tr&gt;
+&lt;td class=\"mcnDividerBlockInner\" style=\"min-width: 100%; padding: 10px 18px 25px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;
+&lt;table class=\"mcnDividerContent\" style=\"min-width: 100%; border-top-width: 2px; border-top-style: solid; border-top-color: #EEEEEE; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\"&gt;;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+                &lt;td class=\"mcnDividerBlockInner\" style=\"padding: 18px;\"&gt;
+                &lt;hr class=\"mcnDividerContent\" style=\"border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;\" /&gt;
+--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- [if (gte mso 9)|(IE)]&gt;
+                        &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;![endif]--&gt; &lt;!-- // END TEMPLATE --&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;&lt;/div&gt;
+    </string>
+
+    <string name="time_for_renewal">Time to renew your Premium!</string>
+    <string name="time_for_renewal_body">Renew: if you appreciate getting free Thankers everyday; if you enjoy having the ability of saying you\'re welcome; if you\'re totally amazing! We\'re getting close to the expiration date of the Premium. Go to your Premium page, and choose one of our Extension plans! Appreciate it!</string>
+    <string name="fup_title_1">How are you feeling?</string>
+    <string name="fup_subtitles_1">How does Thanking make you feel?\nWhat do you reckon everytime you give a new thanks? Is it being an enabling experience for you?\nLet us know, through the Contact Form in the Options menu!\n\nBy your side everytime, happily thanking also,\nYour Thanker Team</string>
+    <string name="fup_title_2">Tell us about your journey!</string>
+    <string name="fup_subtitles_2">We\'d like to keep on following up on your Thanking journey.\nAs you may know by now, Thanking is a happiness enabling experience, since practicing Gratitude allows the good things (and more of it) to be reckoned. It helps you appreciate, while you\'re also showing the right person your appreciation . It\'s a win-win!\nWould you like to share some of your experiences with us? We\'d surely like to know, and we\'re reachable through the Contact Form, in the Options menu!\n\nSee you soon, and listening to you,\nYour Thanker Team</string>
+    <string name="fup_title_3">Share with us!</string>
+    <string name="fup_subtitles_3">We\'d love to hear from you!\nShare your Thanking experience with us!\nHow do you feel about Thanking? Do you see any changes on the way you see life, and even more, on the way you appeciate life? We\'re eager to know.\nTell us everything, in the Contact form, inside Options menu.\n\nLooking forward to it,\nYour Thanker Team!</string>
+    <string name="type_friends">Thank a friend of yours</string>
+    <string name="type_search">Search and thank!</string>
+    <string name="type_free">Do some free thanking!</string>
+    <string name="type_near">Thank someone near you!\nYour friend must also click the \"Thank Near\" button.\nGet your devices closer ;)</string>
+    <string name="empty_giving_top">Start giving some thanks so you\'ll have your dream top, here!</string>
+    <string name="empty_receiving_top">Start spreading some of your magic, so you\'ll have a whole top of people giving you the Thanks!</string>
+    <string name="start_giving_thanks_other">Something tell us that user %s is about to become a hardcore Thanker. Stay tuned for this list of Thanks ;)</string>
+    <string name="search_all">Search All Results...</string>
+    <string name="and_i_feel_like_thanking">And I feel like Thanking!</string>
+    <string name="hall_of_fame_literal">Hall of Fame</string>
+    <string name="special_thanks">Special Thanks</string>
+    <string name="tell_us_everything">Tell us everything!</string>
+    <string name="contact_us_text">How are you experiencing Thanking?\nAlso, we\'d like to know your suggestions and feedback.\nThank you for this, and see you soon!</string>
+    <string name="sent_and_thank">Sent. Thank you!</string>
+    <string name="collected">Collected!</string>
+    <string name="our_current_thankers">You have currently %d available Thankers!\nAfter this Thanks, you\'ll have %d!</string>
+    <string name="bonus_thankers_string">&lt;b&gt;#bonusThanksCount&lt;/b&gt;</string>
+    <string name="get_started">Let\'s get it Started!</string>
+    <string name="name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="my_premium">My Premium</string>
+    <string name="email_invites">Email Invites</string>
+    <string name="verificate">Check</string>
+    <string name="sms_invites_title">SMS Invites</string>
+    <string name="valid_number">You may invite this Contact ;)</string>
+    <string name="you_made_changes">You\'ve made some changes!</string>
+    <string name="are_you_sure">Are you sure you want to leave this screen without saving?</string>
+    <string name="found_user">Encontraste: %s! Hora de Agradecer!</string>
+    <string name="thanker_hint_title">Thanker: practice Gratitude, and show some love! ;)</string>
+    <string name="how_to_earn_title">How to earn Thankers?</string>
+    <string name="to_give_special_thanks_title">To give Special Thanks</string>
+    <string name="to_give_super_thanks_title">How to give Super Thanks</string>
+    <string name="to_give_mega_thanks_title">How to give Mega Thanks</string>
+    <string name="to_give_power_thanks_title">How to give Power Thanks</string>
+    <string name="hints_invites_title">Invite everyone, and earn Thankers!</string>
+    <string name="hints_true_thanker_title">The True Thanker</string>
+    <string name="hints_master_thanker_title">The Master Thanker!</string>
+    <string name="hints_welcomes_title">Say \"You\'re Welcome\"!</string>
+    <string name="thank_nearby">Thank Nearby</string>
+    <string name="search_and_thank">Search and Thank</string>
+    <string name="thank_friends">Thank your friends</string>
+    <string name="edit_reason">Edit thanks reason...</string>
+    <string name="edit">Edit</string>
+    <string name="upped_level">You\'ve levelled up!</string>
+    <string name="upped_to_walker">Congrats!\nYou\'re now a Walker Thanker!\nThis means you\'re pretty much now walking the path of the Grateful ones.\nKeep it up. Connect, praise, reckon value, and bring that value to your own life. Walk the life of the greats! Walk the life you\'re Thankful for!\n\nSeeing you always, and surely walking by your side,\nYour Thanker Team!</string>
+    <string name="upped_to_explorer">Yeah! Your level is now \"Explorer Thanker\".\nThis means you\'re exploring the wonders of having a more Grateful life.\nWhat thoughts do you have on finding the gratefulness in your it? And how are your social life connections responding to the thanking you send them?\nMost importantly, make sure that the Gratefulness experience, brings your the true Gratitude feeling. So keep on exploring. Thank the world, thank your challenges, thank your successes, and thank yourself.\n\nThanking you always,\nYour Thanker team!</string>
+    <string name="upped_to_true">Congrats!\nYou\'ve become a True Thanker!\nYou have decided to truly appreciate and build on that feeling.\nYou\'re most probably now being able to truly and more oftenly connect to what brings you joy in your everyday, to what gets you closer to who you are, and what you really want to achieve.\nFind in Gratefulness the true path to what truly makes you great. Let Thanking be a guide!\nAlso, now for every Thanks you give, you get 2 Thankers ;)\n\nTruly yours,\nYour Thanker Team!</string>
+    <string name="upped_to_master">Master!\nThis is what you are!\nYou\'re taking the daily time to discover and reckon what you are grateful for. And although we say we thank you for that, you probably know that you\'re already feeling blessed with so much to thank for, all around you!\nThere\'s so much to be appreciated, and that make us feel good, learn, and develop, right?\n And now, for every Thanks you give, you get 3 Thankers.\nThat\'s right. We believe that the more we give, the more we get.\nMaster the world. Master yourself. Master your abilities. Master your purpose. Master Thanker!\n\nMastering alongside, and mastering our dreams (so they come true),\nYour Thanker Team!</string>
+    <string name="say_welcome">Say \"You\'re Welcome\"</string>
+    <string name="compatibilities">Gratitude Compatibilities</string>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="viewing_stats">Viewing stats for</string>
+    <string name="th">th</string>
+    <string name="st">st</string>
+    <string name="nd">nd</string>
+    <string name="rd">rd</string>
+    <string name="of">of</string>
+    <string name="at_literal">at</string>
+
+    <string name="jan">jan</string>
+    <string name="feb">feb</string>
+    <string name="mar">mar</string>
+    <string name="apr">apr</string>
+    <string name="jun">jun</string>
+    <string name="jul">jul</string>
+    <string name="aug">aug</string>
+    <string name="sep">sep</string>
+    <string name="oct">oct</string>
+    <string name="nov">nov</string>
+    <string name="dec">dec</string>
+    <string name="edit_thanks_reason">To Edit Thanks Reason</string>
+    <string name="how_to_edit_reason">You can click on the Thanks above to edit the reason of your appreciation ;)</string>
+    <string name="i_read">Read</string>
+    <string name="contact_info">Choosing Contacts</string>
+    <string name="choose_the_contacts">You may choose from your list of Contacts, by clicking the left-hand icon!</string>
+    <string name="reward_string">Congrats! You\'ve earned %d Thankers!\nNow the total is %d.\nThank you! ;)</string>
+    <string name="earn_thankers">Earn Extra Thankers!</string>
+    <string name="loading_reward_video">Loading a video of our sponsors, so you will earn 10 extra Thankers!</string>
+    <string name="counting_thanks">When you thank someone, you thank the value of your Thanks (ie, if you give one Mega Thanks, it\'s worth 100 Thanks).\nAs for the Category, it count twice that value for the Primary Category of who you Thank, and once for the Secondary Category. This Category part is more visible on the Hall of Fame, or Daily Statistics, for example.</string>
+    <string name="counting_thanks_title">Counting Thanks</string>
+    <string name="thanked_email">thanked you</string>
+    <string name="super_thanked_email">super thanked you</string>
+    <string name="mega_thanked_email">mega thanked you</string>
+    <string name="power_thanked_email">power thanked you</string>
+    <string name="info_recent">Recent Thanks</string>
+    <string name="this_is_recent">Click on each column to see the list of thanks!</string>
+    <string name="info_top">Top Lists</string>
+    <string name="this_is_top">Click on each column to see the lists of top Thankers (given, and received) !</string>
+    <string name="givento">Given by: %s</string>
+    <string name="receivedby">Received by: %s</string>
+    <string name="what_are_sec_category">Secondary Category</string>
+    <string name="this_is_sec_category">If you\'re a Person account, you\'re Secondary Category can be related to your profession! ;)</string>
+    <string name="status_of">Thanks of %s</string>
+    <string name="message_from">From %s</string>
+    <string name="info_stats">Thanking Stats</string>
+    <string name="this_is_stats">Click any of the items below, so you can see all your Thanking stats! :)</string>
+    <string name="current_thankers">You have: &lt;b&gt;%d&lt;/b&gt;</string>
+    <string name="future_thankers">You will have: &lt;b&gt;%d&lt;/b&gt;</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="tutorial_title_1">Thank with Thanker!</string>
+    <string name="tutorial_title_2">Give Special Thanks!</string>
+    <string name="tutorial_title_3">Check Recent Interactions, Tops, Compatibilities, etc!</string>
+    <string name="tutorial_title_4">See Daily Statistics!</string>
+    <string name="tutorial_title_5">Earn Even More Thankers!</string>
+    <string name="tutorial_title_6">Explore the App, and Give Us Feedback! ;)</string>
+    <string name="tutorial_subtitle_1">You have the opportunity to Live the Life You\'re Grateful For!\nHave in Thanker the possibility to thank and appreciate more, while knowing that Gratitude is one very important foundation of one\'s happinness!\nAlso, every time you Thank, you\'ll be earning Thankers! These will be really useful to give even more special Thanks!</string>
+    <string name="tutorial_subtitle_2">Having Thankers will enable you to give more special Thanks. Every time you thank, you earn 1 Thanker.\nIn order to give a special Thanks like Super Thanks, you\'ll need to collect 10 Thankers. To give 1 Mega Thanks, you\'ll need 100 Thankers, and so on :)</string>
+    <string name="tutorial_subtitle_3">In your profile, and in your friends\', you\'ll be able to see recent Thanks given and received, the top people and profiles that thank more each other, thanking compatibilities, etc.\nBy interacting more in Thanker, we\'ll let others know what we appreciate more, also letting people get to know us a little bit better, while we can do the same with them.\nUse Thanker to enhance the Gratitude and Relationship features of your life!</string>
+    <string name="tutorial_subtitle_4">In the Menu (that mini picture of you that you\'ll see on the upper right corner), you\'ll find an option with Stats, that will enable you to check what people are thanking more in Thanker, by Country and Dates!</string>
+    <string name="tutorial_subtitle_5">You earn Thankers every time you Thank. And there\'s a few more ways to earn more Thankers:\n1) Invite Friends, while Thanking them. You\'ll find this option in the menu, and you can invite by e-mail or SMS. When they register, you\'ll earn 50 Thankers!\n2) Watch Rewarded Videos: there\'s also an option in the Menu that will enable you to earn 10 Thankers for every time you watch a video from our sponsors!\n3) Be a Premium User: by subscribing Premium, not only will you earn 150 Daily Thankers effortlessly, but you\'ll aos have the ability of saying \"You\'re Welcome\" to the Thanks received!</string>
+    <string name="tutorial_subtitle_6">Feel free to, and please explore the app! The more you get to know it, the more benefit you\'ll gain from it!\nAlso, your feedback will be more than welcome! There\'s an option in the Menu so that you can send us your messages!\nLooking forward to hearing from you!</string>
+    <string name="tutorial_1">Use Thanker to Thank!\nThanking estimulates happinness, improves relationships, and increases self-esteem!\nVisit your friends\' pages and thank them there!\n\n(1/5)</string>
+    <string name="tutorial_2">In the Menu you\'ll find the ability to invite Friends, see Stats, earn extra Thankers, etc! ;)\n\n(2/5)</string>
+    <string name="tutorial_3">Search for friends for their names or email. And when you find them, make sure you give the deserved Thanks, and also add them to your Friends list!\n\n(3/5)</string>
+    <string name="tutorial_4">Check the Hall of Fame to see who Thanks more in each category. Better yet, you become a Hall of Famer!\nLooking forward to it! ;)\n\n(4/6)</string>
+    <string name="tutorial_5">Become a Premium user, and earn 150 Thankers everyday, plus the ability to say \"You\'re Welcome\" to the Thanks you receive!\n\n(4/5)</string>
+    <string name="options">Options</string>
+    <string name="explore_thanker">Explore Thanker!</string>
+    <string name="tutorial_6">Make the most of having and using Thanker! And let us know what you think, also on \"Contact Us\", in the Options Menu!\n\n(5/5)</string>
+    <string name="you_earn_10000_thankers">You\'ve earned 10 000 Thankers!</string>
+    <string name="prize_10000_thankers_text">You did it! Because your number of Thanks is a multiple of 10 000, that\'s exactly the bonus Thankers that you now earn! Congrats for that, and thank you so much for using Thanker! Remember, Gratitude is a foundation for increased happinness, and it surely must be practiced! Thank it up! Yours truly and always, Your Thanker Team!</string>
+    <string name="ultra_friend">Ultra Friend</string>
+    <string name="email_invites_title">E-Mail Invite</string>
+    <string name="payment_not_possible">We couldn\'t process your payment. Please try again!</string>
+    <string name="payment_canceled">Payment was canceled</string>
+    <string name="you_re_welcome">You\'re Welcome!</string>
+    <string name="top_thankers">Top Thankers</string>
+    <string name="thank_send_sms">Thank and send SMS</string>
+    <string name="user_says_welcome">%s says \"You\'re Welcome\"!</string>
+    <string name="hello_again">Hello Again! ;)</string>
+    <string name="congrats_premium">Congratulations!\nYou are now Thanker Premium!\nThank you, and we hope it enhances your Thanker experience even more|\nLet\'s keep in touch! Feel free to drop us lines through the \"Contacts\" option of the Menu! ;)</string>
+
+    <string name="quote_1">Oh Lord that lends me life, lend me a heart replete with thankfulness</string>
+    <string name="quote_author_1">- William Shakespeare</string>
+    <string name="quote_2">Gratitude is the virtue of noble souls</string>
+    <string name="quote_author_2">- Esopo</string>
+    <string name="quote_3">Happy people remember the past with gratitude, they\'re joyful with the present, and face the future without fear</string>
+    <string name="quote_author_3">- Epicuro</string>
+    <string name="quote_4">There is no excess in the world so commendable as excessive gratitude</string>
+    <string name="quote_author_4">- Jean de la Bruyère</string>
+    <string name="quote_5">How happy a person is depends upon the depth of his gratitude</string>
+    <string name="quote_author_5">- John Miller</string>
+    <string name="quote_6">Express gratitude with words and attitudes. Your life will greatly change, and very positively</string>
+    <string name="quote_author_6">- Masaharu Taniguchi</string>
+    <string name="quote_7">Gratitude is the memory of the heart</string>
+    <string name="quote_author_7">- Antístenes</string>
+    <string name="quote_author_8">- Fernando Pessoa</string>
+    <string name="quote_8">To be happy is to find strength in forgiveness, hope in battles, safety in the stage of fear, love in mismatch. It is to thank God at every minute, for the miracle of Life</string>
+    <string name="quote_9">Gratitude is paradise itself</string>
+    <string name="quote_author_9">- William Blake</string>
+    <string name="quote_author_job_9">Writer</string>
+    <string name="quote_author_job_1">Writer</string>
+    <string name="quote_author_job_2">Writer</string>
+    <string name="quote_author_job_3">Philosopher</string>
+    <string name="quote_author_job_4">Philosopher</string>
+    <string name="quote_author_10">Unknown</string>
+    <string name="quote_10">If we express Gratitude for what we have, we\'ll have more to feel Grateful for</string>
+    <string name="quote_author_11">- Marcel Proust</string>
+    <string name="quote_11">Let us be grateful to the people who make us happy; they are the charming gardeners who make our souls blossom</string>
+    <string name="quote_author_12">- John F. Kennedy</string>
+    <string name="quote_12">We must find time to stop and thank the people who make a difference in our lives</string>
+    <string name="quote_author_13">- Charles Dickens</string>
+    <string name="quote_13">Reflect upon your present blessings, of which every man has plenty; not on your past misfortunes, of which all men have some</string>
+    <string name="quote_author_14">- Willie Nelson</string>
+    <string name="quote_14">When I started counting my blessings, my whole life turned around</string>
+    <string name="quote_author_15">- Thornton Wilder</string>
+    <string name="quote_15">We can only be said to be alive in those moments when our hearts are conscious of our treasures</string>
+    <string name="quote_author_16">- Jefferson Bethke</string>
+    <string name="quote_16">Thankfulness is the quickest path to joy</string>
+    <string name="quote_author_17">- Margaret Cousins</string>
+    <string name="quote_17">Appreciation can make a day, even change a life. Your willingness to put it into words is all that is necessary</string>
+    <string name="quote_author_18">- Jim Rohn</string>
+    <string name="quote_18">Learn to be thankful for what you already have, while you pursue all that you want</string>
+    <string name="quote_author_19">- William Arthur Ward</string>
+    <string name="quote_19">Feeling gratitude and not expressing it is like wrapping a present and not giving it</string>
+    <string name="quote_author_20">- Dalai Lama</string>
+    <string name="quote_20">The roots of all goodness lie in the soil of appreciation for goodness</string>
+    <string name="quote_author_21">- Albert Einstein</string>
+    <string name="quote_21">There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle</string>
+
+    <string name="given_literal_me">I gave</string>
+    <string name="received_literal_me">I Received</string>
+    <string name="pick_your_plan">Pick your plan ;)</string>
+    <string name="plan">Plan</string>
+    <string name="month">month</string>
+    <string name="five_eur_month">(5€ / month)</string>
+    <string name="months">months</string>
+    <string name="four_eur_month">(4,17€ / month)</string>
+    <string name="three_eur_month">(3,33€ / month)</string>
+    <string name="save_334">Save 33,4% !</string>
+    <string name="two_eur_month">(2,5€ / month)</string>
+    <string name="save_500">Save 50% !!!</string>
+    <string name="pick_your_plan_extension">Pick your Premium extension</string>
+    <string name="premium_until_new_label">Extension live until</string>
+    <string name="four_eur_month_renew">(4€ / month)</string>
+    <string name="save_200">Save 20% !</string>
+    <string name="save_580">Save 58% !!!</string>
+    <string name="two_eur_month_renew">(2,08€ / month)</string>
+    <string name="on">on</string>
+    <string name="thank_you_renewing">Thank you for renewing!\nWe wish you an amazing and grateful experience with Thanker!</string>
+    <string name="activate_location">Activate Location</string>
+    <string name="location_permission_already_granted">The Location functionality is active!</string>
+    <string name="check_policy">Privacy Policy</string>
+    <string name="stats_soon">You\'ll find here some stats as soon as you Thank ;)</string>
+    <string name="what_are_top_stats">Thanked Categories</string>
+    <string name="this_is_top_stats">These are the top 3 categories your friend mostly thanks to!</string>
+    <string name="invite_by_whatsapp">By WhatsApp</string>
+    <string name="for_reason"> for:</string>
+    <string name="no_ad_available">No Video Rewards available, right now.\nPlease try again later!\nThank you ;)</string>
+    <string name="you_collected_premium_today">Today you\'ve won &lt;font color=\'#4CAF50\'&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; Thankers!</string>
+    <string name="get_thanking">Let\'s get Thanking ;)</string>
+    <string name="empty_view_requests_string">More Friend Requests arriving any moment, now...</string>
+    <string name="added_new_friend">Hurray! You\'ve added %s to your Friends\' list!</string>
+    <string name="show_thanks_description">Show Thanks Description</string>
+    <string name="see_thanks_description">Do you want other people to see the descriptions of the Thanks you give?</string>
+    <string name="from_you_to_user">&lt;b&gt;&lt;font color=\'#4CAF50\'&gt;%s&lt;/font&gt;&lt;/b&gt; to&lt;br&gt;&lt;font color=\'#7cc47f\'&gt;%s&lt;/font&gt;</string>
+    <string name="from_user_to_you">&lt;b&gt;&lt;font color=\'#4CAF50\'&gt;%s&lt;/font&gt;&lt;/b&gt; to&lt;br&gt;&lt;font color=\'#7cc47f\'&gt;%s&lt;/font&gt;</string>
+    <string name="description_public">Thanks Description visible to everyone</string>
+    <string name="description_private">Thanks description visible only to %s</string>
+    <string name="saved">Saved</string>
+    <string name="no_friends_found">No results found with your search: %s</string>
+    <string name="no_top_found">In %s they will love to thank to %s</string>
+    <string name="no_top_found_overall">People in %s will love to Thank!</string>
+
+    <string name="time1">Today</string>
+    <string name="time2">Yesterday</string>
+    <string name="time3">Last 7 Days</string>
+    <string name="time4">Last Month (Premium)</string>
+    <string name="time5">Last Year (Premium)</string>
+
+    <string name="no_stats">Let\'s wait and see what great Thankings will come from %s!</string>
+
+    <string name="more_stats">Get more Insights!</string>
+    <string name="more_stats_subtitle">Have the ability to see more complete stats for given Thanks (in the Stats menu option) !</string>
+    <string name="must_be_premium_to_see_these_stats">You must a Premium user to see these Stats!</string>
+    <string name="thanks_for_inviting">Thank you for inviting your friend %s !</string>
+    <string name="check_stats">Check Stats</string>
+    <string name="visible_all">Description visible to All</string>
+    <string name="visible_only_receiver">Description only visible to Receiver</string>
+    <string name="friends_ranking">Friends Ranking</string>
+    <string name="what_is_ranking">Friends Ranking</string>
+    <string name="this_is_ranking">The criteria that ranks is your friends is:\n\n1) How much you thank them;\n2) How much they thanked you (this one is valued half of the first one)!</string>
+    <string name="invite_by_contacts">By Phone Contacts</string>
+    <string name="import_contacts">Import Contacts</string>
+    <string name="no_contacts_found">No email contacts were found in your phone, to thank and invite...</string>
+    <string name="contacts">Contacts</string>
+    <string name="friends_invited">Friends Invited!</string>
+    <string name="users_exist_or_invited">You have already invited these Users before, or they already have an account!</string>
+    <string name="pending_your_approval">Request pending your approval</string>
+    <string name="select_contacts">Please select contacts to Thank and invite!</string>
+    <string name="diary_thanks">Thanks Diary</string>
+    <string name="what_is_diary">Thanks Diary</string>
+    <string name="this_is_diary">This is the number of Thanks you register in your Thanks Diary.\nThis is how you\'ll be able to record simply what you\'ve felt grateful about, today (without that Thanks being given to another profile here).\nAlthough the Diary Thanks don\'t apply for earning Thankers, they do count for the Statistics (yours, and overall), as well as your Thanker Level!</string>
+    <string name="thank_diary">Your Thanks Diary</string>
+    <string name="thank_place">A Place for You to record your Own Thanks</string>
+    <string name="i_feel_grateful">I feel Grateful for...</string>
+    <string name="diary_thanks_empty">Start Thanking so you can see your Diary Thanks records here!</string>
+    <string name="in_the_category_of">in the category of %s:</string>
+    <string name="in_the_category_of_no_cat">in the category of:</string>
+    <string name="thanker_level">Thanker Level</string>
+    <string name="editing">Editing</string>
+    <string name="soon">Soon! ;)</string>
+    <string name="hint_diary_title">Thanks Diary</string>
+    <string name="hint_diary">You have  Thanks Diary where you can register your own Thanks.\nThese Thanks won\'t count for earning Thankers, but they will be considered for the Statistics, and will also enable you to increase your Thanker Level.</string>
+    <string name="what_is_edit">Edit Thanks Description</string>
+    <string name="this_is_edit">Click the Thanks, in order to edit it.\nYou\'ll only be able to edit the Thanks of today!</string>
+    <string name="invite_friends">Thank and Invite your Contacts!</string>
+    <string name="see_my_top">See the Top profiles that are Thanking you!</string>
+    <string name="see_top">See top</string>
+    <string name="see_other_top">See the Top of those who are also Thanking this profile!</string>
+    <string name="see_premium">Do you want to earn more Daily Thankers, so you\'re able to give more Special Thanks, more frequently?\nAnd what if you could say \"You\'re Welcome\" to those who Thank you?</string>
+    <string name="check_premium">Check Premium!</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Select none</string>
+
+
+</resources>

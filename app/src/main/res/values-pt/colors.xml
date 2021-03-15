@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="amber">#FFC107</color>
+    <color name="blue">#1976D2</color>
+    <color name="lightGreen">#8BC34A</color>
+    <color name="darkGreen">#013220</color>
+    <color name="indigo">#673AB7</color>
+    <color name="disabled_button">#C8C8C8</color>
+    <color name="red">#F30E0E</color>
+    <color name="black">#000000</color>
+    <color name="gold">#DAA520</color>
+    <color name="starterGreen">#99ff99</color>
+    <color name="walkerGreen">#32ff32</color>
+    <color name="explorerGreen">#00cc00</color>
+    <color name="thankerGreen">#00b200</color>
+    <color name="masterGreen">#007f00</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="translatable_pages">
+        <item>@string/god</item>
+        <item>@string/people</item>
+        <item>@string/brands</item>
+        <item>@string/business</item>
+        <item>@string/nature</item>
+        <item>@string/health</item>
+        <item>@string/food</item>
+        <item>@string/associations</item>
+        <item>@string/home</item>
+        <item>@string/science</item>
+        <item>@string/religion</item>
+        <item>@string/sports</item>
+        <item>@string/lifestyle</item>
+        <item>@string/technology</item>
+        <item>@string/fashion</item>
+        <item>@string/education</item>
+        <item>@string/games</item>
+        <item>@string/travel</item>
+        <item>@string/government</item>
+        <item>@string/beauty</item>
+        <item>@string/culture</item>
+        <item>@string/finance</item>
+    </string-array>
+
+</resources>

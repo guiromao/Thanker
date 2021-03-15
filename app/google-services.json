@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "720971585854",
+    "firebase_url": "https://thanker-b301f.firebaseio.com",
+    "project_id": "thanker-b301f",
+    "storage_bucket": "thanker-b301f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720971585854:android:2050f353b74067c007346f",
+        "android_client_info": {
+          "package_name": "co.platform.thanker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720971585854-80p5tiad8bpevmqmaa10dsgfjqe41p8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.platform.thanker",
+            "certificate_hash": "b5d5e2a995367f1d7974c820820613be561eb78d"
+          }
+        },
+        {
+          "client_id": "720971585854-k42lgpln03evm9i15m3fh2jcupm92bfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.platform.thanker",
+            "certificate_hash": "2aa0368ef193f584e7750e1a46af920e3044d3c8"
+          }
+        },
+        {
+          "client_id": "720971585854-sjpjes02s6h7a7ruapoucgumpalbu90l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.platform.thanker",
+            "certificate_hash": "fc45b6d097205e8ba1a67cb93e0319f062811357"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl3VKGyTzTyjmcjyTeV_0ho5nqgBhdmMM"
+        },
+        {
+          "current_key": "AIzaSyDYxhdCNxobIx-jCIIfFHpYT8cNtLwmUgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720971585854:android:e48eaee5f48ebe2c07346f",
+        "android_client_info": {
+          "package_name": "co.thanker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720971585854-pahh795acb75qlmhmf633fkqvsss5jm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.thanker",
+            "certificate_hash": "04b7a8ec93705709b8b433d515fb8fe8a551040f"
+          }
+        },
+        {
+          "client_id": "720971585854-vcb75ukf6dkb4u0cjlk2e2il1jr44rdi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.thanker",
+            "certificate_hash": "1e0b571e443329d5c6af9400c88b88f7876e5211"
+          }
+        },
+        {
+          "client_id": "720971585854-8ksmrn0cdfpr93q3o8p5567n9rsguao3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.thanker",
+            "certificate_hash": "fc45b6d097205e8ba1a67cb93e0319f062811357"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl3VKGyTzTyjmcjyTeV_0ho5nqgBhdmMM"
+        },
+        {
+          "current_key": "AIzaSyDYxhdCNxobIx-jCIIfFHpYT8cNtLwmUgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

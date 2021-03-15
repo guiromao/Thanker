@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/NavigationDrawerStyle">
+
+    <item
+        android:id="@+id/item_messages"
+        android:enabled="true"
+        android:icon="@drawable/ic_mail_36dp"
+        android:title="@string/messages"
+        app:itemIconSize="28dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_action_more"
+        android:enabled="true"
+        android:icon="@drawable/badge_icon"
+        android:title="More"
+        app:itemIconSize="28dp"
+        app:showAsAction="always"
+        >
+
+        <menu>
+
+            <!--<item
+                android:id="@+id/item_pic"
+                android:enabled="false"
+                android:title="name"
+                android:icon="@drawable/stats_black"
+                app:showAsAction="withText" /> -->
+
+            <item
+                android:id="@+id/item_fame"
+                android:enabled="true"
+                android:icon="@drawable/ic_cup18"
+                android:title="@string/fame"
+                app:itemIconSize="28dp"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/item_my_premium"
+                android:actionLayout="@layout/custom_fullimage_dialog"
+                android:enabled="true"
+                android:icon="@drawable/premium_black"
+                android:title="@string/my_premium"
+                android:visible="false"
+                app:itemIconSize="28dp"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/item_invite"
+                android:enabled="true"
+                android:icon="@drawable/ic_group"
+                android:title="@string/invite_friends_label"
+                app:itemIconSize="28dp"
+                app:showAsAction="always">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/item_invite_email"
+                        android:enabled="true"
+                        android:icon="@drawable/ic_email"
+                        android:title="@string/invite_by_email"
+                        app:itemIconSize="28dp"
+                        app:showAsAction="always" />
+
+                    <item
+                        android:id="@+id/item_invite_contacts"
+                        android:enabled="true"
+                        android:icon="@drawable/ic_contacts"
+                        android:title="@string/invite_by_contacts"
+                        app:itemIconSize="28dp"
+                        app:showAsAction="always" />
+
+                    <!--<item
+                        android:id="@+id/item_invite_sms"
+                        android:enabled="true"
+                        android:icon="@drawable/sms"
+                        android:title="@string/invite_by_sms"
+                        app:showAsAction="always" /> -->
+
+                    <!--<item
+                        android:id="@+id/item_invite_whatsapp"
+                        android:enabled="true"
+                        android:icon="@drawable/sms"
+                        android:title="@string/invite_by_whatsapp"
+                        app:showAsAction="always" /> -->
+
+
+                </menu>
+
+            </item>
+
+            <item
+                android:id="@+id/item_stats_menu"
+                android:enabled="true"
+                android:icon="@drawable/ic_stats"
+                android:title="@string/stats"
+                app:itemIconSize="28dp"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/item_earn_thankers"
+                android:enabled="true"
+                android:icon="@drawable/ic_gift"
+                android:title="@string/earn_thankers"
+                app:itemIconSize="28dp"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/item_edit"
+                android:enabled="true"
+                android:icon="@drawable/ic_edit"
+                android:title="@string/edit_information_label"
+                app:itemIconSize="28dp"
+                app:showAsAction="ifRoom" />
+
+
+            <item
+                android:id="@+id/item_hints"
+                android:enabled="true"
+                android:icon="@drawable/ic_hints"
+                android:title="@string/hints"
+                app:itemIconSize="28dp"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/item_contact"
+                android:enabled="true"
+                android:icon="@drawable/ic_send"
+                android:title="@string/contact_us"
+                app:itemIconSize="28dp"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/item_other_options"
+                android:enabled="true"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/other_options"
+                app:itemIconSize="28dp"
+                app:showAsAction="always">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/item_show_description"
+                        android:enabled="true"
+                        android:icon="@drawable/ic_verified"
+                        android:title="@string/show_thanks_description"
+                        android:visible="false"
+                        app:itemIconSize="28dp"
+                        app:showAsAction="ifRoom" />
+
+                    <item
+                        android:id="@+id/item_location"
+                        android:enabled="true"
+                        android:icon="@drawable/ic_location"
+                        android:title="@string/activate_location"
+                        app:itemIconSize="28dp"
+                        app:showAsAction="ifRoom" />
+
+                    <item
+                        android:id="@+id/item_policy"
+                        android:enabled="true"
+                        android:icon="@drawable/ic_policy"
+                        android:title="@string/check_policy"
+                        app:itemIconSize="28dp"
+                        app:showAsAction="always" />
+
+                    <item
+                        android:id="@+id/item_delete"
+                        android:enabled="true"
+                        android:icon="@drawable/ic_delete"
+                        android:title="@string/delete_account"
+                        app:itemIconSize="28dp"
+                        app:showAsAction="always" />
+
+                </menu>
+
+            </item>
+
+            <item
+                android:id="@+id/item_logout"
+                android:enabled="true"
+                android:title="@string/logout"
+                app:itemIconSize="28dp"
+                app:showAsAction="ifRoom" />
+
+        </menu>
+
+    </item>
+
+</menu>

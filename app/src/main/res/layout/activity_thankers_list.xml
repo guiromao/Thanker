@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThankersListActivity"
+    android:layout_marginBottom="56dp">
+
+    <ListView
+        android:id="@+id/list_thankers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/empty_view_giving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/empty_giving_top"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/empty_view_receiving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/empty_receiving_top"
+        android:visibility="gone"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
